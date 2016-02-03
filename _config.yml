@@ -1,2 +1,3 @@
 name: Dorian Bayart
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
