@@ -5,15 +5,16 @@
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 		<link href="https://opensource.keycdn.com/fontawesome/4.5.0/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<nav id="nav">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
-			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><i class="fa fa-home fa-fw"></i><a href="/index.html">Homepage</a></li>
-			<li {% if current[1] == 'about' %}class='current'{% endif %}><a href="/about">About</a></li>
-			<li {% if current[1] == 'cv' %}class='current'{% endif %}><a href="/cv">CV</a></li>
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="/blog">Blog</a></li>
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><i class="fa fa-home fa-fw"></i>&nbsp;<a href="/index.html">Home</a></li>
+			<li {% if current[1] == 'about' %}class='current'{% endif %}>&nbsp;<a href="/about">About</a></li>
+			<li {% if current[1] == 'cv' %}class='current'{% endif %}>&nbsp;<a href="/cv">CV</a></li>
+			<li {% if current[1] == 'blog' %}class='current'{% endif %}>&nbsp;<a href="/blog">Blog</a></li>
 		</ul>
 		</nav>
 		<div class="container">
@@ -23,9 +24,9 @@
 		</div><!-- /.container -->
 		<footer>
 			<ul>
-				<li><i class="fa fa-envelope-o fa-fw"></i><a href="mailto:dorian.bayart+github@gmail.com">dorian.bayart@gmail.com</a></li>
-				<li><i class="fa fa-github fa-fw"></i><a href="https://github.com/dbayart">@dbayart</a></li>
-				<li><i class="fa fa-linkedin fa-fw"></i><a href="https://fr.linkedin.com/in/dorianbayart">linkedin.com/in/dorianbayart</a></li>
+				<li><i class="fa fa-envelope-o fa-fw"></i>&nbsp;<a href="mailto:dorian.bayart+github@gmail.com">dorian.bayart@gmail.com</a></li>
+				<li><i class="fa fa-github fa-fw"></i>&nbsp;<a href="https://github.com/dbayart">@dbayart</a></li>
+				<li><i class="fa fa-linkedin fa-fw"></i>&nbsp;<a href="https://fr.linkedin.com/in/dorianbayart">linkedin.com/in/dorianbayart</a></li>
 			</ul>
 		</footer>
 	</body>
