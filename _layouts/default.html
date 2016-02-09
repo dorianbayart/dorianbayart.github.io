@@ -7,12 +7,13 @@
 		<link href="https://opensource.keycdn.com/fontawesome/4.5.0/font-awesome.min.css" rel="stylesheet">
 	</head>
 	<body>
-		<nav>
+		<nav id="nav">
 		<ul>
-			<li><i class="fa fa-home fa-fw"></i><a href="/">Home</a></li>
-			<li><a href="/about">About</a></li>
-			<li><a href="/cv">CV</a></li>
-			<li><a href="/blog">Blog</a></li>
+			{% assign current = page.url | downcase | split: '/' %}
+			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><i class="fa fa-home fa-fw"></i><a href="/index.html">Homepage</a></li>
+			<li {% if current[1] == 'about' %}class='current'{% endif %}><a href="/about">About</a></li>
+			<li {% if current[1] == 'cv' %}class='current'{% endif %}><a href="/cv">CV</a></li>
+			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="/blog">Blog</a></li>
 		</ul>
 		</nav>
 		<div class="container">
