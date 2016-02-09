@@ -52,7 +52,7 @@ ul.posts li {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1024px) {
     body {
         margin: 4em auto;
         width: 88%;
