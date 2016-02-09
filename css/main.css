@@ -2,15 +2,6 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-@media only screen and (max-width: 900px) {
-    body {
-        margin: 4em auto;
-        width: 90%;
-    }
-        footer ul li {
-        margin-right: 12px;
-    }
-}
 nav ul, footer ul {
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
     font-size: 1.2em;
@@ -58,4 +49,15 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+
+@media only screen and (max-width: 720px) {
+    body {
+        margin: 4em auto;
+        width: 90%;
+    }
+    footer ul li {
+        margin-right: 12px;
+    }
 }
