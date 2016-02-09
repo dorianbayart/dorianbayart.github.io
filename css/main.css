@@ -8,27 +8,24 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    font-style: normal;
 }
 footer ul {
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-#nav li.active a
-{
-    color: #222;
-}
 a {
     text-decoration: none;
     color: #666;
 }
-nav a:hover, footer a:hover {
+nav a:hover, footer a:hover, #nav li.active a {
     color: #222;
 }
 h1 {
