@@ -4,9 +4,16 @@ body {
 }
 nav ul, footer ul {
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
+    font-size: 1.2em;
     padding: 0px;
     list-style: none;
     font-weight: bold;
+}
+footer ul {
+    font-family:'Lato', 'Helvetica', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: italic;
 }
 nav ul li, footer ul li {
     display: inline;
@@ -14,14 +21,14 @@ nav ul li, footer ul li {
 }
 #nav li.active a
 {
-    color: #FFF;
+    color: #222;
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #666;
 }
 nav a:hover, footer a:hover {
-    color: #FFF;
+    color: #222;
 }
 h1 {
     font-size: 3em;
