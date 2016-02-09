@@ -1,3 +1,5 @@
 name: Dorian Bayart
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+baseurl: https://dbayart.github.io/
