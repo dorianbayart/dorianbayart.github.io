@@ -2,6 +2,12 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+@media only screen and (max-width: 900px) {
+    body {
+        margin: 4em auto;
+        width: 95%;
+    }
+}
 nav ul, footer ul {
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
     font-size: 1.2em;
