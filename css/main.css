@@ -5,7 +5,10 @@ body {
 @media only screen and (max-width: 900px) {
     body {
         margin: 4em auto;
-        width: 95%;
+        width: 90%;
+    }
+        footer ul li {
+        margin-right: 12px;
     }
 }
 nav ul, footer ul {
