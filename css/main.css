@@ -1,7 +1,8 @@
-body {
-    margin: 60px auto;
-    width: 70%;
+@viewport {
+   width: device-width; /* largeur du viewport */
+   zoom: 1; /* zoom initial à 1.0 */
 }
+
 nav ul, footer ul {
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
     font-size: 1.2em;
@@ -29,7 +30,7 @@ nav a:hover, footer a:hover, #nav li.active a {
     color: #222;
 }
 h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
 }
 p {
@@ -52,9 +53,14 @@ ul.posts li {
 }
 
 
+
+body {
+    margin: 4em auto;
+    width: 70%;
+}
+
 @media only screen and (max-width: 1024px) {
     body {
-        margin: 4em auto;
         width: 88%;
     }
     footer ul li {
@@ -63,10 +69,13 @@ ul.posts li {
 }
 @media only screen and (max-width: 720px) {
     body {
-        margin: 4em auto;
         width: 94%;
     }
+}
+@media only screen and (max-width: 640px) {
     footer ul li {
-        margin-right: 8px;
+        display: block;
+        position: relative;
+        width: 100%;
     }
 }
