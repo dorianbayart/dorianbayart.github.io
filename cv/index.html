@@ -17,7 +17,8 @@ title: Dorian's CV
 			if(typeof val == 'object') {
 				text += "<ul class='"+key+"'>"+lireJson(val)+"</ul>";
 			} else {
-				text += "<li id='" + key + "'>" + val + "</li>";
+				if ( val !== null && val != "" )
+					text += "<li id='" + key + "'>" + val + "</li>";
 			}
 		});
 		console.log( text );
