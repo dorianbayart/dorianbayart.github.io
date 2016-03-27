@@ -1,0 +1,117 @@
+{
+  "basics": {
+    "name": "Dorian Bayart",
+    "label": "Programmer",
+    "picture": "",
+    "email": "dorian.bayart@gmail.com",
+    "phone": "+33 (0)6 33 69 39 **",
+    "website": "http://dbayart.github.io/",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Paris",
+      "countryCode": "FR",
+      "region": ""
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "DorianBayart",
+      "url": "http://twitter.com/dorianbayart"
+    },{
+      "network": "LinkedIn",
+      "username": "DorianBayart",
+      "url": "https://fr.linkedin.com/in/dorianbayart"
+    },{
+      "network": "GitHub",
+      "username": "dbayart",
+      "url": "https://github.com/dbayart"
+    }]
+  },
+  "work": [{
+    "company": "Alten SIR",
+    "position": "",
+    "website": "http://www.alten.fr/",
+    "startDate": "2015-06-29",
+    "endDate": "Today",
+    "summary": "",
+    "highlights": [
+      "Banking",
+	  "Developper",
+	  "Git"
+    ]
+  },{
+    "company": "Capgemini",
+    "position": "",
+    "website": "https://www.fr.capgemini.com/",
+    "startDate": "2012-03-05",
+    "endDate": "2015-06-26",
+    "summary": "",
+    "highlights": [
+      "Energy",
+	  "Developper",
+	  "Team Leader",
+	  "Scrum Master",
+	  "Agile Methodologies",
+	  "Continuous integration",
+	  "Project Management"
+    ]
+  }],
+  
+  "education": [{
+    "institution": "ENSICAEN",
+    "area": "Electronic & Applied Physics",
+    "studyType": "Engineer / Master's Degree",
+    "startDate": "2009",
+    "endDate": "2012",
+    "gpa": "",
+    "courses": [
+      "Signal analysis",
+	  "Automation",
+	  "Telecommunications"
+    ]
+  },{
+    "institution": "Universtity of Caen",
+    "area": "Electronic And Applied Physics",
+    "studyType": "Superior Technician / 2 years University Degree",
+    "startDate": "2007",
+    "endDate": "2009",
+    "gpa": "",
+    "courses": [
+      "Physical measurements",
+	  "Instrumental technics"
+    ]
+  }],
+  
+  
+  "skills": [{
+    "name": "BackEnd Java Development",
+    "level": "",
+    "keywords": [
+      "Java","Git","Jenkins","SQL",
+      "JUnit","Selenium","FitNesse",
+      "SoapUI","Maven", "SVN"
+    ]
+  }],
+  "languages": [{
+    "language": "French",
+    "fluency": "Native speaker"
+  },{
+    "language": "English",
+    "fluency": "Professional"
+  },{
+    "language": "German",
+    "fluency": "Basic"
+  }],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Photography",
+      "Traveling",
+	  "Music",
+	  "High technologies",
+	  "Athletism",
+	  "Handball"
+    ]
+  }]
+}
