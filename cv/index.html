@@ -25,7 +25,7 @@ title: Dorian's CV
 	}
 
 	$(function() {
-		$.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&sensor=true', function( data ) {
+		$.getJSON('base.json', function( data ) {
 			$(lireJson( data )).appendTo( '#json_ul' ) ;
 		});
 	});
