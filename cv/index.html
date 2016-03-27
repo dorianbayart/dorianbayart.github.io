@@ -5,5 +5,28 @@ title: Dorian's CV
 
 <div class="blurb">
 	<h1>My CV</h1>
-	<p>TODO</p>
+	<p><ul id="json_ul"></ul></p>
 </div><!-- /.blurb -->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+
+<script>
+	function lireJson( data ) {
+		var text = "";
+		$.each( data, function( key, val ) {
+			if(typeof val == 'object') {
+				text += "<ul class='"+key+"'>"+lireJson(val)+"</ul>";
+			} else {
+				text += "<li id='" + key + "'>" + val + "</li>";
+			}
+		});
+		// console.log( text );
+		return text;
+	}
+
+	$(function() {
+		$.getJSON('http://maps.googleapis.com/maps/api/geocode/json?address=1600+Amphitheatre+Parkway,+Mountain+View,+CA&sensor=true', function( data ) {
+			$(lireJson( data )).appendTo( '#json_ul' ) ;
+		});
+	});
+</script>
