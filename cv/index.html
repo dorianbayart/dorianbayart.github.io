@@ -4,7 +4,7 @@ title: Dorian's CV
 ---
 
 <div class="blurb">
-	<h1>My CV</h1>
+	<h1>Under construction</h1>
 	<p><ul id="json_ul"></ul></p>
 </div><!-- /.blurb -->
 
@@ -26,7 +26,7 @@ title: Dorian's CV
 	}
 
 	$(function() {
-		$.getJSON('/cv/base.json', function( data ) {
+		$.getJSON('/cv/cv_dbayart.json', function( data ) {
 			$(lireJson( data )).appendTo( '#json_ul' ) ;
 		});
 	});
