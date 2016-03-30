@@ -28,15 +28,7 @@
       "url": "https://github.com/dbayart"
     }]
   },
-  "skills": [{
-    "name": "BackEnd Java Development",
-    "level": "",
-    "keywords": [
-      "Java","Git","Jenkins","SQL",
-      "JUnit","Selenium","FitNesse",
-      "SoapUI","Maven", "SVN"
-    ]
-  }],
+
   "work": [{
     "company": "Alten SIR",
     "position": "",
@@ -92,7 +84,15 @@
     ]
   }],
   
-  
+  "skills": [{
+    "name": "BackEnd Java Development",
+    "level": "",
+    "keywords": [
+      "Java","Git","Jenkins","SQL",
+      "JUnit","Selenium","FitNesse",
+      "SoapUI","Maven", "SVN"
+    ]
+  }],
   "languages": [{
     "language": "French",
     "fluency": "Native speaker"
