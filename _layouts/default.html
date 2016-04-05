@@ -5,27 +5,10 @@
 		<!-- link to main stylesheet -->
 		
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/latest/js/bootstrap.min.js"></script>
+		
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
-		<script>
-			// Defer loading of Awesome Font
-			var cb = function() {
-				var l = document.createElement('link'); l.rel = 'stylesheet';
-				l.href = 'http://netdna.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css';
-				var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-			};
-			var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
-			if (raf) raf(cb); else window.addEventListener('load', cb);
-		</script>
-		<script>
-			// Defer loading of Google Font Lato
-			var cb = function() {
-				var l = document.createElement('link'); l.rel = 'stylesheet';
-				l.href = 'http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext';
-				var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-			};
-			var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
-			if (raf) raf(cb); else window.addEventListener('load', cb);
-		</script>
+		
 	</head>
 	<body>
 		<nav id="nav">
@@ -50,6 +33,9 @@
 			</ul>
 		</footer>
 		
-	
+		
+		
+		<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext">
 	</body>
 </html>
