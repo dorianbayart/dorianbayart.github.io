@@ -1,17 +1,12 @@
 
-
-
-
-.grid-sizer {
-	width: 32%;
+@media only screen and (max-width: 768px) {
+	.grid-sizer, .grid-item, .grid-item--width2 { width: 100%; }
 }
+
 .grid-item {
-	width: 32%;
 	margin-bottom: 2%;
-	/*float: left;*/
 }
 .grid-item--width2 {
-	width: 66%;
 	float: right;
 }
 
@@ -19,10 +14,11 @@
 	width: 2%;
 }
 
-
-@media only screen and (max-width: 860px) {
-	.grid-sizer, .grid-item, .grid-item--width2 { width: 100%; }
+@media only screen and (min-width: 768px) {
+	.grid-sizer, .grid-item  { width: 32%; }
+	.grid-item--width2 { width: 66%; }
 }
+
 
 
 .panel {
