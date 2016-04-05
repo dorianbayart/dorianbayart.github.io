@@ -37,9 +37,10 @@
     "endDate": "Today",
     "summary": "",
     "highlights": [
-      "Banking",
-	  "Developper",
-	  "Git"
+	"Banking",
+	"Developer",
+	"Designer",
+	"Git Maintainer"
     ]
   },{
     "company": "Capgemini",
@@ -49,13 +50,13 @@
     "endDate": "2015-06-26",
     "summary": "",
     "highlights": [
-      "Energy",
-	  "Developper",
-	  "Team Leader",
-	  "Scrum Master",
-	  "Agile Methodologies",
-	  "Continuous integration",
-	  "Project Management"
+	"Energy",
+	"Developer",
+	"Team Leader",
+	"Scrum Master",
+	"Agile Methodologies",
+	"Continuous integration",
+	"Project Management"
     ]
   }],
   
@@ -104,14 +105,14 @@
     "fluency": "Basic"
   }],
   "interests": [{
-    "name": "Wildlife",
+    "name": "",
     "keywords": [
-      "Photography",
-      "Traveling",
-	  "Music",
-	  "High technologies",
-	  "Athletism",
-	  "Handball"
+	"Photography",
+	"Traveling",
+	"Music",
+	"High technologies",
+	"Athletism",
+	"Handball"
     ]
   }]
 }
