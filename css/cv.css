@@ -1,0 +1,70 @@
+
+
+
+
+.grid-sizer {
+	width: 32%;
+}
+.grid-item {
+	width: 32%;
+	margin-bottom: 2%;
+	/*float: left;*/
+}
+.grid-item--width2 {
+	width: 66%;
+	float: right;
+}
+
+.gutter-sizer {
+	width: 2%;
+}
+
+
+@media only screen and (max-width: 860px) {
+	.grid-sizer, .grid-item, .grid-item--width2 { width: 100%; }
+}
+
+
+.panel {
+	/*margin: 0;*/
+}
+
+.panel-title {
+	font-style: italic;
+	color: #000;
+}
+
+.basics > #name {
+	font-size: 1.4em;
+	font-style: italic;
+}
+
+.skills > * > #name {
+	font-size: 1.2em;
+	font-style: italic;
+	font-weight: bold;
+}
+
+
+
+div > span {
+	font-style: normal;
+	//font-size: 1em;
+	padding-left: 1em;
+	display: inline-block;
+}
+
+.label {
+	font-size: 0.9em;
+	margin-left: 1em;
+	margin-top: 8px;
+	text-align: justify;
+	display: inline-block;
+}
+
+
+.languages > div.panel-body   {
+	display: inline-block;
+}
+
+
