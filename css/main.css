@@ -1,6 +1,16 @@
 @viewport {
-   width: device-width; /* largeur du viewport */
-   zoom: 1; /* zoom initial à 1.0 */
+	width: device-width; /* largeur du viewport */
+	zoom: 1; /* zoom initial à 1.0 */
+}
+
+body {
+	font-family:'Lato', 'Helvetica', 'Sans-Serif';
+	width: 85%;
+	margin: 0 auto;
+}
+
+@media only screen and (max-width: 1280px) {
+	body { width: 95%; }
 }
 
 nav ul, footer ul {
@@ -22,12 +32,12 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-a {
+nav a {
     text-decoration: none;
-    color: #666;
+    color: #444;
 }
 nav a:hover, footer a:hover, #nav li.active a {
-    color: #222;
+    color: #000;
 }
 h1 {
     font-size: 2em;
@@ -52,26 +62,13 @@ ul.posts li {
     list-style: none;
 }
 
-
-
-body {
-    margin: 4em auto;
-    width: 70%;
-}
-
 @media only screen and (max-width: 1024px) {
-    body {
-        width: 88%;
-    }
+
     footer ul li {
         margin-right: 12px;
     }
 }
-@media only screen and (max-width: 720px) {
-    body {
-        width: 94%;
-    }
-}
+
 @media only screen and (max-width: 640px) {
     footer ul li {
         display: block;
