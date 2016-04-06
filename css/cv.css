@@ -59,8 +59,9 @@ div > span {
 }
 
 .label {
+	font-family: 'Helvetica', 'Sans-Serif';
 	font-size: 0.9em;
-	margin-left: 1em;
+	/*margin-left: 1em;*/
 	margin-top: 8px;
 	text-align: justify;
 	display: inline-block;
