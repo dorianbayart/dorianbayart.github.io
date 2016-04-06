@@ -62,7 +62,9 @@ div > span {
 	font-family: 'Helvetica', 'Sans-Serif';
 	font-size: 0.9em;
 	/*margin-left: 1em;*/
-	margin-top: 8px;
+	margin-right: 0.6em;
+	margin-top: 4px;
+	padding: .3em .6em .3em;
 	text-align: justify;
 	display: inline-block;
 }
