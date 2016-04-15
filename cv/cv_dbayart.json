@@ -35,10 +35,7 @@
 		"website": "https://www.alten.fr/",
 		"startDate": "2015-06-29",
 		"endDate": "Today",
-		"summary": "Working on new Online Banking customer services (Live account balance, International transfer, etc.) for more than 12 millions direct customers.
-		* WebServices design / development / optimization
-		* Git maintainer of the Team
-		* Releaser",
+		"summary": "Working on new Online Banking customer services (Live account balance, International transfer, etc.) for more than 12 millions direct customers.* WebServices design / development / optimization* Git maintainer of the Team* Releaser",
 		"highlights": [
 			"Banking",
 			"Developer",
@@ -52,13 +49,7 @@
 		"website": "https://www.fr.capgemini.com/",
 		"startDate": "2012-03-05",
 		"endDate": "2015-06-26",
-		"summary": "Rework on the ERDF (french electricity distribution company) information system, to integrate new customer services for the Linky communicating meter.
-		* Non-regression tests development and automation
-		* WebServices design / development / correction / optimization
-		* Functional testing support
-		* Technical environments maintainer
-		* Production technical support
-		* Team management / Scrum Master (12+ people)",
+		"summary": "Rework on the ERDF (french electricity distribution company) information system, to integrate new customer services for the Linky communicating meter.* Non-regression tests development and automation* WebServices design / development / correction / optimization* Functional testing support* Technical environments maintainer* Production technical support* Team management / Scrum Master (12+ people)",
 		"highlights": [
 			"Energy",
 			"Developer",
