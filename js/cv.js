@@ -31,6 +31,7 @@ $(document).ready(function() {
 		// Work Experience
 		$('.work').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-briefcase fa-fw fa-lg"></i>&nbsp;Work experience</h3></div>' ).addClass('grid-item grid-item--width2 panel panel-info panel-heading');
 		$('.work > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
+		$('[id^=summary]').replace(/\*/g, '<li>');
 		
 		// Education
 		$('.education').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-graduation-cap fa-fw fa-lg"></i>&nbsp;Education</h3></div>' ).addClass('grid-item grid-item--width2 panel panel-info panel-heading');
@@ -51,6 +52,7 @@ $(document).ready(function() {
 		// Add icons to different Ids
 		$('[id^=location]').prepend( '<i class="fa fa-map-marker fa-fw"></i>&nbsp;' );
 		$('[id^=company]').prepend( '<i class="fa fa-building-o fa-fw"></i>&nbsp;' );
+		$('[id^=institution]').prepend( '<i class="fa fa-university fa-fw"></i>&nbsp;' );
 		$('[id^=email]').each(function() {
 			var mail = this.textContent;
 			this.innerHTML = '<i class="fa fa-envelope-o fa-fw fa-lg"></i>&nbsp;<a href="mailto:' + mail + '" target="_top">' + mail + '</a>';
@@ -62,8 +64,10 @@ $(document).ready(function() {
 		});
 		
 		// Add labels to some Ids
-		$('.keywords > *').addClass( 'label label-success' );
+		$('.keywords > *').addClass( 'label label-warning' );
+		$('.interests > .keywords > *').addClass( 'label label-success' );
 		$('.highlights > *').addClass( 'label label-info' );
+		$('.courses > *').addClass( 'label label-default' );
 		
 		// Working on profiles
 		$('.profiles > div').each(function() {
