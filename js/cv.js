@@ -31,7 +31,7 @@ $(document).ready(function() {
 		// Work Experience
 		$('.work').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-briefcase fa-fw fa-lg"></i>&nbsp;Work experience</h3></div>' ).addClass('grid-item grid-item--width2 panel panel-info panel-heading');
 		$('.work > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
-		$('[id^=summary]').replaceText(/\*/g, '<li>');
+		$('[id^=summary]').html().replace(/\*/g, '<li>');
 		
 		// Education
 		$('.education').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-graduation-cap fa-fw fa-lg"></i>&nbsp;Education</h3></div>' ).addClass('grid-item grid-item--width2 panel panel-info panel-heading');
