@@ -1,9 +1,7 @@
 
-
 .grid-sizer, .grid-item, .grid-item--width2 {
 	width: 100%;
 }
-
 
 .grid-item {
 	margin-bottom: 2%;
@@ -16,13 +14,14 @@
 	width: 2%;
 }
 
-
+div {
+	margin: 0;
+}
 
 
 .panel-body {
 	padding: 0.4em;
-	/*padding-left: 0;
-	padding-right: 0;*/
+	margin: 0;
 }
 
 .panel-title {
@@ -32,20 +31,25 @@
 
 .basics > #name {
 	margin-left: 1em;
-	padding-bottom: 0em;
+	margin-right: 1em;
+	margin-bottom: -1.2em;
+	padding-bottom: 0.4em;
 	font-size: 1.4em;
 	line-height: 1em;
 	font-style: italic;
-}
-.basics > #label {
-	//float: right;
-	//display: block;
+	display: block;
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	border-bottom-color: lightgrey;
 }
 
+
 .skills > * > #name {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-style: italic;
 	font-weight: bold;
+	margin-right: 0.5em;
+	margin-left: 0.2em;
 }
 
 
@@ -58,11 +62,73 @@ div > span {
 	display: inline-block;
 }
 
+.basics > #label {
+	width: 95%;
+	text-align: right;
+	margin: 0;
+	margin-bottom: 0.8em;
+	padding: 0;
+	display: block;
+	
+}
+
+
+.basics > #email,
+.basics > #phone,
+.basics > #website {
+	//display: list-item;
+	margin: 0;
+	padding: 0;
+	margin-left: 1em;
+}
+
+#summary {
+	text-align: justify;
+}
+
+#summary > li {
+	margin-left: 1em;
+}
+
+#company, #institution {
+	margin-right: 0;
+	padding-top: 0.4em;
+}
+#company {
+	width: 100%;
+}
+#institution, #area {
+	width: 50%;
+	margin-right: 0;
+}
+
+#position, #studyType {
+	font-style: italic;
+	width: 70%;
+	font-size: 1.2em;
+	margin-right: 0;
+}
+
+#startDate, #endDate, #level {
+	font-size: 0.8em;
+	font-style: italic;
+	margin: 0;
+}
+
+#level {
+	float: right;
+	padding-top: 0.4em;
+}
+
+.education > * > #studyType {
+	
+}
+
 .label {
 	font-family: 'Helvetica', 'Sans-Serif';
 	font-size: 0.9em;
-	/*margin-left: 1em;*/
-	margin-right: 0.6em;
+	margin-left: 0.3em;
+	margin-right: 0.3em;
 	margin-top: 4px;
 	padding: .3em .6em .3em;
 	text-align: justify;
@@ -71,16 +137,32 @@ div > span {
 
 
 .languages > div.panel-body   {
-	display: inline-block;
+	width: 45%;
+	margin-left: 2em;
+	padding: 0em;
+	padding-top: 0.3em;
+}
+.languages > div.panel-body > #language  {
+	width: 6em;
+	margin: 0;
+}
+.languages > div.panel-body > #fluency  {
+	margin: 0;
 }
 
 
 
 @media only screen and (min-width: 768px) {
-	.grid-sizer, .grid-item  { width: 32%; }
-	.grid-item--width2 { width: 66%; }
-	.panel-body { padding-left: 1em; padding-right: 1em; }
-	div > span { padding-left: 1.4em; }
+	.grid-sizer, .grid-item  { width: 49%; }
+	.grid-item--width2 { width: 49%; }
+	
+}
+
+@media only screen and (min-width: 1280px) {
+	.container {
+		width: 100%;
+	}
+	
 }
 
 
