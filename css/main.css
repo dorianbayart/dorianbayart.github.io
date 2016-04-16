@@ -14,7 +14,10 @@ body {
 	body { width: 95%; }
 }
 
-nav ul, footer ul {
+#nav {
+    padding-top: 2em;
+}
+#nav > ul {
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
     font-size: 1.2em;
     padding: 0px;
@@ -22,8 +25,9 @@ nav ul, footer ul {
     font-weight: bold;
     font-style: normal;
 }
-footer ul {
+#footer > ul {
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
+    font-size: 1.2em;
     padding: 0px;
     list-style: none;
     font-weight: normal;
@@ -43,15 +47,24 @@ nav a:hover, footer a:hover, #nav li.active a {
 h1 {
     font-size: 2em;
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
+    margin-bottom: 0.8em;
 }
 p {
-    font-size: 1.5em;
+    font-size: 1.4em;
     line-height: 1em;
-    color: #333;
+}
+p.meta {
+    font-size: 1em;
+    text-align: right;
+}
+blockquote {
+    font-size: 1.2em;
+    font-style: italic;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    padding-top: .8em;
 }
 
 ul.posts { 
