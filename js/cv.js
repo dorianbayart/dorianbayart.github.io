@@ -31,7 +31,6 @@ $(document).ready(function() {
 		// Work Experience
 		$('.work').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-briefcase fa-fw fa-lg"></i>&nbsp;Work experience</h3></div>' ).addClass('grid-item grid-item--width2 panel panel-info panel-heading');
 		$('.work > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
-		$('[id^=summary]').html().replace(/\*/g, '<li>');
 		
 		// Education
 		$('.education').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-graduation-cap fa-fw fa-lg"></i>&nbsp;Education</h3></div>' ).addClass('grid-item grid-item--width2 panel panel-info panel-heading');
@@ -46,8 +45,27 @@ $(document).ready(function() {
 		$('.skills > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
 		
 		// Interests
-		$('.interests').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-user fa-fw fa-lg"></i>&nbsp;Interests</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
+		$('.interests').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-heart fa-fw fa-lg"></i>&nbsp;Interests</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
 		$('.interests > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
+		
+		
+		// Replace some text
+		$('[id^=summary]').each(function() {
+			var text = $(this).text();
+			$(this).html(text.replace(/\*/g, '<li>'));
+		});
+		$('[id^=endDate]').each(function() {
+			var text = $(this).text();
+			$(this).prepend('&nbsp;<i class="fa fa-arrow-right fa-fw"></i>&nbsp;');
+		});
+		$('.work > .panel-body').each(function() {
+			var websiteText = $(this).find('> #website').text();
+			var companyText = $(this).find('> #company').text();
+			$(this).find('> #company').html('<a href="' + websiteText + '" target="_blank">' + companyText + '</a>');
+			$(this).find('> #website').remove();
+		});
+		
+		
 		
 		// Add icons to different Ids
 		$('[id^=location]').prepend( '<i class="fa fa-map-marker fa-fw"></i>&nbsp;' );
@@ -60,25 +78,28 @@ $(document).ready(function() {
 		$('[id^=phone]').prepend( '<i class="fa fa-phone fa-fw fa-lg"></i>&nbsp;' );
 		$('[id^=website]').each(function() {
 			var website = this.textContent;
-			this.innerHTML = '<i class="fa fa-link fa-fw fa-lg"></i>&nbsp;<a href="' + website + '" target="_top">' + website + '</a>';
+			this.innerHTML = '<i class="fa fa-link fa-fw fa-lg"></i>&nbsp;<a href="' + website + '" target="_blank">' + website + '</a>';
 		});
 		
 		// Add labels to some Ids
 		$('.keywords > *').addClass( 'label label-warning' );
-		$('.interests > .keywords > *').addClass( 'label label-success' );
+		$('.interests > * > .keywords > *').removeClass('label-warning').addClass( 'label-default' );
 		$('.highlights > *').addClass( 'label label-info' );
-		$('.courses > *').addClass( 'label label-default' );
+		$('.courses > *').addClass( 'label label-success' );
 		
 		// Working on profiles
 		$('.profiles > div').each(function() {
 			var network = $(this).children( 'span#network' );
 			var username = $(this).children( 'span#username' );
 			var url = $(this).children( 'span#url' );
-			username.wrapInner('<a href="' + url.text().toLowerCase() + '" target="_top"></a>');
+			username.wrapInner('<a href="' + url.text().toLowerCase() + '" target="_blank"></a>');
 			username.prepend('<i class="fa fa-'+network.text().toLowerCase()+' fa-fw fa-lg"></i>&nbsp;');
 			network.remove();
 			url.remove();
 		});
+		
+		
+		
 		
 		$('.grid').masonry({
 			// options
