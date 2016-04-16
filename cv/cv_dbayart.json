@@ -28,7 +28,25 @@
 			"url": "https://github.com/dbayart"
 		}]
 	},
-	
+	"skills": [{
+		"name": "BackEnd Java Development",
+		"level": "4+ years",
+		"keywords": [
+			"Java","Git","SQL","JUnit","Maven","SVN","UML Diagrams"
+		]
+	},{
+		"name": "Continuous Integration",
+		"level": "4+ years",
+		"keywords": [
+			"Jenkins","Selenium","FitNesse","SoapUI","Linux"
+		]
+	},{
+		"name": "Other various private projects",
+		"level": "Newbie / Curious",
+		"keywords": [
+			"HTML5","CSS3","Javascript","Node","JQuery","Bootstrap","Jekyll","JSon","Ghost"
+		]
+	}],
 	"work": [{
 		"company": "Alten SIR",
 		"position": "BackEnd Developer at Société Générale",
@@ -86,25 +104,7 @@
 		]
 	}],
 	
-	"skills": [{
-		"name": "BackEnd Java Development",
-		"level": "4+ years",
-		"keywords": [
-			"Java","Git","SQL","JUnit","Maven","SVN","UML Diagrams"
-		]
-	},{
-		"name": "Continuous Integration",
-		"level": "4+ years",
-		"keywords": [
-			"Jenkins","Selenium","FitNesse","SoapUI","Linux"
-		]
-	},{
-		"name": "Other various private projects",
-		"level": "Newbie / Curious",
-		"keywords": [
-			"HTML5","CSS3","Javascript","Node","JQuery","Bootstrap","Jekyll","JSon","Ghost"
-		]
-	}],
+
 	"languages": [{
 		"language": "French",
 		"fluency": "Native speaker"
