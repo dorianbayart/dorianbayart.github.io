@@ -1,4 +1,5 @@
 name: Dorian Bayart
+author: Dorian Bayart
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
