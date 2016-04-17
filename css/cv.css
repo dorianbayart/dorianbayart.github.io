@@ -19,6 +19,13 @@ div {
 }
 
 
+div > span {
+	font-style: normal;
+	margin-right: 1em;
+	margin-left: 0em;
+	display: inline-block;
+}
+
 .panel-body {
 	padding: 0.4em;
 	margin: 0;
@@ -54,14 +61,6 @@ div {
 
 
 
-div > span {
-	font-style: normal;
-	//font-size: 1em;
-	margin-right: 1em;
-	margin-left: 0em;
-	display: inline-block;
-}
-
 .basics > #label {
 	width: 95%;
 	text-align: right;
@@ -94,22 +93,25 @@ div > span {
 	margin-right: 0;
 	padding-top: 0.4em;
 }
-#company {
-	width: 100%;
+#company, #institution {
+	width: 60%;
 }
 #institution, #area {
-	width: 50%;
 	margin-right: 0;
+}
+#area {
+	float: right;
+	padding-top: 0.4em;
 }
 
 #position, #studyType {
 	font-style: italic;
-	width: 70%;
+	width: 66%;
 	font-size: 1.2em;
 	margin-right: 0;
 }
 
-#startDate, #endDate, #level {
+#level {
 	font-size: 0.8em;
 	font-style: italic;
 	margin: 0;
@@ -120,9 +122,42 @@ div > span {
 	padding-top: 0.4em;
 }
 
-.education > * > #studyType {
-	
+.dates {
+	font-size: 0.8em;
+	font-style: italic;
+	margin: 0;
+	display: inline;
+	float: right;
+	padding-top: 0.6em;
 }
+#startDate, #endDate {
+	margin: 0;
+}
+
+.location {
+	font-style: normal;
+	margin: 0;
+	padding: 0;
+	margin-left: 1em;
+}
+
+.profiles {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.profiles *:not(i):not(a) {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+}
+
+#address, #postalCode, #city, #countryCode, #region {
+	margin-right: 0.2em;
+}
+
 
 .label {
 	font-family: 'Helvetica', 'Sans-Serif';
