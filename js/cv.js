@@ -19,7 +19,7 @@ function readJson( data ) {
 
 $(document).ready(function() {
 	
-	$.getJSON('http://dbayart.github.io/cv/cv_dbayart.json', function( data ) {
+	$.getJSON('/cv/cv_dbayart.json', function( data ) {
 		var text = $(readJson( data ));
 		$( '#json_ul' ).append( text );
 		
@@ -56,7 +56,7 @@ $(document).ready(function() {
 		});
 		$('[id^=endDate]').each(function() {
 			var text = $(this).text();
-			$(this).prepend('&nbsp;<i class="fa fa-arrow-right fa-fw"></i>&nbsp;');
+			$(this).prepend('&nbsp;<i class="fa fa-angle-double-right fa-fw"></i>&nbsp;');
 		});
 		$('.work > .panel-body').each(function() {
 			var websiteText = $(this).find('> #website').text();
@@ -66,9 +66,32 @@ $(document).ready(function() {
 		});
 		
 		
+		// Dates
+		$('.panel-body').each(function() {
+			$(this).find('> #startDate, > #endDate').wrapAll('<div class="dates"></div>');
+		});
+		
+		
+		// Locations
+		$('.location').each(function() {
+			var address = $(this).find('> #address').text();
+			var postalCode = $(this).find('> #postalCode').text();
+			var city = $(this).find('> #city').text();
+			var countryCode = $(this).find('> #countryCode').text();
+			var region = $(this).find('> #region').text();
+			if (city.length && countryCode) {
+				$(this).find('> #city').text(city+',');
+			}
+			if (address.length || postalCode.length || city.length ) {
+				$(this).find('> #address, > #postalCode, > #city, > #countryCode, > #region').wrapAll('<a href="' + 'https://www.google.fr/maps/place/'+(address.length?address+' ':'')+(postalCode.length?postalCode+' ':'')+(city.length?city:'') + '" target="_blank">');
+			}
+		});
+		
+		
 		
 		// Add icons to different Ids
-		$('[id^=location]').prepend( '<i class="fa fa-map-marker fa-fw"></i>&nbsp;' );
+		$('.location').prepend( '<i class="fa fa-map-marker fa-fw fa-lg"></i>&nbsp;' );
+		
 		$('[id^=company]').prepend( '<i class="fa fa-building-o fa-fw"></i>&nbsp;' );
 		$('[id^=institution]').prepend( '<i class="fa fa-university fa-fw"></i>&nbsp;' );
 		$('[id^=email]').each(function() {
