@@ -146,8 +146,10 @@ div > span {
 	padding: 0;
 	text-align: center;
 }
-.profiles *:not(i):not(a) {
+.profiles > div {
 	display: inline;
+}
+.profiles *:not(i):not(a) {
 	margin: 0;
 	padding: 0;
 	margin-left: 0.2em;
