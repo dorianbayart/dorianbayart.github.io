@@ -86,7 +86,9 @@ div > span {
 }
 
 #summary > li {
-	margin-left: 1em;
+	margin-left: 1.4em;
+	text-align: left;
+	text-indent: -1em;
 }
 
 #company, #institution {
@@ -174,13 +176,13 @@ div > span {
 
 
 .languages > div.panel-body   {
-	width: 45%;
+	width: 75%;
 	margin-left: 2em;
 	padding: 0em;
 	padding-top: 0.3em;
 }
 .languages > div.panel-body > #language  {
-	width: 6em;
+	width: 33%;
 	margin: 0;
 }
 .languages > div.panel-body > #fluency  {
