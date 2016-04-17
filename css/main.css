@@ -90,3 +90,10 @@ ul.posts li {
         width: 100%;
     }
 }
+
+.slow-spin {
+	-webkit-transform-origin: 50% calc(50% - 1px);
+	transform-origin: 50% calc(50% - 1px);
+	-webkit-animation: fa-spin 5s infinite linear;
+	animation: fa-spin 5s infinite linear;
+}
