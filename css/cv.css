@@ -86,9 +86,8 @@ div > span {
 }
 
 #summary > li {
-	margin-left: 1.4em;
+	margin-left: 1.2em;
 	text-align: left;
-	text-indent: -1em;
 }
 
 #company, #institution {
