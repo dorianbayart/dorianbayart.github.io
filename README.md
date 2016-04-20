@@ -11,7 +11,7 @@ Building a small static website, discovering :
 * [Masonry](http://masonry.desandro.com/)
 * [JSon Resume](https://jsonresume.org/)
 
-Link : *http://dbayart.github.io*
+Link : *[dbayart.github.io](http://dbayart.github.io?utm_source=readme)*
 
 <br />
 
