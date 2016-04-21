@@ -14,7 +14,7 @@ Link : *[dbayart.github.io](https://dbayart.github.io?utm_source=readme)*
 
 <br />
 
-<style type="text/css" scoped>table { max-width:100%; }</style>
+---
 #### Technologies
 GitHub|HTML5|CSS3|Jekyll|Bootstrap|JQuery|FontAwesome|JSon
 ---|---|---|---|---|---|---|---
