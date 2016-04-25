@@ -14,7 +14,7 @@ function readJson( data ) {
 }
 
 $("#showButton").click(function(){
-    $("#json").toggle();
+    $("#json").toggle(1000);
 });
 
 $(document).ready(function() {
