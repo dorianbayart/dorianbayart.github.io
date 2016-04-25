@@ -89,6 +89,7 @@ div > span {
 	margin: 0;
 	padding: 0;
 	margin-left: 1em;
+	padding-bottom: 0.3em;
 }
 
 #summary {
@@ -150,6 +151,7 @@ div > span {
 	margin: 0;
 	padding: 0;
 	margin-left: 1em;
+	padding-bottom: 0.3em;
 }
 
 .profiles {
