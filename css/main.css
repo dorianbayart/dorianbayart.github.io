@@ -24,20 +24,29 @@ body {
 nav {
     padding-top: 2em;
 }
-nav > ul {
-    font-family:'Lato', 'Helvetica', 'Sans-Serif';
-    font-size: 1.2em;
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    font-style: normal;
-}
 #footer > ul {
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
     font-size: 1.0em;
     padding: 0px;
     list-style: none;
     font-weight: normal;
+    font-style: normal;
+}
+footer ul li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer a:hover {
+	text-decoration: none;
+	color: #000;
+}
+/*nav > ul {
+    font-family:'Lato', 'Helvetica', 'Sans-Serif';
+    font-size: 1.2em;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
     font-style: normal;
 }
 nav ul li, footer ul li {
@@ -52,16 +61,18 @@ nav a:hover, footer a:hover, nav li.current a {
 nav a {
 	text-decoration: none;
 	color: #444;
-	border-bottom-style: solid;
-	border-bottom-width: thin;
-	border-bottom-color: rgba(0, 0, 0, 0.0);
 }
-nav a:hover {
-	border-bottom-color: black;
+nav li {
+	border-style: solid;
+	border-width: thin;
+	border-color: rgba(0, 0, 0, 0.0);
 }
-nav li.current a {
-	border-bottom-color: lightgrey;
+nav li:hover {
+	border-color: black;
 }
+nav li.current {
+	border-color: lightgrey;
+}*/
 h1 {
     font-size: 2em;
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
