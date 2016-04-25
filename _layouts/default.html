@@ -16,44 +16,13 @@
 		
 	</head>
 	<body>
-		<!--<nav id="nav" class="navbar navbar-default">
-		<div class="container-fluid">
-			<div id="navbar" class="navbar-collapse" id="bs-navbar-collapse" aria-expanded="false" style="">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="#">Menu</a>
-				</div>
-				<ul class="nav navbar-nav">
-					{% assign current = page.url %}
-					<li {% if current == '/' %}class='active'{% endif %}><a href="/index.html">&nbsp;<i class="fa fa-home fa-fw"></i>&nbsp;Home</a></li>
-					<li {% if current[1] == 'about' %}class='active'{% endif %}><a href="/about">&nbsp;About</a></li>
-					<li {% if current == '/cv/' %}class='active'{% endif %}><a href="/cv">&nbsp;<i class="fa fa-file-text-o fa-fw"></i>&nbsp;CV</a></li>
-					<li {% if current == '/blog/' %}class='active'{% endif %}><a href="/blog">&nbsp;<i class="fa fa-rss fa-fw"></i>&nbsp;Blog</a></li>
-				</ul>
-			</div>
-		</div>
-		</nav>-->
-
-{% include nav.html %}
-
+		{% include nav.html %}
+		
 		<div class="container">
-{{ content }}
+			{{ content }}
+		</div>
 		
-		</div><!-- /.container -->
-		<footer id="footer">
-			<ul>
-				<li><i class="fa fa-envelope-o fa-fw"></i>&nbsp;<a href="mailto:dorian.bayart+github@gmail.com">dorian.bayart<i class="fa fa-at fa-fw" aria-hidden="true"></i>gmail.com</a></li>
-				<li><i class="fa fa-github fa-fw"></i>&nbsp;<a href="https://github.com/dbayart">@dbayart</a></li>
-				<li><i class="fa fa-linkedin fa-fw"></i>&nbsp;<a href="https://fr.linkedin.com/in/dorianbayart">DorianBayart</a></li>
-			</ul>
-		</footer>
-		
-		
+		{% include footer.html %}
 	</body>
 </html>
 
