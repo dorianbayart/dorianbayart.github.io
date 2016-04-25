@@ -1,5 +1,4 @@
 
-
 function readJson( data ) {
 	var text = "";
 	$.each( data, function( key, val ) {
@@ -14,11 +13,11 @@ function readJson( data ) {
 	return text;
 }
 
-
-
+$("#showButton").click(function(){
+    $("#json").toggle();
+});
 
 $(document).ready(function() {
-	
 	$.getJSON('/cv/cv_dbayart.json', function( data ) {
 		var text = $(readJson( data ));
 		$( '#json' ).hide();
