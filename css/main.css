@@ -34,7 +34,7 @@ body {
 }
 #footer > ul {
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
-    font-size: 1.3em;
+    font-size: 1.0em;
     padding: 0px;
     list-style: none;
     font-weight: normal;
@@ -70,7 +70,6 @@ blockquote > p {
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
 }
 
 ul.posts { 
