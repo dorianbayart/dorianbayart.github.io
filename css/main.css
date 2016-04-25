@@ -42,7 +42,7 @@ footer ul li {
     display: inline;
     margin-left: 10px;
     margin-right: 10px;
-    padding-top: 0.3em;
+    padding-top: 0.1em;
 }
 footer a:hover {
 	text-decoration: none;
@@ -90,17 +90,20 @@ ul.posts li {
     }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 575px) {
 	footer ul li {
 		display: block;
 		position: relative;
 		width: 100%;
 	}
 }
-@print {
+@media print {
 	footer ul li {
 		display: block !important;
 		position: relative !important;
 		width: 100% !important;
+	}
+	a:after {
+		font-size:0.8em;
 	}
 }
