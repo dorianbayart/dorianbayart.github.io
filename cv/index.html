@@ -5,11 +5,11 @@ title: Dorian's CV
 
 <div class="blurb">
 	<h1><i class="fa fa-cog slow-spin fa-fw"></i>Still under construction</h1>
-	<button id="showButton">Show JSon RAW Data</button><pre id="json">{% include_relative cv_dbayart.json %}</pre>
+	<button id="showButton">Show JSon RAW Data</button><div class="noJS">No Javascript !</div><pre id="json">{% include_relative cv_dbayart.json %}</pre>
 	<div class="grid" id="json_ul"></div>
 </div><!-- /.blurb -->
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.0.0/masonry.pkgd.min.js"></script>
 <script async defer type="text/javascript" src="/js/cv.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/cv.css">
-<noscript><style type="text/css">#json { display: block; }</style></noscript>
+<noscript><style type="text/css">#showButton { display:none; } #json,.noJS { display:block; }</style></noscript>
