@@ -19,7 +19,7 @@ $("#showButton").click(function(){
 
 $(document).ready(function() {
 	
-		var text = $(readJson( $('#json').text() ));
+		var text = $(readJson( JSON.parse($('#json').text()) ));
 		$( '#json' ).hide();
 		$( '#json_ul' ).append( text );
 		
