@@ -12,7 +12,7 @@ body {
 	padding: 0px;
 }
 
-.container , .container-fluid {
+.container  {
 	padding: 0px;
 	padding-bottom: 0.8em;
 }
@@ -21,9 +21,9 @@ body {
 	body { width: 95%; }
 }
 
-nav {
+/*nav {
     padding-top: 2em;
-}
+}*/
 #footer > ul {
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
     font-size: 1.0em;
