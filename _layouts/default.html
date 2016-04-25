@@ -26,7 +26,7 @@
 		</ul>
 		</nav>
 		<div class="container">
-		
+		{{ page.url }}
 {{ content }}
 		
 		</div><!-- /.container -->
@@ -43,8 +43,9 @@
 </html>
 
 <!-- StyleSheets -->
-<link rel="stylesheet" type="text/css" href="/css/main.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="/css/main.css">
+{% if page.url == 'cv' %}<link rel="stylesheet" type="text/css" href="/css/main.css">{% endif %}
 <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext">
 
