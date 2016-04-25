@@ -16,18 +16,18 @@
 		
 	</head>
 	<body>
-		<nav id="nav">
-		<ul>
+		<nav id="nav" class="navbar navbar-default">
+		<div class="container-fluid"><div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="">
+		<ul class="nav navbar-nav">
 			{% assign current = page.url %}
 			<li {% if current == '/' %}class='current'{% endif %}>&nbsp;<i class="fa fa-home fa-fw"></i>&nbsp;<a href="/index.html">Home</a></li>
 			<!--<li {% if current[1] == 'about' %}class='current'{% endif %}>&nbsp;<a href="/about">&nbsp;About</a></li>-->
 			<li {% if current == '/cv/' %}class='current'{% endif %}>&nbsp;<i class="fa fa-file-text-o fa-fw"></i>&nbsp;<a href="/cv">CV</a></li>
 			<li {% if current == '/blog/' %}class='current'{% endif %}>&nbsp;<i class="fa fa-rss fa-fw"></i>&nbsp;<a href="/blog">Blog</a></li>
 		</ul>
+		</div></div>
 		</nav>
 		<div class="container">
-		{{ page.url }}
-		{{ current }}
 {{ content }}
 		
 		</div><!-- /.container -->
