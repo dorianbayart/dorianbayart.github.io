@@ -17,10 +17,6 @@ body {
 	padding-bottom: 0.8em;
 }
 
-@media only screen and (max-width: 1280px) {
-	body { width: 95%; }
-}
-
 
 .navbar {
 	margin-top: 1em;
@@ -83,13 +79,14 @@ ul.posts li {
 	display: none;
 }
 
-@media only screen and (max-width: 860px) {
-
-    footer ul li {
-        margin-right: 12px;
-    }
+@media only screen and (max-width: 1280px) {
+	body { width: 95%; }
 }
-
+@media only screen and (max-width: 860px) {
+	footer ul li {
+		margin-right: 12px;
+	}
+}
 @media only screen and (max-width: 575px) {
 	footer ul li {
 		display: block;
