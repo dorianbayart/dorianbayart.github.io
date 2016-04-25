@@ -16,7 +16,7 @@
 		
 	</head>
 	<body>
-		<nav id="nav" class="navbar navbar-default">
+		<!--<nav id="nav" class="navbar navbar-default">
 		<div class="container-fluid">
 			<div id="navbar" class="navbar-collapse" id="bs-navbar-collapse" aria-expanded="false" style="">
 				<div class="navbar-header">
@@ -31,13 +31,16 @@
 				<ul class="nav navbar-nav">
 					{% assign current = page.url %}
 					<li {% if current == '/' %}class='active'{% endif %}><a href="/index.html">&nbsp;<i class="fa fa-home fa-fw"></i>&nbsp;Home</a></li>
-					<!--<li {% if current[1] == 'about' %}class='active'{% endif %}><a href="/about">&nbsp;About</a></li>-->
+					<li {% if current[1] == 'about' %}class='active'{% endif %}><a href="/about">&nbsp;About</a></li>
 					<li {% if current == '/cv/' %}class='active'{% endif %}><a href="/cv">&nbsp;<i class="fa fa-file-text-o fa-fw"></i>&nbsp;CV</a></li>
 					<li {% if current == '/blog/' %}class='active'{% endif %}><a href="/blog">&nbsp;<i class="fa fa-rss fa-fw"></i>&nbsp;Blog</a></li>
 				</ul>
 			</div>
 		</div>
-		</nav>
+		</nav>-->
+
+{% include_relative nav.html %}
+
 		<div class="container">
 {{ content }}
 		
