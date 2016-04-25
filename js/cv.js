@@ -21,6 +21,7 @@ $(document).ready(function() {
 	
 	$.getJSON('/cv/cv_dbayart.json', function( data ) {
 		var text = $(readJson( data ));
+		$( '#json' ).hide();
 		$( '#json_ul' ).append( text );
 		
 		// the different classes
