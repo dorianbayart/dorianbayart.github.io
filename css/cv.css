@@ -165,6 +165,7 @@ div > span {
 .label {
 	font-family: 'Helvetica', 'Sans-Serif';
 	font-size: 0.9em;
+	font-weight: initial;
 	margin-left: 0.3em;
 	margin-right: 0.3em;
 	margin-top: 0.4em;
