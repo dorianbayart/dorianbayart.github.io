@@ -97,8 +97,8 @@ ul.posts li {
 }
 @print {
 	footer ul li {
-		display: block;
-		position: relative;
-		width: 100%;
+		display: block !important;
+		position: relative !important;
+		width: 100% !important;
 	}
 }
