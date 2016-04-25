@@ -17,6 +17,10 @@
 #showButton {
 	margin-bottom: 0.5em;
 }
+#json {
+	font-size: 0.75em;
+	display: none;
+}
 
 div {
 	margin: 0;
