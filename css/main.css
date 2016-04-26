@@ -20,6 +20,7 @@ body {
 
 .navbar {
 	margin-top: 1em;
+	margin-bottom: 0.4em;
 }
 .navbar-header {
     border-right-style: solid;
@@ -49,6 +50,7 @@ h1 {
     font-size: 2em;
     font-family:'Lato', 'Helvetica', 'Sans-Serif';
     margin-bottom: 0.8em;
+    margin-top: 0.5em;
 }
 p {
     font-size: 1.4em;
