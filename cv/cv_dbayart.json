@@ -1,12 +1,12 @@
 {
 	"basics": {
 		"name": "Dorian Bayart",
-		"label": "Programmer",
+		"label": "Software Engineer",
 		"picture": "",
 		"email": "dorian.bayart@gmail.com",
 		"phone": "+33 (0)6 33 69 39 **",
 		"website": "https://dbayart.github.io/",
-		"summary": "",
+		"summary": "I am always searching for new technical and functional knowledge and challenges, playing with new technologies, and trying to improve myself, with a DevOps oriented spirit.",
 		"location": {
 			"address": "",
 			"postalCode": "",
@@ -45,7 +45,7 @@
 		]
 	},{
 		"company": "Capgemini",
-		"position": "Developer at ERDF",
+		"position": "Developer / Scrum Master at ERDF",
 		"website": "https://www.fr.capgemini.com/",
 		"startDate": "2012-03-05",
 		"endDate": "2015-06-26",
@@ -64,7 +64,7 @@
 		"name": "BackEnd Java Development",
 		"level": "4+ years",
 		"keywords": [
-			"Java","Git","SQL","JUnit","Maven","SVN","UML Diagrams"
+			"Java","Git","SQL","JUnit","Maven","Weblogic","SVN","UML Diagrams"
 		]
 	},{
 		"name": "Continuous Integration",
@@ -81,7 +81,7 @@
 	}],
 	"education": [{
 		"institution": "ENSICAEN",
-		"area": "Electronic & Applied Physics",
+		"area": "Electronic And Applied Physics",
 		"studyType": "Engineer / Master's Degree",
 		"startDate": "2009",
 		"endDate": "2012",
