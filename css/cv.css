@@ -60,27 +60,16 @@ div > span {
 	border-bottom-color: lightgrey;
 }
 
-
-.skills > * > #name {
-	font-size: 1.1em;
-	font-style: italic;
-	font-weight: bold;
-	margin-right: 0.5em;
-	margin-left: 0.2em;
-}
-
-
-
 .basics > #label {
-	width: 95%;
+	width: 100%;
 	text-align: right;
 	margin: 0;
 	margin-bottom: 0.8em;
 	padding: 0;
+	padding-right: 1.2em;
 	display: block;
 	
 }
-
 
 .basics > #email,
 .basics > #phone,
@@ -91,7 +80,10 @@ div > span {
 	margin-left: 1em;
 	padding-bottom: 0.3em;
 }
-
+.basics > #summary {
+	margin-left: 0.8em;
+	padding-right: 1em;
+}
 #summary {
 	text-align: justify;
 }
@@ -132,6 +124,15 @@ div > span {
 #level {
 	float: right;
 	padding-top: 0.4em;
+}
+
+
+.skills > * > #name {
+	font-size: 1.1em;
+	font-style: italic;
+	font-weight: bold;
+	margin-right: 0.5em;
+	margin-left: 0.2em;
 }
 
 .dates {
