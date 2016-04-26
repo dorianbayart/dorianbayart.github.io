@@ -3,7 +3,7 @@ layout: default
 title: Dorian Bayart
 ---
 
-# Homepage
+# <i class="fa fa-home fa-fw"></i>Homepage
 
 I'm {{ site.author }} and this is the home page of my *[GitHub]({{ site.baseurl }}?utm_source=internalLink)* website.
 
