@@ -27,12 +27,17 @@ div {
 	margin: 0;
 }
 
-
 div > span {
 	font-style: normal;
 	margin-right: 1em;
 	margin-left: 0em;
 	display: inline-block;
+}
+
+h5 {
+	font-style: italic;
+	margin-bottom: 0.3em;
+	margin-top: 0.3em;
 }
 
 .panel-body {
@@ -151,12 +156,14 @@ div > span {
 	font-style: normal;
 	margin: 0;
 	padding: 0;
-	margin-left: 1em;
+	margin-right: 1em;
 	padding-bottom: 0.3em;
+	text-align: right;
 }
 
 .profiles {
 	margin: 0;
+	margin-top: 0.2em;
 	padding: 0;
 	text-align: center;
 }
