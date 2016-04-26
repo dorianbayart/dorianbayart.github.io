@@ -91,7 +91,7 @@ $(document).ready(function() {
 		
 		// Add icons to different Ids
 		$('.location').prepend( '<i class="fa fa-map-marker fa-fw fa-lg"></i>&nbsp;' );
-		$('.basics > #summary').prepend('<h5>Summary</h5><i class="fa fa-quote-left fa-lg fa-pull-left" aria-hidden="true"></i>');
+		$('.basics > #summary').prepend('<h5>Summary</h5><i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>');
 		$('[id^=company]').prepend( '<i class="fa fa-building-o fa-fw"></i>&nbsp;' );
 		$('[id^=institution]').prepend( '<i class="fa fa-university fa-fw"></i>&nbsp;' );
 		$('[id^=email]').each(function() {
