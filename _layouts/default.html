@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>{{ page.title }}</title>
-		{% if page.description %}<meta name="description" content="{{ page.description}}" />{% endif %}
-		<META NAME="AUTHOR" CONTENT="Dorian Bayart">
 		<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-8">
-		<META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="en-US,fr-FR">
 		<META NAME="ROBOTS" CONTENT="ALL">
+		<link rel=icon href="/resources/GitHub-icon.png" sizes="any" type="image/png">
+		
+		<title>{{ page.title }}</title>
+		{% if page.description %}<meta name="description" content="{{ page.description }}" />{% endif %}
+		{% if site.author %}<meta name="author" content="{{ site.author }}" />{% endif %}
+		{% if page.lang %}<meta name="CONTENT-LANGUAGE" content="{{ page.lang }}" />{% endif %}
+		
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Cache-control" content="public,max-age=3600">
-		
-		<link rel=icon href="/resources/GitHub-icon.png" sizes="any" type="image/png">
 		
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
 		
