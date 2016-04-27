@@ -1,0 +1,11 @@
+
+#social {
+  padding-top: 1em;
+  text-align: right;
+}
+
+#social li {
+  list-style-type: none;
+  display: inline-block;
+}
+
