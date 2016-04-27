@@ -7,6 +7,9 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+ul.posts li a {
     font-size: 1.2em;
     line-height: 2em;
 }
