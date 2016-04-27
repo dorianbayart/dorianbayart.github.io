@@ -6,11 +6,11 @@ layout: feed
 
 	<title>Dorian Bayart's Blog</title>
 	<link href="http://dbayart.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://dbayart.github.io/blog"/>
+	<link href="http://dbayart.github.io/blog/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://dbayart.github.io/blog</id>
 	<author>
-		<nameDorian Bayart</name>
+		<name>{{ site.author }}</name>
 		<email>dorian.bayart+github@gmail.com</email>
 	</author>
 
