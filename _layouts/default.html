@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<title>{{ page.title }}</title>
+		{% if page.description %}<meta name="description" content="{{ page.description}}" />{% endif %}
 		<META NAME="AUTHOR" CONTENT="Dorian Bayart">
 		<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-8">
-		<META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="en-US,fr">
+		<META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="en-US,fr-FR">
 		<META NAME="ROBOTS" CONTENT="ALL">
-		<META NAME="DESCRIPTION" CONTENT="A small website made to discover new technologies.">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta http-equiv="Cache-control" content="public,max-age=3600">
 		
