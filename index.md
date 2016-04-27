@@ -3,6 +3,8 @@ layout: default
 title: HomePage
 description: Homepage of dbayart.github.io - A small website made from scratch to learn and discover new technologies, languages, libraries
 lang: en-US
+sitemap:
+  priority: 0.2
 ---
 
 # <i class="fa fa-home fa-fw"></i>&nbsp;{{ page.title }}
