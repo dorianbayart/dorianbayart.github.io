@@ -1,7 +1,8 @@
 ---
 layout: default
 title: HomePage
-description: Homepage of dbayart.github.io - A small website made from scratch to learn and discover new technologies, languages, libraries: JQuery, Bootstrap, Jekyll, JSon, etc.
+description: Homepage of dbayart.github.io - A small website made from scratch to learn and discover new technologies, languages, libraries
+lang: en-US
 ---
 
 # <i class="fa fa-home fa-fw"></i>{{ page.title }}
