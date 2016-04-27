@@ -67,13 +67,13 @@ footer {
 @media only screen and (max-width: 1280px) {
 	body { width: 95%; }
 }
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 840px) {
 	footer ul li {
 		margin-left: 0.2em;
 		margin-right: 0.2em;
 	}
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
 	footer ul li {
 		display: block;
 		position: relative;
