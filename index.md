@@ -9,6 +9,6 @@ lang: en-US
 
 I'm {{ site.author }} and this is the home page of my *[GitHub]({{ site.baseurl }}?utm_source=internalLink)* website.
 
-> Feel free to take a look at the repository : [here](https://github.com/dbayart/dbayart.github.io).
+> Feel free to take a look at [the dbayart.github.io repository](https://github.com/dbayart/dbayart.github.io).
 
 
