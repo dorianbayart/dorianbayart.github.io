@@ -5,5 +5,4 @@ permalink: /blog/:year/:month/:day/:title
 
 baseurl: https://dbayart.github.io
 
-gems:
- - jekyll-sitemap
+
