@@ -5,7 +5,7 @@ description: Homepage of dbayart.github.io - A small website made from scratch t
 lang: en-US
 ---
 
-# <i class="fa fa-home fa-fw"></i>{{ page.title }}
+# <i class="fa fa-home fa-fw"></i>&nbsp;{{ page.title }}
 
 I'm {{ site.author }} and this is the home page of my *[GitHub]({{ site.baseurl }}?utm_source=internalLink)* website.
 
