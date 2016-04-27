@@ -5,10 +5,10 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>Dorian Bayart's Blog</title>
-	<link href="{{ site.baseurl }}blog/atom.xml" rel="self"/>
-	<link href="{{ site.baseurl }}blog/"/>
+	<link href="{{ site.baseurl }}/blog/atom.xml" rel="self"/>
+	<link href="{{ site.baseurl }}/blog/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>{{ site.baseurl }}blog</id>
+	<id>{{ site.baseurl }}/blog</id>
 	<author>
 		<name>{{ site.author }}</name>
 		<email>dorian.bayart+github@gmail.com</email>
