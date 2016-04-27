@@ -12,6 +12,8 @@ p {
 p.meta {
     font-size: 1em;
     text-align: right;
+    margin: auto;
+    width: 90%;
 }
 
 blockquote > p {
