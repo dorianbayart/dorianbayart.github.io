@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Start !"
+description: Small post to announce the website
+lang: en-US
 date: 2016-02-03
 ---
 
