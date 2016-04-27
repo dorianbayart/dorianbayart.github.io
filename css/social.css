@@ -2,6 +2,8 @@
 #social {
   padding-top: 1em;
   text-align: right;
+  width: 90%;
+  margin: auto;
 }
 
 #social li {
