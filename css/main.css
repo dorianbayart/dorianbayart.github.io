@@ -75,7 +75,7 @@ footer {
 	}
 }
 @media only screen and (max-width: 680px) {
-	footer ul {
+	#footer > ul {
 		text-align: left;
 	}
 	footer ul li {
@@ -85,7 +85,7 @@ footer {
 	}
 }
 @media print {
-	footer ul {
+	#footer > ul {
 		text-align: left !important;
 	}
 	footer ul li {
