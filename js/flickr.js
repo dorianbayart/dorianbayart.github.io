@@ -8,6 +8,14 @@ var loaded = 0;
 $(document).ready(function() {
 	$(configureTabs(  ));
 	
+	setTimeout(function() {
+		if ( $( '#myTabs > li' ).length == 0 ) {
+			$( '#myTabs' ).append( '<li role="presentation"><a href="#problem" aria-controls="problem" role="tab" data-toggle="tab">Problem !</a></li>' );
+			$( 'div.tab-content' ).append( '<div role="tabpanel" class="tab-pane fade" id="problem"><div class="container-fluid grid"><p>It seems we had a problem downloading the galleries.</p></div></div>' );
+			$(myTabsActivation(  ));
+		}
+	}, 3000);
+	
 });
 
 function configureTabs (  ) {
@@ -31,19 +39,10 @@ function configureTabs (  ) {
 			contentTabs += '<div role="tabpanel" class="tab-pane fade" id="'+id+'"><div>'+number+' pics in this album</div><div>Album description : '+description+'</div><hr><div class="container-fluid grid"><div class="grid-sizer"></div><div class="gutter-sizer"></div></div></div>';
 		});
 		
-		console.log(photosets);
-		console.log($(photosets));
-		console.log($(photosets).length);
-		
-		if ( $(photosets).length == 0 ) {
-			$( '#myTabs' ).append( '<li role="presentation"><a href="#" aria-controls="" role="tab" data-toggle="tab">Problem downloading the galleries</a></li>' );
-		} else {
-			$( '#myTabs' ).append( textTabs );
-			$( 'div.tab-content' ).append( contentTabs );
-		}
+		$( '#myTabs' ).append( textTabs );
+		$( 'div.tab-content' ).append( contentTabs );
 		
 		$(myTabsActivation(  ));
-		
 	});
 }
 
