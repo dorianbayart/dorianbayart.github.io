@@ -3,7 +3,7 @@ div.id, div.primary, div.secret, div.server, div.loaded, div.number {
 	display: none;
 }
 
-body > .container > a {
+a#flickrLink {
 	margin-right: 4%;
 	text-align: right;
 	display: block;
