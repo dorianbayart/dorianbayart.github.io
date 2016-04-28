@@ -8,7 +8,7 @@ sitemap:
 ---
 
 
-I'm {{ site.author }} and this is the home page of my *[GitHub]({{ site.baseurl }}?utm_source=internalLink)* website.
+Welcome to my *[GitHub]({{ site.baseurl }}?utm_source=internalLink)* website ! <i class="fa fa-smile-o fa-fw"></i>
 
-> Feel free to take a look at [the dbayart.github.io repository](https://github.com/dbayart/dbayart.github.io).
+> Feel free to take a look at [the repository](https://github.com/dbayart/dbayart.github.io).
 
