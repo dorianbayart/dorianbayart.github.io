@@ -1,5 +1,6 @@
 ---
 layout: feed
+title: Atom
 sitemap:
   changefreq: 'weekly'
 ---
