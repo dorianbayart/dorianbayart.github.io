@@ -7,6 +7,11 @@ var loaded = 0;
 /* Main method */
 $(document).ready(function() {
 	$(configureTabs(  ));
+	
+	if ($('#myTabs > li').length == 0) {
+		$( '#myTabs' ).append( '<li role="presentation"><a href="#" aria-controls="" role="tab" data-toggle="tab">Problem downloading the galleries</a></li>' );
+		$(myTabsActivation(  ));
+	}
 });
 
 function configureTabs (  ) {
