@@ -9,3 +9,16 @@ layout: default
 <div class="content">
   {{ content }}
 </div>
+
+<div class="container">
+  
+  {% for page in site.pages %}
+    {% unless page.sitemap.exclude == "yes" && page.title == "Homepage" %}
+    <a href='{{ page.url | remove: "index.html" }}'><div class="panel panel-default">
+      <div class="panel-heading">{{ page.title }}</div>
+      <div class="panel-body">{{ page.description }}</div>
+    </div></a>
+    {% endunless %}
+  {% endfor %}
+  
+</div>
