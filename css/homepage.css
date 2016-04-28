@@ -1,5 +1,5 @@
 
-.container-fluid {
+.container > .container-fluid {
 	text-align: center;
 	padding-top: 3em;
 }
@@ -36,7 +36,7 @@ blockquote > p {
 	.panel {
 		width: 90%;
 	}
-	.container-fluid {
+	.container > .container-fluid {
 		padding-top: 1em;
 	}
 	    
