@@ -1,7 +1,7 @@
 ---
 layout: homepage
 title: HomePage
-description: Homepage of dbayart.github.io - A small website made from scratch to learn and discover new technologies, languages, libraries
+description: Dorian Bayart - Homepage of dbayart.github.io - A small website made from scratch to learn and discover new technologies, languages, libraries
 lang: en-US
 sitemap:
   priority: 0.2
