@@ -1,5 +1,6 @@
-.container-fluid {
-	text-align:center;
+.container > .container-fluid {
+	text-align: center;
+	margin: 2em;
 }
 .box {
 	text-align:left;
@@ -9,25 +10,31 @@
 
 #message {
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1.4em;
+	min-height: 3em;
+	margin-top: 1.5em;
 }
 #winner {
-	color: transparent;
+	color: green;
+	display: none;
 }
 #looser {
-	color: transparent;
+	color: red;
+	display: none;
 }
 #nothing {
-	color: transparent;
+	color: black;
+	display: none;
 }
 
 #playAgain {
-	color: transparent;
+	color: darkgrey;
 	margin: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	max-width: 240px;
 	font-size: 1.1em;
+	min-height: 2em;
 }
 #playAgain:hover  {
 	font-style: oblique;
