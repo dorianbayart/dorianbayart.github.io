@@ -1,4 +1,4 @@
-.container {
+.container-fluid {
 	text-align:center;
 }
 .box {
@@ -7,22 +7,27 @@
 	height:auto;
 }
 
+#message {
+	text-align: center;
+	font-size: 1.3em;
+}
 #winner {
-	display: none;
+	color: transparent;
 }
 #looser {
-	display: none;
+	color: transparent;
 }
 #nothing {
-	display: none;
+	color: transparent;
 }
 
 #playAgain {
-	display: none;
+	color: transparent;
 	margin: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	max-width: 240px;
+	font-size: 1.1em;
 }
 #playAgain:hover  {
 	font-style: oblique;
