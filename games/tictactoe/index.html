@@ -11,21 +11,24 @@ lang: en-US
 
 <h1><i class="fa fa-gamepad fa-fw"></i>&nbsp;{{ page.title }}</h1>
 
-<canvas id="canvas1" width='100px' height='100px' onclick="canvasClicked(1)"></canvas>
-<canvas id="canvas2" width='100px' height='100px' onclick="canvasClicked(2)"></canvas>
-<canvas id="canvas3" width='100px' height='100px' onclick="canvasClicked(3)"></canvas>
-<br />
-<canvas id="canvas4" width='100px' height='100px' onclick="canvasClicked(4)"></canvas>
-<canvas id="canvas5" width='100px' height='100px' onclick="canvasClicked(5)"></canvas>
-<canvas id="canvas6" width='100px' height='100px' onclick="canvasClicked(6)"></canvas>
-<br />
-<canvas id="canvas7" width='100px' height='100px' onclick="canvasClicked(7)"></canvas>
-<canvas id="canvas8" width='100px' height='100px' onclick="canvasClicked(8)"></canvas>
-<canvas id="canvas9" width='100px' height='100px' onclick="canvasClicked(9)"></canvas>
-<br />
-
-<div id="winner">You win !</div>
-<div id="looser">You Loose ...</div>
-<div id="nothing">Draw !</div>
-<div id="playAgain" onclick="playAgain()">Play again</div>
-
+<div class="container-fluid">
+  <canvas id="canvas1" width='100px' height='100px' onclick="canvasClicked(1)"></canvas>
+  <canvas id="canvas2" width='100px' height='100px' onclick="canvasClicked(2)"></canvas>
+  <canvas id="canvas3" width='100px' height='100px' onclick="canvasClicked(3)"></canvas>
+  <br />
+  <canvas id="canvas4" width='100px' height='100px' onclick="canvasClicked(4)"></canvas>
+  <canvas id="canvas5" width='100px' height='100px' onclick="canvasClicked(5)"></canvas>
+  <canvas id="canvas6" width='100px' height='100px' onclick="canvasClicked(6)"></canvas>
+  <br />
+  <canvas id="canvas7" width='100px' height='100px' onclick="canvasClicked(7)"></canvas>
+  <canvas id="canvas8" width='100px' height='100px' onclick="canvasClicked(8)"></canvas>
+  <canvas id="canvas9" width='100px' height='100px' onclick="canvasClicked(9)"></canvas>
+  <br />
+  
+  <div id="message">
+    <span id="winner">You win !</span>
+    <span id="looser">You Loose ...</span>
+    <span id="nothing">Draw !</span>
+  </div>
+  <div id="playAgain" onclick="playAgain()">Play again</div>
+</div>
