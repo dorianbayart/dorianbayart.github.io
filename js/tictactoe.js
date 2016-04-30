@@ -72,12 +72,12 @@ function canvasClicked(canvasNumber) {
         painted[canvasNumber] = true;
         squaresFilled++;
 		if ( squaresFilled == 5 ) {
-			document.getElementById('playAgain').style.color = 'darkgrey' ;
+			$('#playAgain').show(3000);
 		}
         fini = checkForWinners(symbol, false);
 
         if (fini == false && squaresFilled == 9) {
-            document.getElementById('nothing').style.display= 'black' ;
+        	$('#nothing').show(1000);
         } else if ( symbol == 'X' ) {
 			//console.log("L'IA joue...");
 			for (var l = 0; l <= 8; l++) {
@@ -247,9 +247,9 @@ function checkForWinners(symbol, testIA) {
 
 function afficherFinMatch(symbol) {
 	if ( symbol == 'X' ) {
-		document.getElementById('winner').style.color= 'green' ;
+		$('#winner').show(1000);
 	} else {
-		document.getElementById('looser').style.color= 'red' ;
+		$('#looser').show(1000);
 	}
 	finished = 1;
 }
@@ -259,10 +259,10 @@ function playAgain() {
 	squaresFilled = 0;
 	finished = 0;
 	
-	document.getElementById('winner').style.color= 'transparent' ;
-	document.getElementById('looser').style.color= 'transparent' ;
-	document.getElementById('nothing').style.color= 'transparent' ;
-	document.getElementById('playAgain').style.color= 'transparent' ;
+	$('#winner').hide(1000);
+	$('#looser').hide(1000);
+	$('#nothing').hide(1000);
+	$('#playAgain').hide(1000);
 	
 	console.log("Reset !");
 	for (var i = 1; i <= painted.length; i++ ) {
