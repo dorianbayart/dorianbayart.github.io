@@ -72,12 +72,12 @@ function canvasClicked(canvasNumber) {
         painted[canvasNumber] = true;
         squaresFilled++;
 		if ( squaresFilled == 5 ) {
-			document.getElementById('playAgain').style.display= 'block' ;
+			document.getElementById('playAgain').style.color = 'darkgrey' ;
 		}
         fini = checkForWinners(symbol, false);
 
         if (fini == false && squaresFilled == 9) {
-            document.getElementById('nothing').style.display= 'block' ;
+            document.getElementById('nothing').style.display= 'black' ;
         } else if ( symbol == 'X' ) {
 			//console.log("L'IA joue...");
 			for (var l = 0; l <= 8; l++) {
@@ -247,9 +247,9 @@ function checkForWinners(symbol, testIA) {
 
 function afficherFinMatch(symbol) {
 	if ( symbol == 'X' ) {
-		document.getElementById('winner').style.display= 'block' ;
+		document.getElementById('winner').style.color= 'green' ;
 	} else {
-		document.getElementById('looser').style.display= 'block' ;
+		document.getElementById('looser').style.color= 'red' ;
 	}
 	finished = 1;
 }
@@ -259,10 +259,10 @@ function playAgain() {
 	squaresFilled = 0;
 	finished = 0;
 	
-	document.getElementById('winner').style.display= 'none' ;
-	document.getElementById('looser').style.display= 'none' ;
-	document.getElementById('nothing').style.display= 'none' ;
-	document.getElementById('playAgain').style.display= 'none' ;
+	document.getElementById('winner').style.color= 'transparent' ;
+	document.getElementById('looser').style.color= 'transparent' ;
+	document.getElementById('nothing').style.color= 'transparent' ;
+	document.getElementById('playAgain').style.color= 'transparent' ;
 	
 	console.log("Reset !");
 	for (var i = 1; i <= painted.length; i++ ) {
