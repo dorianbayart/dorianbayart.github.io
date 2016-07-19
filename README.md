@@ -1,4 +1,4 @@
-# [DBayart](https://dbayart.github.io?utm_source=readme)
+# [DorianBayart](https://dorianbayart.github.io?utm_source=readme)
 
 
 Building a small static website, discovering :
@@ -10,7 +10,7 @@ Building a small static website, discovering :
 * [Masonry](http://masonry.desandro.com/)
 * [JSon Resume](https://jsonresume.org/)
 
-Link : *[dbayart.github.io](https://dbayart.github.io?utm_source=readme)*
+Link : *[dorianbayart.github.io](https://dorianbayart.github.io?utm_source=readme)*
 
 ---
 <br />
