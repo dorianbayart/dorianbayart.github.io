@@ -1,8 +1,8 @@
-name: dbayart.github.io
+name: dorianbayart.github.io
 author: Dorian Bayart
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
-baseurl: https://dbayart.github.io
+baseurl: https://dorianbayart.github.io
 
 
