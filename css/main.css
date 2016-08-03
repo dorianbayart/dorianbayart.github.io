@@ -30,8 +30,8 @@ body {
 	background-color: #eee;
 }
 .navbar-nav>li>a:hover {
-	color: #222 !important;;
-	background-color: #efefef !important;;
+	color: #222 !important;
+	background-color: #efefef !important;
 }
 .navbar-header {
     border-right-style: solid;
