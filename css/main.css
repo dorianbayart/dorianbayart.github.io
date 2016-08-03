@@ -22,7 +22,7 @@ body {
 	margin-top: 1em;
 	margin-bottom: 0.4em;
 }
-.navbar-brand {
+.navbar-brand, .navbar-nav>li>a {
 	color: #555;
 }
 .navbar-nav>li.active>a {
@@ -31,7 +31,7 @@ body {
 }
 .navbar-nav>li>a:hover {
 	color: #222;
-	background-color: #e7e7e7;
+	background-color: #efefef;
 }
 .navbar-header {
     border-right-style: solid;
