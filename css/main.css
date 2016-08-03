@@ -23,15 +23,15 @@ body {
 	margin-bottom: 0.4em;
 }
 .navbar-brand, .navbar-nav>li>a {
-	color: #555;
+	color: #555 !important;
 }
 .navbar-nav>li.active>a {
 	color: #337ab7;
 	background-color: #eee;
 }
 .navbar-nav>li>a:hover {
-	color: #222;
-	background-color: #efefef;
+	color: #222 !important;;
+	background-color: #efefef !important;;
 }
 .navbar-header {
     border-right-style: solid;
