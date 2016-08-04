@@ -33,4 +33,4 @@ _Feel free to give me some ideas in the comments below ! ;)_
 
 
 [try that TicTacToe game]: /games/tictactoe/ "Link to the TicTacToe game"
-[sample_01]: img/TicTacToe_sample01.png?style=centerme "Sample picture of a game"
+[sample_01]: /resources/posts/TicTacToe_sample01.png?style=centerme "Sample picture of a game"
