@@ -18,6 +18,7 @@ The first player is randomly choosen at the begining.
 
 Let's [try that TicTacToe game][] now !
 
+![Sample picture of a game][sample_01]
 
 > It's too much simple, improve it !
 
@@ -32,3 +33,4 @@ _Feel free to give me some ideas in the comments below ! ;)_
 
 
 [try that TicTacToe game]: /games/tictactoe/ "Link to the TicTacToe game"
+[sample_01]: img/TicTacToe_sample01.png?style=centerme "Sample picture of a game"
