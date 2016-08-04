@@ -1,4 +1,4 @@
-.post {
+.post, #disqus_thread {
   width: 90%;
   margin: auto;
   text-align: justify;
