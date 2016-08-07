@@ -8,7 +8,7 @@ sitemap:
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>{{ site.author }}'s blog</title>
-	<link href="{{ site.baseurl }}/blog/atom.xml" type="application/atom+xml" rel="self"/>
+	<link href="{{ site.baseurl }}/blog/feed.atom" type="application/atom+xml" rel="self"/>
 	<link href="{{ site.baseurl }}/blog/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>{{ site.baseurl }}/blog</id>
