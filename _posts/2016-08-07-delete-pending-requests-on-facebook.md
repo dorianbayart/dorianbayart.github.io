@@ -13,14 +13,14 @@ _[This tutorial has its own repository](https://github.com/dorianbayart/delete-p
 This script works well with the _Google Chrome_ webbrowser.
   
 
-#### Bug with Firefox
-        There is a bug with Firefox.  
-        Only half requests are deleted with that script.
+- #### Bug with Firefox
+There is a bug with Firefox.  
+Only half requests are deleted with that script.
   
 
-#### English langage required !
-        This script works only if your Facebook is displayed in english !  
-        To change the langage, **_set the display langage setting to `english`_** here : [https://www.facebook.com/settings?tab=language](https://www.facebook.com/settings?tab=language)
+- #### English langage required !
+This script works only if your Facebook is displayed in english !  
+To change the langage, **_set the display langage setting to `english`_** here : [https://www.facebook.com/settings?tab=language](https://www.facebook.com/settings?tab=language)
   
 
 ### Steps
@@ -46,7 +46,7 @@ Press : `Ctrl` + `F4`
 
 3. **Execute the script**  
 
-   `inputs=document.getElementsByTagName('button'); for(i in inputs){if(inputs[i].innerHTML == 'Delete Request' && inputs[i].id != "") {inputs[i].click();}}`
+        inputs=document.getElementsByTagName('button'); for(i in inputs){if(inputs[i].innerHTML == 'Delete Request' && inputs[i].id != "") {inputs[i].click();}}
 
    1. Copy this script
    2. Paste it to your Javascript Console
