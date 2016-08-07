@@ -28,13 +28,13 @@ Then scroll down a bit and click on the `Show more requests` link until there is
 2. Open the Javascript Console  
 _It may ask you to type some words to allow you to execute a script command.
 This is to prevent you to execute bad scripts (viruses, malwares, etc.)._
- 1. **Chrome users**  
+  1. **Chrome users**  
 Press : `Ctrl` + `Shift` + `J` (Windows) / `Cmd` + `Opt` + `J` (Mac)
- 2. **Firefox users**  
+  2. **Firefox users**  
 Press : `Ctrl` + `F4`
 
 3. Execute the script  
-{% highlight ruby %}inputs=document.getElementsByTagName('button'); for(i in inputs){if(inputs[i].innerHTML == 'Delete Request' && inputs[i].id != "") {inputs[i].click();}}{% endhighlight %}
+{% highlight javascript %}inputs=document.getElementsByTagName('button'); for(i in inputs){if(inputs[i].innerHTML == 'Delete Request' && inputs[i].id != "") {inputs[i].click();}}{% endhighlight %}
   1. Copy this script
   2. Paste it to your Javascript Console
   3. Execute it by pressing Enter
