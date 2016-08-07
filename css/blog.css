@@ -13,3 +13,9 @@ ul.posts li {
 ul.posts li a {
     font-size: 1.2em;
 }
+
+a#rssLink {
+	margin-right: 4%;
+	text-align: right;
+	display: block;
+}
