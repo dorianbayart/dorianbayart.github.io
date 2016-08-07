@@ -11,21 +11,23 @@ _[This tutorial has its own repository](https://github.com/dorianbayart/delete-p
 > **A tutorial to show you how to execute a small script, to delete all your pending friend's requests at once.**
 
 This script works well with the _Google Chrome_ webbrowser.
-
+  
 
 #### Bug with Firefox
-   There is a bug with Firefox.
-   Only half requests are deleted with that script.
-
+        There is a bug with Firefox.  
+        Only half requests are deleted with that script.
+  
 
 #### English langage required !
-   This script works only if your Facebook is displayed in english !  
-   To change the langage, **set the display langage setting to `english`** here : [https://www.facebook.com/settings?tab=language](https://www.facebook.com/settings?tab=language)
-
+        This script works only if your Facebook is displayed in english !  
+        To change the langage, **_set the display langage setting to `english`_** here : [https://www.facebook.com/settings?tab=language](https://www.facebook.com/settings?tab=language)
+  
 
 ### Steps
 
+
 1. **Go to the Friend's requests page**  
+
    You'll find that page here : [https://www.facebook.com/friends/requests/?fcref=jwl](https://www.facebook.com/friends/requests/?fcref=jwl)  
    Then scroll down a bit and click on the `Show more requests` link until there is no more requests to display (it depends on how much pending requests you have).
 
