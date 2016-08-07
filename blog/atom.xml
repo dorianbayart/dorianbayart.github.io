@@ -1,14 +1,14 @@
 ---
-layout: feed
-title: Atom
+layout: null
+title: Atom Feed
 sitemap:
   changefreq: 'weekly'
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>Blog - {{ author }}</title>
-	<link href="{{ site.baseurl }}/blog/atom.xml" rel="self"/>
+	<title>{{ site.author }}'s blog</title>
+	<link href="{{ site.baseurl }}/blog/atom.xml" type="application/rss+xml" rel="self"/>
 	<link href="{{ site.baseurl }}/blog/"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>{{ site.baseurl }}/blog</id>
@@ -19,8 +19,8 @@ sitemap:
 
 	{% for post in site.posts %}
 		<entry>
-			<title>{{ post.title }}</title>
-			<link href="{{ site.baseurl }}{{ post.url }}"/>
+			<title>{{ post.title | xml_escape }}</title>
+			<link href="{{ site.baseurl }}{{ post.url }}?utm_source=atom&amp;utm_medium=rss&amp;utm_campaign=atom"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
 			<id>{{ site.baseurl }}{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
