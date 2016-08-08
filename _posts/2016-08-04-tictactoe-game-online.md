@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tic Tac & Toe"
+title: "Games - Tic Tac & Toe"
 description: Description of the online TicTacToe game and things I would like to improve.
 lang: en-US
 date: 2016-08-04
