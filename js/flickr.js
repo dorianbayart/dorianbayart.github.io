@@ -67,7 +67,7 @@ function loadTab( t ) {
 				var titleP = val.title;
 				var urlP = 'https://farm'+farmP+'.staticflickr.com/'+serverP+'/'+idP+'_'+secretP+'_n.jpg';
 				var clickUrl = 'https://www.flickr.com/photos/'+userId+'/'+idP;
-				var $content = $( '<a id="'+idP+'" href="'+clickUrl+'" target="_blank"><img src="'+urlP+'" class="img-responsive img-rounded" alt="'+titleP+'"></a>' );
+				var $content = $( '<a id="'+idP+'" href="'+clickUrl+'" target="_blank"><img src="'+urlP+'" class="img-responsive img-rounded" title="'+titleP+'" alt="'+titleP+'"></a>' );
 				$(panel).append($content);
 				
 				$('#'+idP+' > img').hide().on('load', function(){
