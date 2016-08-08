@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Delete your pending friend's requests on Facebook"
-description: A short HowTo tutorial to execute a script to delete all pending friend's requests at once.
+title: "HowTo - Delete your pending friend's requests on Facebook"
+description: A short tutorial to execute a script to delete all pending friend's requests at once.
 lang: en-US
 date: 2016-08-07
 ---
