@@ -1,1 +1,19 @@
 
+
+a#tumblrrLink {
+  margin-right: 4%;
+  text-align: right;
+  display: block;
+}
+
+
+.posts-content {
+  margin: auto auto 1.4em;
+  width: 90%;
+	
+	border: solid thin lightgray;
+	padding: 1.2em 2em 0.4em;
+	margin-top: 0.4em;
+	border-radius: 0.8em;
+}
+
