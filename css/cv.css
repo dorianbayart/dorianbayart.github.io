@@ -65,6 +65,12 @@ h5 {
 	border-bottom-color: lightgrey;
 }
 
+.basics > #name > #age {
+	font-size: small;
+	line-height: initial;
+	vertical-align: initial;
+}
+
 .basics > #label {
 	width: 100%;
 	text-align: right;
@@ -73,7 +79,7 @@ h5 {
 	padding: 0;
 	padding-right: 1.2em;
 	display: block;
-	
+	margin-top: -1.9em;
 }
 
 .basics > #email,
