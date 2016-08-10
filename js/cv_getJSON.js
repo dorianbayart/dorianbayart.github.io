@@ -121,6 +121,15 @@ $(document).ready(function() {
 			url.remove();
 		});
 		
+		// Working on age
+		$('.basics').each(function() {
+			var age = $(this).children( 'span#age' );
+			var name = $(this).children( 'span#name' );
+			if ( age ) {
+				$(name).append('<span id="age"> ('+$(age).text()+'yo)</span>');
+				age.remove();
+			}
+		});
 		
 		
 		
