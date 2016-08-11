@@ -47,6 +47,7 @@ Press : `Ctrl` + `F4`
 3. **Execute the script**  
 
         inputs=document.getElementsByTagName('button'); for(i in inputs){if(inputs[i].innerHTML == 'Delete Request' && inputs[i].id != "") {inputs[i].click();}}
+   
    ```javascript
    inputs=document.getElementsByTagName('button'); for(i in inputs){if(inputs[i].innerHTML == 'Delete Request' && inputs[i].id != ""){inputs[i].click();}}
    ```
