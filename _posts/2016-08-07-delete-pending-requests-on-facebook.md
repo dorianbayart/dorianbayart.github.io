@@ -48,6 +48,10 @@ Press : `Ctrl` + `F4`
 
         inputs=document.getElementsByTagName('button'); for(i in inputs){if(inputs[i].innerHTML == 'Delete Request' && inputs[i].id != "") {inputs[i].click();}}
 
+```javascript
+inputs=document.getElementsByTagName('button'); for(i in inputs){if(inputs[i].innerHTML == 'Delete Request' && inputs[i].id != ""){inputs[i].click();}}
+```
+
    1. Copy this script
    2. Paste it to your Javascript Console
    3. Execute it by pressing Enter
