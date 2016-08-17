@@ -1,4 +1,4 @@
-# [DorianBayart](https://dorianbayart.github.io?utm_source=readme)
+# [Dorian Bayart](https://dorianbayart.github.io?utm_source=readme)
 
 
 Building a small static website, discovering :
