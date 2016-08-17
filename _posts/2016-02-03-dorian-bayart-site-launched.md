@@ -6,7 +6,7 @@ lang: en-US
 date: 2016-02-03
 ---
 
-###Hello World !
+### Hello World !
 
 My name is Dorian Bayart, and I'm launching this small website using [GitHub](https://github.com/) and [Jekyll](http://jekyllrb.com).
 
