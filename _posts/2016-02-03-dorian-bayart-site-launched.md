@@ -6,6 +6,8 @@ lang: en-US
 date: 2016-02-03
 ---
 
-Launching my website using [GitHub](https://github.com/) and [Jekyll](http://jekyllrb.com).
+###Hello World !
+
+My name is Dorian Bayart, and I'm launching this small website using [GitHub](https://github.com/) and [Jekyll](http://jekyllrb.com).
 
 Let's see how powerful it is ! <i class="fa fa-thumbs-o-up fa-fw"></i>
