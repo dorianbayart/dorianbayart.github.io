@@ -30,7 +30,7 @@ sitemap:
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
-    {% unless page.sitemap.exclude == "yes" or page.extname == ".css" %}
+    {% unless page.sitemap.exclude == "yes" or page.url == "/assets/css/style.css" %}
     <url>
       <loc>{{ site.baseurl }}{{ page.url | remove: "index.html" }}</loc>
       {% if page.sitemap.lastmod %}
