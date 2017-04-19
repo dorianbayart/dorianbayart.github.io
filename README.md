@@ -14,9 +14,11 @@ Link : *[dorianbayart.github.io](https://dorianbayart.github.io?utm_source=readm
 
 ---
 <br />
+
 #### Technologies
-GitHub|HTML5|CSS3|Jekyll|Bootstrap|JQuery|FontAwesome|JSon
+
+GitHub|HTML5|CSS3|Jekyll|Bootstrap|JQuery|FontAwesome|JSON
 ---|---|---|---|---|---|---|---
-[![OctoJekyll](http://jekyllrb.com/img/octojekyll.png "OctoJekyll Logo")](http://jekyllrb.com/docs/github-pages/)|[![HTML5 Logo](http://ohdoylerules.com/content/images/html5.svg "HTML5 Logo")](http://www.w3schools.com/html/html5_intro.asp)|[![CSS3](http://ohdoylerules.com/content/images/css3.svg "CSS3 Logo")](http://www.w3schools.com/css/css3_intro.asp)|[![Jekyll](https://raw.githubusercontent.com/jekyll/brand/master/jekyll-logo-black-red-transparent.png "Jekyll Logo")](https://jekyllrb.com/)|[![Bootstrap](http://livecode.com/wp-content/uploads/2014/03/bootstrap_logo-298x300.png "Bootstrap Logo")](http://getbootstrap.com/)|[![JQuery](https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg "JQuery")](https://jquery.com/)|[![FontAwesome](http://megan-steele.com/fontawesome/logo.png "FontAwesome Logo")](https://fortawesome.github.io/Font-Awesome/)|[![JSon](http://sahinerbay.com/wordpress/wp-content/uploads/2016/03/JSON.png "JSon Logo")](http://www.w3schools.com/json/)
+[![OctoJekyll](http://jekyllrb.com/img/octojekyll.png "OctoJekyll Logo")](http://jekyllrb.com/docs/github-pages/)|[![HTML5 Logo](http://ohdoylerules.com/content/images/html5.svg "HTML5 Logo")](http://www.w3schools.com/html/html5_intro.asp)|[![CSS3](http://ohdoylerules.com/content/images/css3.svg "CSS3 Logo")](http://www.w3schools.com/css/css3_intro.asp)|[![Jekyll](https://raw.githubusercontent.com/jekyll/brand/master/jekyll-logo-black-red-transparent.png "Jekyll Logo")](https://jekyllrb.com/)|[![Bootstrap](http://livecode.com/wp-content/uploads/2014/03/bootstrap_logo-298x300.png "Bootstrap Logo")](http://getbootstrap.com/)|[![JQuery](https://upload.wikimedia.org/wikipedia/en/9/9e/JQuery_logo.svg "JQuery")](https://jquery.com/)|[![FontAwesome](http://megan-steele.com/fontawesome/logo.png "FontAwesome Logo")](https://fortawesome.github.io/Font-Awesome/)|[![JSON](https://upload.wikimedia.org/wikipedia/commons/c/c9/JSON_vector_logo.svg "JSon Logo")](http://json.org/)
 
 
