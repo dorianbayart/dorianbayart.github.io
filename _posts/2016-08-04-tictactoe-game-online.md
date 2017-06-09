@@ -26,11 +26,11 @@ Here are few things I would like to improve :
 
 * rework how the Artificial Intelligence works
 * add some options, like the level of the computer AI
-* add the possibility to increase the size of the grid
+* add the possibility to increase the size of the grid (4x4, 5x5, and more)
 * allow the user to change the basic rules
 
 _Feel free to give me some ideas in the comments below ! ;)_
 
 
-[try that TicTacToe game]: /games/tictactoe/ "Link to the TicTacToe game"
+[try that TicTacToe game]: /apps/tictactoe/ "Link to the TicTacToe game"
 [sample_01]: /resources/posts/TicTacToe_sample01.png?style=centerme "Sample picture of a game"
