@@ -1,8 +1,13 @@
 
 
+.container > .container-fluid {
+	text-align: center;
+	padding-top: 3em;
+	margin-bottom: 2em;
+}
+
 iframe {
-    text-align: center;
-    width: 100%;
+    width: 90%;
     height: 480px;
 }
 
