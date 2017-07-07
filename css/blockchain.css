@@ -8,7 +8,9 @@
 	margin-bottom: 2em;
 }
 
+/* Lié à iframe, donc width:90% */
 .legend {
+	width: 90%;
 	margin-right: 4%;
 	text-align: right;
 	display: block;
