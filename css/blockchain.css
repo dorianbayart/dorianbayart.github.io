@@ -1,9 +1,17 @@
 
 
+
+
 .container > .container-fluid {
 	text-align: center;
 	padding-top: 3em;
 	margin-bottom: 2em;
+}
+
+.legend {
+	margin-right: 4%;
+	text-align: right;
+	display: block;
 }
 
 iframe {
