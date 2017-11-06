@@ -1,0 +1,59 @@
+{
+	"streams": [
+		{
+			"title":"RTL 2",
+			"url":"http://streaming.radio.rtl2.fr/rtl2-1-48-192",
+			"country":"France"
+		},
+		{
+			"title":"NRJ France",
+			"url":"http://cdn.nrjaudio.fm/audio1/fr/30001/mp3_128.mp3",
+			"country":"France"
+		},
+		{
+			"title":"Fun Radio France",
+			"url":"http://streaming.radio.funradio.fr/fun-1-48-192",
+			"country":"France"
+		},
+		{
+			"title":"France Inter",
+			"url":"http://direct.franceinter.fr/live/franceinter-midfi.mp3",
+			"country":"France"
+		},
+		{
+			"title":"Skyrock",
+			"url":"http://icecast.skyrock.net/s/natio_mp3_128k",
+			"country":"France"
+		},
+		{
+			"title":"Chérie FM",
+			"url":"http://cdn.nrjaudio.fm/audio1/fr/30201/mp3_128.mp3",
+			"country":"France"
+		},
+		{
+			"title":"RMC",
+			"url":"http://rmc.bfmtv.com/rmcinfo-mp3",
+			"country":"France"
+		},
+		{
+			"title":"Virgin Radio",
+			"url":"http://vr-live-mp3-128.scdn.arkena.com/virginradio.mp3",
+			"country":"France"
+		},
+		{
+			"title":"RTL",
+			"url":"http://streaming.radio.rtl.fr/rtl-1-48-192",
+			"country":"France"
+		},
+		{
+			"title":"Rire & Chansons",
+			"url":"http://cdn.nrjaudio.fm/audio1/fr/30401/mp3_128.mp3",
+			"country":"France"
+		},
+		{
+			"title":"Nostalgie France",
+			"url":"http://cdn.nrjaudio.fm/audio1/fr/30601/mp3_128.mp3",
+			"country":"France"
+		}
+	]
+}
