@@ -1,0 +1,41 @@
+
+#showButton {
+	margin-bottom: 0.5em;
+}
+#json {
+	font-size: 0.75em;
+	tab-size: 4;
+	display: none;
+}
+
+div {
+	margin: 0;
+}
+
+div > span {
+	font-style: normal;
+	margin-right: 1em;
+	margin-left: 0em;
+	display: inline-block;
+}
+
+h5 {
+	font-style: italic;
+	margin-bottom: 0.3em;
+	margin-top: 0.3em;
+}
+
+.panel-body {
+	padding: 0.4em;
+	margin: 0;
+}
+
+.panel-body > span {
+	display: block;
+}
+
+.panel-title {
+	font-style: italic;
+	font-size: 1.3em;
+	color: #000;
+}
