@@ -36,7 +36,7 @@ $(document).ready(function() {
 			title.wrap('<div class="panel-heading">');
 			$(this).find('> #country, > #url').wrapAll('<div class="panel-body">');
 			
-			url.html( '<audio controls><source src="' + url.text().toLowerCase() + '" type="audio">Your browser does not support the audio element.</audio>' );
+			url.html( '<audio src="' + url.text().toLowerCase() + '" controls>Your browser does not support the <code>audio</code> element.</audio>' );
 			
 		});
 		
