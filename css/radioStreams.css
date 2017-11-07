@@ -14,7 +14,6 @@ div {
 
 div > span {
 	font-style: normal;
-	margin-right: 1em;
 	margin-left: 0em;
 	display: inline-block;
 }
@@ -25,6 +24,10 @@ h5 {
 	margin-top: 0.3em;
 }
 
+audio {
+	width: 100%;
+}
+
 .panel-body {
 	padding: 0.4em;
 	margin: 0;
@@ -32,6 +35,7 @@ h5 {
 
 .panel-body > span {
 	display: block;
+	margin: 0.2em 0.8em;
 }
 
 .panel-title {
