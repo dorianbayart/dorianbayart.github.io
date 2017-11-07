@@ -9,7 +9,6 @@ function readJson( data ) {
 				text += "<span id='" + key + "'>" + val + "</span>";
 		}
 	});
-	// console.log( text );
 	return text;
 }
 
@@ -17,13 +16,22 @@ $("#showButton").click(function(){
     $("#json").toggle(1000);
 });
 
+function sortStreams(json, prop, asc) {
+	json.streams = json.streams.sort(function(a, b) {
+        if (asc) {
+            return (a[prop] > b[prop]) ? 1 : ((a[prop] < b[prop]) ? -1 : 0);
+        } else {
+            return (b[prop] > a[prop]) ? 1 : ((b[prop] < a[prop]) ? -1 : 0);
+        }
+    });
+    return json;
+}
+
 $(document).ready(function() {
 	
-		var text = $(readJson( JSON.parse($('#json').text()) ));
+		var text = $(readJson( sortStreams(JSON.parse($('#json').text()), "title", true) ));
 		$( '#json' ).hide();
 		$( '#json_ul' ).append( text );
-		
-		
 		
 		
 		$('.streams > div').each(function() {
@@ -36,8 +44,8 @@ $(document).ready(function() {
 			title.wrap('<div class="panel-heading">');
 			$(this).find('> #country, > #url').wrapAll('<div class="panel-body">');
 			
-			//url.html( '<audio src="' + url.text().toLowerCase() + '" controls>Your browser does not support the <code>audio</code> element.</audio>' );
-			url.html( '<audio controls><source src="' + url.text().toLowerCase() + '" type="audio/mpeg">Your browser does not support the <code>audio</code> element.</audio>' );
+			url.html( '<audio controls><source src="' + url.text().toLowerCase() + '" type="audio">Your browser does not support the audio element.</audio>' );
+			
 		});
 		
 		
