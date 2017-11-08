@@ -6,7 +6,7 @@
 			"flag":"fr",
 			"country":"France",
 			"tags": [
-				"news", "pop"
+				"pop", "rock"
 			]
 		},
 		{
@@ -15,6 +15,7 @@
 			"flag":"fr",
 			"country":"France",
 			"tags": [
+				"pop", "rnb", "dance"
 			]
 		},
 		{
@@ -23,6 +24,7 @@
 			"flag":"fr",
 			"country":"France",
 			"tags": [
+				"dance"
 			]
 		},
 		{
@@ -31,6 +33,7 @@
 			"flag":"fr",
 			"country":"France",
 			"tags": [
+				"news"
 			]
 		},
 		{
@@ -39,6 +42,25 @@
 			"flag":"fr",
 			"country":"France",
 			"tags": [
+				"rap", "rnb"
+			]
+		},
+		{
+			"title":"Radio FG",
+			"url":"http://radiofg.impek.com/fg",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"electro house", "deep house", "dance"
+			]
+		},
+		{
+			"title":"Club FG",
+			"url":"http://radiofg.impek.com/fg6",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"dance"
 			]
 		},
 		{
@@ -47,6 +69,7 @@
 			"flag":"fr",
 			"country":"France",
 			"tags": [
+				"news"
 			]
 		},
 		{
@@ -55,6 +78,7 @@
 			"flag":"fr",
 			"country":"France",
 			"tags": [
+				"pop", "rock", "electro"
 			]
 		},
 		{
@@ -63,6 +87,52 @@
 			"flag":"fr",
 			"country":"France",
 			"tags": [
+				"news"
+			]
+		},
+		{
+			"title":"Europe 1",
+			"url":"http://mp3lg4.tdf-cdn.com/9240/lag_180945.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"variétés"
+			]
+		},
+		{
+			"title":"France Bleu 107.1",
+			"url":"http://direct.francebleu.fr/live/fb1071-midfi.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				
+			]
+		},
+		{
+			"title":"Mouv'",
+			"url":"http://direct.mouv.fr/live/mouv-midfi.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"urban", "hip-hop", "electro"
+			]
+		},
+		{
+			"title":"Jazz Radio",
+			"url":"http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"jazz", "soul"
+			]
+		},
+		{
+			"title":"MFM (M France Radio)",
+			"url":"http://mfm.ice.infomaniak.ch/mfm-128.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"variétés françaises"
 			]
 		}
 	]
