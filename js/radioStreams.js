@@ -28,11 +28,10 @@ function sortStreams(json, prop, asc) {
 }
 
 $(document).ready(function() {
-	
+
 		var text = $(readJson( sortStreams(JSON.parse($('#json').text()), "title", true) ));
 		$( '#json' ).hide();
 		$( '#json_ul' ).append( text );
-		
 		
 		$('.streams > div').each(function() {
 			var title = $(this).children( 'span#title' );
@@ -44,9 +43,8 @@ $(document).ready(function() {
 			title.wrap('<div class="panel-heading">');
 			$(this).find('> #country, > #url').wrapAll('<div class="panel-body">');
 			
-			url.html( '<audio controls><source src="' + url.text().toLowerCase() + '" type="audio">Your browser does not support the audio element.</audio>' );
+			url.html( '<audio controls><source src="' + url.text().toLowerCase() + '">Your browser does not support the audio element.</audio>' );
 			
 		});
-		
 		
 });
