@@ -18,23 +18,8 @@ sitemap:
 	
 	{% include social.html %}
 	
-	<div id="disqus_thread"></div>
 </div>
 
 <script async type="text/javascript" src="/js/radioStreams.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/radioStreams.css">
 <noscript><style type="text/css">#showButton { display:none; } #json,.noJS { display:block; }</style></noscript>
-
-<script>
-	var disqus_config = function () {
-	    this.page.url = page.url;
-	    this.page.identifier = page.title;
-	};
-	(function() { // DON'T EDIT BELOW THIS LINE
-	    var d = document, s = d.createElement('script');
-	    s.src = '//dorianbayart.disqus.com/embed.js';
-	    s.setAttribute('data-timestamp', +new Date());
-	    (d.head || d.body).appendChild(s);
-	})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
