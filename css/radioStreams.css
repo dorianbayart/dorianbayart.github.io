@@ -28,15 +28,35 @@ audio {
 	width: 100%;
 }
 
+figure {
+	margin: -0.18em 0 0 0;
+}
+
+#country, #flag {
+	display: inline-block;
+	vertical-align: middle;
+}
+#flag img {
+	width: 1.2em;
+	height: 0.9em;
+}
+
+.label {
+	font-size: 100%;
+	font-weight: normal;
+	margin-right: 0.2em;
+}
+
 .panel-body {
 	padding: 0.4em;
 	margin: 0;
 }
 
-.panel-body > span {
+.panel-body > * > * > * {
 	display: block;
 	margin: 0.2em 0.8em;
 }
+
 
 .panel-title {
 	font-style: italic;
