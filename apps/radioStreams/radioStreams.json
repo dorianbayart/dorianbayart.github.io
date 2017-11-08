@@ -3,42 +3,67 @@
 		{
 			"title":"RTL 2",
 			"url":"http://streaming.radio.rtl2.fr/rtl2-1-48-192",
-			"country":"France"
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"news", "pop"
+			]
 		},
 		{
 			"title":"NRJ France",
 			"url":"http://dir.xiph.org/listen/2185316/listen.m3u",
-			"country":"France"
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+			]
 		},
 		{
 			"title":"Fun Radio France",
 			"url":"http://streaming.radio.funradio.fr/fun-1-48-192",
-			"country":"France"
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+			]
 		},
 		{
 			"title":"France Inter",
 			"url":"http://direct.franceinter.fr/live/franceinter-midfi.mp3",
-			"country":"France"
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+			]
 		},
 		{
 			"title":"Skyrock",
 			"url":"http://icecast.skyrock.net/s/natio_mp3_128k",
-			"country":"France"
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+			]
 		},
 		{
 			"title":"RMC",
 			"url":"http://rmc.bfmtv.com/rmcinfo-mp3",
-			"country":"France"
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+			]
 		},
 		{
 			"title":"Virgin Radio",
 			"url":"http://vr-live-mp3-128.scdn.arkena.com/virginradio.mp3",
-			"country":"France"
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+			]
 		},
 		{
 			"title":"RTL",
 			"url":"http://streaming.radio.rtl.fr/rtl-1-48-192",
-			"country":"France"
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+			]
 		}
 	]
 }
