@@ -7,7 +7,7 @@
 		},
 		{
 			"title":"NRJ France",
-			"url":"http://cdn.nrjaudio.fm/audio1/fr/30001/mp3_128.mp3",
+			"url":"http://dir.xiph.org/listen/2185316/listen.m3u",
 			"country":"France"
 		},
 		{
@@ -26,11 +26,6 @@
 			"country":"France"
 		},
 		{
-			"title":"Chérie FM",
-			"url":"http://cdn.nrjaudio.fm/audio1/fr/30201/mp3_128.mp3",
-			"country":"France"
-		},
-		{
 			"title":"RMC",
 			"url":"http://rmc.bfmtv.com/rmcinfo-mp3",
 			"country":"France"
@@ -43,16 +38,6 @@
 		{
 			"title":"RTL",
 			"url":"http://streaming.radio.rtl.fr/rtl-1-48-192",
-			"country":"France"
-		},
-		{
-			"title":"Rire & Chansons",
-			"url":"http://cdn.nrjaudio.fm/audio1/fr/30401/mp3_128.mp3",
-			"country":"France"
-		},
-		{
-			"title":"Nostalgie France",
-			"url":"http://cdn.nrjaudio.fm/audio1/fr/30601/mp3_128.mp3",
 			"country":"France"
 		}
 	]
