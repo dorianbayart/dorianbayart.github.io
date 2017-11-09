@@ -11,9 +11,25 @@ sitemap:
 
 <div class="container-fluid">
 	<button id="showButton" type="button" class="btn btn-default btn-xs">Show JSon RAW Data</button><div class="noJS">No Javascript !</div>
+	
+	<div class="panel panel-default">
+		<div class="panel-body">
+			<form class="form-inline">
+				<label class="sr-only" for="filterInputName">Name</label>
+				<input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" id="filterInputName" placeholder="Radio name">
+				<label class="sr-only" for="filterSelectLanguage">Language</label>
+				<select class="form-control mb-2 mr-sm-2 mb-sm-0" id="filterSelectLanguage">
+					<option value="fr" selected>French</option>
+					<option value="gb">English</option>
+				</select>
+			</form>
+		</div>
+	</div>
+	
 	<pre id="json">
 		{% include_relative radioStreams.json %}
 	</pre>
+	
 	<div class="grid" id="json_ul"></div>
 	
 	{% include social.html %}
