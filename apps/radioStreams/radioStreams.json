@@ -57,7 +57,7 @@
 		{
 			"title":"Club FG",
 			"url":"http://radiofg.impek.com/fg6",
-			"flag":"fr",
+			"flag":"en",
 			"country":"France",
 			"tags": [
 				"dance"
@@ -87,7 +87,7 @@
 			"flag":"fr",
 			"country":"France",
 			"tags": [
-				"news"
+				"news", "variétés"
 			]
 		},
 		{
@@ -133,6 +133,15 @@
 			"country":"France",
 			"tags": [
 				"variétés françaises"
+			]
+		},
+		{
+			"title":"BFM Business",
+			"url":"http://chai5she.cdn.dvmr.fr/bfmbusiness",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"news"
 			]
 		}
 	]
