@@ -67,7 +67,7 @@ function generateList() {
 		
 		$(this).addClass('panel panel-info');
 		
-		title.wrap('<button data-toggle="collapse" data-target="#'+uniqID+'" aria-expanded="false" aria-controls="'+uniqID+'">').wrap('<div class="panel-heading">');
+		title.wrap('<div class="panel-heading">').wrap('<button data-toggle="collapse" data-target="#'+uniqID+'" aria-expanded="false" aria-controls="'+uniqID+'">');
 		$(this).find('> #country, > #url, > #flag, > #slogan, > .tags').wrapAll('<div class="panel-collapse collapse" id="'+uniqID+'">').wrapAll('<div class="panel-body">').wrapAll('<div class="row">');
 		
 		$(this).find('#country, #flag, .tags').wrapAll('<div class="col-sm-6">');
