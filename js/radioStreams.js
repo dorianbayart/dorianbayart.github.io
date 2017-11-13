@@ -76,7 +76,8 @@ function generateList() {
 		slogan.wrap('<blockquote class="blockquote">');
 		
 		$('#'+uniqID).on('show.bs.collapse', function () { // show the audio tag
-			url.html( '<audio controls preload="metadata"><source src="' + url.text().toLowerCase() + '">Your browser does not support the audio element.</audio>' );
+			if(url.text().toLowerCase().includes('http'))
+				url.html( '<audio controls preload="metadata"><source src="' + url.text().toLowerCase() + '">Your browser does not support the audio element.</audio>' );
 		})
 		$('#'+uniqID).on('hidden.bs.collapse', function () { // destroy the audio tag
 			
