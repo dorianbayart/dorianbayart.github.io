@@ -10,15 +10,6 @@
 			]
 		},
 		{
-			"title":"NRJ France",
-			"url":"http://cdn.nrjaudio.fm/audio1/fr/30001/mp3_128.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"pop", "rnb", "dance"
-			]
-		},
-		{
 			"title":"Fun Radio France",
 			"url":"http://streaming.radio.funradio.fr/fun-1-48-192",
 			"flag":"fr",
@@ -155,29 +146,11 @@
 		},
 		{
 			"title":"NRJ Hits",
-			"url":"http://cdn.nrjaudio.fm/adwz1/fr/30043/mp3_128.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"charts"
-			]
-		},
-		{
-			"title":"NRJ Hits",
 			"url":"http://cdn.nrjaudio.fm/adwz1/be/34009/mp3_128.mp3",
 			"flag":"fr",
 			"country":"Belgique",
 			"tags": [
 				"charts"
-			]
-		},
-		{
-			"title":"NRJ Pop RnB Dance",
-			"url":"http://cdn.nrjaudio.fm/adwz1/fr/31489/mp3_128.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"pop", "rnb", "dance"
 			]
 		},
 		{
@@ -201,8 +174,8 @@
 			]
 		},
 		{
-			"title":"La Radio Plus - Plus de Playlist - Webradio",
-			"url":"http://broadcast.infomaniak.net/plus-wr01.mp3",
+			"title":"La Radio Plus",
+			"url":"http://laradioplus.ice.infomaniak.ch/laradioplus-high.mp3",
 			"slogan":"Hit music station",
 			"flag":"fr",
 			"country":"France/Suisse",
