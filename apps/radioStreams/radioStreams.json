@@ -3,6 +3,7 @@
 		{
 			"title":"RTL 2",
 			"url":"http://streaming.radio.rtl2.fr/rtl2-1-48-192",
+			"slogan":"Le son Pop-Rock",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -12,6 +13,7 @@
 		{
 			"title":"Fun Radio France",
 			"url":"http://streaming.radio.funradio.fr/fun-1-48-192",
+			"slogan":"Le Son Dancefloor",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -21,6 +23,7 @@
 		{
 			"title":"France Inter",
 			"url":"http://direct.franceinter.fr/live/franceinter-midfi.mp3",
+			"slogan":"InterVenez",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -30,6 +33,7 @@
 		{
 			"title":"Skyrock",
 			"url":"http://icecast.skyrock.net/s/natio_mp3_128k",
+			"slogan":"La première radio urbaine mondiale",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -39,6 +43,7 @@
 		{
 			"title":"Radio FG",
 			"url":"http://radiofg.impek.com/fg",
+			"slogan":"Radio FG, Feel Good",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -57,6 +62,7 @@
 		{
 			"title":"RMC",
 			"url":"http://rmc.bfmtv.com/rmcinfo-mp3",
+			"slogan":"Info, talk, sport",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -66,6 +72,7 @@
 		{
 			"title":"Virgin Radio",
 			"url":"http://vr-live-mp3-128.scdn.arkena.com/virginradio.mp3",
+			"slogan":"Pop Rock Electro",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -75,6 +82,7 @@
 		{
 			"title":"RTL",
 			"url":"http://streaming.radio.rtl.fr/rtl-1-48-192",
+			"slogan":"RTL bouge",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -84,6 +92,7 @@
 		{
 			"title":"Europe 1",
 			"url":"http://mp3lg4.tdf-cdn.com/9240/lag_180945.mp3",
+			"slogan":"Europe 1 - Mieux capter son époque",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -93,6 +102,7 @@
 		{
 			"title":"France Bleu 107.1",
 			"url":"http://direct.francebleu.fr/live/fb1071-midfi.mp3",
+			"slogan":"Écoutez, on est bien ensemble",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -102,6 +112,7 @@
 		{
 			"title":"Mouv'",
 			"url":"http://direct.mouv.fr/live/mouv-midfi.mp3",
+			"slogan":"Hip Hop never stop",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -111,6 +122,7 @@
 		{
 			"title":"Jazz Radio",
 			"url":"http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+			"slogan":"Jazz Radio, Jazz & Soul",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -120,6 +132,7 @@
 		{
 			"title":"MFM (M France Radio)",
 			"url":"http://mfm.ice.infomaniak.ch/mfm-128.mp3",
+			"slogan":"Numéro 1 sur la chanson française",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -129,6 +142,7 @@
 		{
 			"title":"BFM Business",
 			"url":"http://chai5she.cdn.dvmr.fr/bfmbusiness",
+			"slogan":"La France a tout pour réussir",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
@@ -147,6 +161,7 @@
 		{
 			"title":"NRJ Hits",
 			"url":"http://cdn.nrjaudio.fm/adwz1/be/34009/mp3_128.mp3",
+			"slogan":"Hits Music Only",
 			"flag":"fr",
 			"country":"Belgique",
 			"tags": [
@@ -156,7 +171,7 @@
 		{
 			"title":"NRJ Summer Hits",
 			"url":"http://cdn.nrjaudio.fm/adwz1/be/56174/mp3_128.mp3",
-			"slogan":"Hit Music Only !",
+			"slogan":"Hit Music Only",
 			"flag":"fr",
 			"country":"Belgique",
 			"tags": [
@@ -166,7 +181,7 @@
 		{
 			"title":"NRJ Relax",
 			"url":"http://cdn.nrjaudio.fm/adwz1/be/56177/mp3_128.mp3",
-			"slogan":"Hit Music Only !",
+			"slogan":"Hit Music Only",
 			"flag":"fr",
 			"country":"Belgique",
 			"tags": [
