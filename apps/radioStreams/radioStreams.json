@@ -216,6 +216,168 @@
 			"tags": [
 				"variétés françaises"
 			]
+		},
+		{
+			"title":"Hotmix Radio - Golds",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-golds-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"60's", "70's"
+			]
+		},
+		{
+			"title":"Hotmix Radio - 80's",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-80-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"hits", "80's", "pop"
+			]
+		},
+		{
+			"title":"Hotmix Radio - 90's",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-90-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"hits", "90's", "pop"
+			]
+		},
+		{
+			"title":"Hotmix Radio - 2000's",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-2k-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"hits", "2000's"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Frenchy",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-frenchy-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"variétés françaises"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Rock",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-rock-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"rock", "pop"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Dance",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-dance-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"dance", "house"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Hits",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-hits-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"hits"
+			]
+		},
+		{
+			"title":"Hotmix Radio - VIP",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-vip-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"pop", "electro"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Funky",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-funky-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"disco", "funk"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Lounge",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-lounge-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"lounge", "ambient"
+			]
+		},
+		{
+			"title":"Hotmix Radio - New",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-new-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"eclectique"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Hot",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-hot-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"soft rock", "chillout"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Sunny",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-sunny-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"dancehall", "ragga", "zouk"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Hip-Hop",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-hiphop-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"hip-hop", "rnb"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Metal",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-metal-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"heavy metal", "hard rock"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Baby",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-baby-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				
+			]
+		},
+		{
+			"title":"Hotmix Radio - Game",
+			"url":"http://streaming.hotmixradio.fm/hotmixradio-game-64.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"hits"
+			]
 		}
 	]
 }
