@@ -143,6 +143,33 @@
 			"tags": [
 				"news"
 			]
+		},
+		{
+			"title":"Top100Station",
+			"url":"http://www.top100station.de/stream/winamp.pls",
+			"flag":"de",
+			"country":"Germany",
+			"tags": [
+				"pop", "dance", "charts"
+			]
+		},
+		{
+			"title":"NRJ Hits",
+			"url":"http://cdn.nrjaudio.fm/adwz1/fr/30043/mp3_128.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"charts"
+			]
+		},
+		{
+			"title":"NRJ Pop RnB Dance",
+			"url":"http://cdn.nrjaudio.fm/adwz1/fr/31489/mp3_128.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"pop", "rnb", "dance"
+			]
 		}
 	]
 }
