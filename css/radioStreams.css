@@ -28,6 +28,10 @@ audio {
 	width: 100%;
 }
 
+button {
+	border:none;
+}
+
 figure {
 	margin: -0.18em 0 0 0;
 }
