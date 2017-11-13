@@ -11,7 +11,7 @@
 		},
 		{
 			"title":"NRJ France",
-			"url":"http://dir.xiph.org/listen/2185316/listen.m3u",
+			"url":"http://cdn.nrjaudio.fm/audio1/fr/30001/mp3_128.mp3",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
