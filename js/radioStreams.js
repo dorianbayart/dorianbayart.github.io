@@ -59,17 +59,21 @@ function generateList() {
 	$('.streams > div').each(function() {
 		var title = $(this).children( 'span#title' );
 		var country = $(this).children( 'span#country' );
+		var flag = $(this).children( 'span#flag' );
 		var url = $(this).children( 'span#url' );
+		var slogan = $(this).children( 'span#slogan' );
+		
+		var uniqID = "id" + Date.now();
 		
 		$(this).addClass('panel panel-info');
 		
-		title.wrap('<div class="panel-heading">');
-		$(this).find('> #country, > #url, > #flag, > #slogan, > .tags').wrapAll('<div class="panel-body">').wrapAll('<div class="row">');
+		title.wrap('<div class="panel-heading" data-toggle="collapse" data-target="#'+uniqID+'" aria-expanded="false" aria-controls="'+uniqID+'">');
+		$(this).find('> #country, > #url, > #flag, > #slogan, > .tags').wrapAll('<div class="panel-body collapse" id="'+uniqID+'">').wrapAll('<div class="row">');
 		
 		$(this).find('#country, #flag, .tags').wrapAll('<div class="col-sm-6">');
 		$(this).find('#url, #slogan').wrapAll('<div class="col-sm-6">');
 		
-		$(this).find('#slogan').wrap('<blockquote class="blockquote">');
+		slogan.wrap('<blockquote class="blockquote">');
 		
 		url.html( '<audio controls preload="metadata"><source src="' + url.text().toLowerCase() + '">Your browser does not support the audio element.</audio>' );
 		
