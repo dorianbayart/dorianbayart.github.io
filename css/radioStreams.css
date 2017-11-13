@@ -28,8 +28,10 @@ audio {
 	width: 100%;
 }
 
-button {
+button.panel-heading {
 	border:none;
+	width: 100%;
+	text-align: inherit;
 }
 
 figure {
