@@ -71,7 +71,7 @@ function generateList() {
 		
 		$(this).find('#slogan').wrap('<blockquote class="blockquote">');
 		
-		url.html( '<audio controls><source src="' + url.text().toLowerCase() + '">Your browser does not support the audio element.</audio>' );
+		url.html( '<audio controls preload="metadata"><source src="' + url.text().toLowerCase() + '">Your browser does not support the audio element.</audio>' );
 		
 	});
 	
