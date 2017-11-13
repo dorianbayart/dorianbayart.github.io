@@ -163,12 +163,71 @@
 			]
 		},
 		{
+			"title":"NRJ Hits",
+			"url":"http://cdn.nrjaudio.fm/adwz1/be/34009/mp3_128.mp3",
+			"flag":"fr",
+			"country":"Belgique",
+			"tags": [
+				"charts"
+			]
+		},
+		{
 			"title":"NRJ Pop RnB Dance",
 			"url":"http://cdn.nrjaudio.fm/adwz1/fr/31489/mp3_128.mp3",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
 				"pop", "rnb", "dance"
+			]
+		},
+		{
+			"title":"NRJ Summer Hits",
+			"url":"http://cdn.nrjaudio.fm/adwz1/be/56174/mp3_128.mp3",
+			"slogan":"Hit Music Only !"
+			"flag":"fr",
+			"country":"Belgique",
+			"tags": [
+				
+			]
+		},
+		{
+			"title":"NRJ Relax",
+			"url":"http://cdn.nrjaudio.fm/adwz1/be/56177/mp3_128.mp3",
+			"slogan":"Hit Music Only !"
+			"flag":"fr",
+			"country":"Belgique",
+			"tags": [
+				
+			]
+		},
+		{
+			"title":"La Radio Plus - Plus de Playlist - Webradio",
+			"url":"http://broadcast.infomaniak.net/plus-wr01.mp3",
+			"slogan":"Hit music station",
+			"flag":"fr",
+			"country":"France/Suisse",
+			"tags": [
+				"charts"
+			]
+		},
+		{
+			"title":"Chante France Émotion - Webradio",
+			"url":"http://stream1.chantefrance.com/cf-emotion",
+			"slogan":"Les plus belles chansons françaises",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"variétés françaises"
+			]
+		},
+		{
+			"title":"Chante France Comptines - Webradio",
+			"url":"http://stream1.chantefrance.com/cf-comptines",
+			"slogan":"Les plus belles chansons françaises",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"variétés françaises"
 			]
 		}
 	]
