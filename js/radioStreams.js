@@ -65,11 +65,13 @@ function generateList() {
 		
 		title.wrap('<div class="panel-heading">');
 		$(this).find('> #country, > #url, > #flag, > #slogan, > .tags').wrapAll('<div class="panel-body">').wrapAll('<div class="row">');
-		$(this).find('#country, #flag, #slogan, .tags').wrapAll('<div class="col-sm-6">');
+		
+		$(this).find('#country, #flag, .tags').wrapAll('<div class="col-sm-6">');
+		$(this).find('#url, #slogan').wrapAll('<div class="col-sm-6">');
 		
 		$(this).find('#slogan').wrap('<blockquote class="blockquote">');
 		
-		url.html( '<audio controls><source src="' + url.text().toLowerCase() + '">Your browser does not support the audio element.</audio>' ).wrap('<div class="col-sm-6">');
+		url.html( '<audio controls><source src="' + url.text().toLowerCase() + '">Your browser does not support the audio element.</audio>' );
 		
 	});
 	
