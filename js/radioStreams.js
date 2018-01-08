@@ -63,7 +63,7 @@ function generateList() {
 		var url = $(this).children( 'span#url' );
 		var slogan = $(this).children( 'span#slogan' );
 		
-		var uniqID = "id" + Date.now() + "_" + title.replace(/\s+/g, '');
+		var uniqID = "id" + Date.now() + "_" + title.text().replace(/\s+/g, '');
 		
 		$(this).addClass('panel panel-info');
 		
