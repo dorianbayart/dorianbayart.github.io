@@ -36,13 +36,15 @@
 		"website": "https://www.alten.fr/",
 		"startDate": "2015-06-29",
 		"endDate": "Today",
-		"summary": "Working on new Online Banking customer services (Live account balance, International transfer, etc.) for more than 12 millions direct customers.* WebServices design / development / optimization* Continuous integration* Git maintainer of the Team* Releaser",
+		"summary": "Working on new Online Banking customer services (Live account balance, International transfer, etc.) for more than 12 millions direct customers.* WebServices design / development / optimization* Continuous integration* Git maintainer of the Team* Releaser* Member of the Transfer Feature Team",
 		"highlights": [
 			"Banking",
 			"Developer",
 			"Designer",
 			"Releaser",
-			"Git Maintainer"
+			"Git Maintainer",
+			"Agile Methodologies",
+			"DevOps"
 		]
 	},{
 		"company": "Capgemini",
