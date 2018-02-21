@@ -65,13 +65,13 @@
 	}],
 	"skills": [{
 		"name": "BackEnd Java Development",
-		"level": "4+ years",
+		"level": "5+ years",
 		"keywords": [
 			"Java","Git","SQL","JUnit","Maven","Weblogic","SVN","UML Diagrams"
 		]
 	},{
 		"name": "Continuous Integration",
-		"level": "4+ years",
+		"level": "5+ years",
 		"keywords": [
 			"Jenkins","Selenium","FitNesse","SoapUI","Linux"
 		]
