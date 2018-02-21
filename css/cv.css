@@ -29,7 +29,6 @@ div {
 
 div > span {
 	font-style: normal;
-	margin-right: 1em;
 	margin-left: 0em;
 	display: inline-block;
 }
@@ -83,15 +82,14 @@ h5 {
 .basics > #email,
 .basics > #phone,
 .basics > #website {
-	//display: list-item;
 	margin: 0;
-	padding: 0;
+	padding: 0 0 0 0.3em;
 	margin-left: 1em;
 	padding-bottom: 0.3em;
 }
 .basics > #summary {
-	margin-left: 0.8em;
-	padding-right: 1em;
+	// margin-left: 0.8em;
+	// padding-right: 1em;
 }
 #summary {
 	text-align: justify;
