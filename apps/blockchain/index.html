@@ -12,9 +12,44 @@ sitemap:
 
 
 <div class="container-fluid">
-  
-  <div class="grid" id="json_ul"></div>
-  
+
+	<div class="grid panel panel-info">
+		<div class="panel-heading">
+			<div class="row">
+				<div class="col-xs-1">
+					<span id="rank">Rank</span>
+				</div>
+				<div class="col-xs-5">
+					<span id="name">Name (<span id="symbol">Symbol</span>)</span>
+				</div>
+				<!--<div class="col-xs-3">
+					<span id="symbol">Symbol</span>
+				</div>-->
+				<div class="col-xs-2">
+					<span id="price_eur">Price</span>
+				</div>
+				<div class="col-xs-4">
+					<span id="percent_change">Percent change</span>
+					<div class="row">
+						<div class="col-xs-4">
+							<span id="price_eur">1h</span>
+						</div>
+						<div class="col-xs-4">
+							<span id="price_eur">24h</span>
+						</div>
+						<div class="col-xs-4">
+							<span id="price_eur">7d</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="panel-body" id="json_ul">
+			<div class="row">
+			</div>
+		</div>
+	</div>
+
 </div>
 
 <link rel="stylesheet" type="text/css" href="/css/blockchain.css">
