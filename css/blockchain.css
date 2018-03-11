@@ -1,13 +1,21 @@
 
-
 span#liveUpdateDescription {
 	font-style: italic;
 	text-align: right;
 	display: block;
 }
 
+a#dataFrom {
+	text-align: right;
+	display: block;
+}
+
 .container > .container-fluid {
 	text-align: center;
+}
+
+.panel {
+	margin-bottom: 0;
 }
 
 /* Lié à iframe, donc width:90% */
