@@ -104,7 +104,7 @@ function updateList() {
 
     },
     error: function(e) {
-      alert(e);
+      console.log(e);
     }
   });
 
@@ -118,7 +118,7 @@ $(document).ready(function() {
       generateList(data);
     },
     error: function(e) {
-      alert(e);
+      console.log(e);
     }
   });
 
