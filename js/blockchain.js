@@ -12,19 +12,16 @@ function readJson( data ) {
 }
 
 function sortStreams(json, prop, asc) {
+	console.log(json);
 	json = json.sort(function(a, b) {
-		console.log(a);
-		console.log(a[prop]);
-		console.log(parseInt(a[prop]));
-		console.log(b);
-		console.log(b[prop]);
-		console.log(parseInt(b[prop]));
         if (asc) {
+		console.log("("+a["name"]+"/"+b["name"]+"):"+ parseInt(a[prop]) > parseInt(b[prop]));
             return (parseInt(a[prop]) > parseInt(b[prop])) ? 1 : (parseInt((a[prop]) < parseInt(b[prop])) ? -1 : 0);
         } else {
             return (parseInt(b[prop]) > parseInt(a[prop])) ? 1 : (parseInt((b[prop]) < parseInt(a[prop])) ? -1 : 0);
         }
     });
+	console.log(json);
     return json;
 }
 
