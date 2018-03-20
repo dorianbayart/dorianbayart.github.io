@@ -15,7 +15,7 @@ function sortStreams(json, prop, asc) {
 	console.log(json);
 	json = json.sort(function(a, b) {
         if (asc) {
-		console.log("("+a["name"]+"/"+b["name"]+"):"+ parseInt(a[prop]) > parseInt(b[prop]));
+		console.log((parseInt(a[prop]) > parseInt(b[prop])) ? 1 : (parseInt((a[prop]) < parseInt(b[prop])) ? -1 : 0));
             return (parseInt(a[prop]) > parseInt(b[prop])) ? 1 : (parseInt((a[prop]) < parseInt(b[prop])) ? -1 : 0);
         } else {
             return (parseInt(b[prop]) > parseInt(a[prop])) ? 1 : (parseInt((b[prop]) < parseInt(a[prop])) ? -1 : 0);
