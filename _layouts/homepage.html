@@ -8,7 +8,7 @@ lang: en-US
 <script async type="text/javascript" src="/js/homepage.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/homepage.css">
 
-<h1><i class="fa fa-home fa-fw"></i>&nbsp;{{ page.title }}</h1>
+<h1><i class="fa fa-home fa-fw"></i>&nbsp;HomePage</h1>
 
 <div class="content">
   {{ content }}
@@ -18,7 +18,7 @@ lang: en-US
   
   {% assign sorted_pages = (site.pages | sort: 'title') %}
   {% for page in sorted_pages %}
-    {% unless page.sitemap.exclude == "yes" or page.title == "HomePage" or page.title == "Atom Feed" or page.url == "/assets/css/style.css" %}
+    {% unless page.sitemap.exclude == "yes" or page.title == "DorianBayart.github.io" or page.title == "Atom Feed" or page.url == "/assets/css/style.css" %}
     <a href='{{ page.url | remove: "index.html" }}' class="panel panel-default">
       <div class="panel-heading">{{ page.title }}</div>
       <div class="panel-body">{{ page.description }}</div>
