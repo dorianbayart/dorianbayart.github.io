@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: HomePage
+title: DorianBayart.github.io
 description: Dorian Bayart - Homepage of dorianbayart.github.io - A small website made from scratch to learn and discover new technologies, languages, libraries
 lang: en-US
 sitemap:
