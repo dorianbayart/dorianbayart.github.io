@@ -86,6 +86,20 @@ function updateSymbols(doc) {
 	$(doc).find('#price_eur').append('€');
 	$(doc).find('#price_usd').prepend('$');
 	$(doc).find('#price_btc').append(' BTC');
+	
+	changeTextColor('#percent_change_1h');
+	changeTextColor('#percent_change_24h');
+	changeTextColor('#percent_change_7d');
+}
+
+function changeTextColor(id) {
+	var object = $(doc).find(id);
+	var value = parseInt(object.text());
+	if (value > 0) {
+		object.css('color','green');
+	} else if (value < 0) {
+		object.css('color','red');
+	}
 }
 
 function updateList() {
