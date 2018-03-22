@@ -100,6 +100,7 @@ function changeTextColor(doc, id) {
 	} else if (value < 0) {
 		object.css('color','red');
 	}
+	console.error(id + "/" + JSON.stringify(object) + "/" + value);
 }
 
 function updateList() {
