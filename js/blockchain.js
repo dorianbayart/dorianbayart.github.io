@@ -94,13 +94,12 @@ function updateSymbols(doc) {
 
 function changeTextColor(doc, id) {
 	var object = $(doc).find(id);
-	var value = parseInt(object.text());
+	var value = parseFloat(object.text());
 	if (value > 0) {
 		object.css('color','green');
 	} else if (value < 0) {
 		object.css('color','red');
 	}
-	console.error(id + "/" + JSON.stringify(object) + "/" + value);
 }
 
 function updateList() {
