@@ -87,12 +87,12 @@ function updateSymbols(doc) {
 	$(doc).find('#price_usd').prepend('$');
 	$(doc).find('#price_btc').append(' BTC');
 	
-	changeTextColor('#percent_change_1h');
-	changeTextColor('#percent_change_24h');
-	changeTextColor('#percent_change_7d');
+	changeTextColor(doc, '#percent_change_1h');
+	changeTextColor(doc, '#percent_change_24h');
+	changeTextColor(doc, '#percent_change_7d');
 }
 
-function changeTextColor(id) {
+function changeTextColor(doc, id) {
 	var object = $(doc).find(id);
 	var value = parseInt(object.text());
 	if (value > 0) {
