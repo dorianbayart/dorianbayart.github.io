@@ -56,11 +56,11 @@ function generateList(data) {
 		$(this).find('span').remove();
 
 		var text = "";
-		text += "<div class='col-xs-2 col-sm-1'><span id='rank'>" + rank + "</span></div>";
-		text += "<div class='hidden-xs col-sm-1'><span id='symbol'>" + symbol + "</span></div>";
-		text += "<div class='col-xs-6 col-sm-4'><span id='name'>" + name + "</span></div>";
+		text += "<div class='hidden-xs col-sm-1'><span id='rank'>" + rank + "</span></div>";
+		text += "<div class='col-xs-2 col-sm-1'><span id='symbol'>" + symbol + "</span></div>";
+		text += "<div class='hidden-xs col-sm-4'><span id='name'>" + name + "</span></div>";
 		text += "<div class='col-xs-4 col-sm-2'><span id='price_eur'> " + price_eur + "</span></div>";
-		text += "<div class='hidden-xs col-sm-4'><div class='row'>";
+		text += "<div class='col-xs-6 col-sm-4'><div class='row'>";
 			text += "<div class='col-xs-4'><span id='percent_change_1h'>" + percent_change_1h + "</span></div>";
 			text += "<div class='col-xs-4'><span id='percent_change_24h'>" + percent_change_24h + "</span></div>";
 			text += "<div class='col-xs-4'><span id='percent_change_7d'>" + percent_change_7d + "</span></div>";
