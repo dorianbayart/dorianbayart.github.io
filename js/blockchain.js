@@ -75,11 +75,11 @@ function generateList(data) {
 	});
 	
 	/* Petite mise en page */
-	var mq = window.matchMedia('@media all and (max-width: 768px)');
+	var mq = window.matchMedia('screen and (min-width: 768px)');
 	if(mq.matches) { // the width of browser is more then 768px
-	    $('.panel-heading > #price_eur').parent().css('text-align','inherit');
+	    $('.panel-heading #price_eur').parent().css('text-align','inherit');
 	} else { // the width of browser is less then 768px
-	    $('.panel-heading > #price_eur').parent().css('text-align','right');
+	    $('.panel-heading #price_eur').parent().css('text-align','right');
 	}
 }
 
@@ -102,7 +102,7 @@ function updateSymbols(doc) {
 	changeTextColor(doc, '#percent_change_7d');
 	
 	/* Petite mise en page */
-	var mq = window.matchMedia('@media all and (max-width: 768px)');
+	var mq = window.matchMedia('screen and (min-width: 768px)');
 	if(mq.matches) { // the width of browser is more then 768px
 	    $(doc).find('#price_eur').parent().css('text-align','inherit');
 	} else { // the width of browser is less then 768px
