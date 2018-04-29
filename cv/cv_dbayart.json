@@ -1,7 +1,7 @@
 {
 	"basics": {
 		"name": "Dorian Bayart",
-		"age": "29",
+		"age": "30",
 		"label": "Software Engineer",
 		"picture": "",
 		"email": "dorian.bayart@gmail.com",
@@ -32,11 +32,11 @@
 	
 	"work": [{
 		"company": "Alten SIR",
-		"position": "BackEnd Developer at Société Générale",
+		"position": "Developer at Société Générale",
 		"website": "https://www.alten.fr/",
 		"startDate": "2015-06-29",
 		"endDate": "Today",
-		"summary": "Working on new Online Banking customer services (Live account balance, International transfer, etc.) for more than 12 millions direct customers.* WebServices design / development / optimization* Continuous integration* Git maintainer of the Team* Releaser* Member of the Transfer Feature Team",
+		"summary": "Working on new Online Banking customer services (Live account balance, International transfer, DSP2, etc.) for more than 12 millions direct customers.* WebServices design / development / optimization* Fullstack developments* Continuous integration* Git maintainer of the Team* Releaser* Agile member of the Transfer Feature Team",
 		"highlights": [
 			"Banking",
 			"Developer",
@@ -44,6 +44,7 @@
 			"Releaser",
 			"Git Maintainer",
 			"Agile Methodologies",
+			"SCRUM",
 			"DevOps"
 		]
 	},{
@@ -64,22 +65,28 @@
 		]
 	}],
 	"skills": [{
-		"name": "BackEnd Java Development",
+		"name": "FrontEnd Development",
+		"level": "2+ years",
+		"keywords": [
+			"Backbone.js","JQuery","Javascript","Bootstrap"
+		]
+	},{
+		"name": "BackEnd Development",
 		"level": "5+ years",
 		"keywords": [
-			"Java","Git","SQL","JUnit","Maven","Weblogic","SVN","UML Diagrams"
+			"Java","SQL","Maven","Weblogic","SVN","UML Diagrams"
 		]
 	},{
 		"name": "Continuous Integration",
 		"level": "5+ years",
 		"keywords": [
-			"Jenkins","Selenium","FitNesse","SoapUI","Linux"
+			"Jenkins","Git","Selenium","JUnit","FitNesse","SoapUI","Sonar","Linux"
 		]
 	},{
 		"name": "Other various private projects",
 		"level": "Newbie / Curious",
 		"keywords": [
-			"HTML5","CSS3","MeteorJS","Bootstrap","Javascript","MongoDB","Node","JQuery","Jekyll","JSon","Ghost"
+			"HTML5","CSS3","MeteorJS","MongoDB","Node","Jekyll","JSon","Ghost"
 		]
 	}],
 	"education": [{
