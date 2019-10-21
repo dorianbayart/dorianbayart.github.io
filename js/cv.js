@@ -91,14 +91,17 @@ $(document).ready(function() {
 		
 		// Add icons to different Ids
 		$('.location').prepend( '<i class="fa fa-map-marker fa-fw fa-lg"></i>&nbsp;' );
-		$('.basics > #summary').prepend('<h5>Summary</h5><i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>');
+		$('.basics > #summary').prepend('<i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>');
 		$('[id^=company]').prepend( '<i class="fa fa-building-o fa-fw"></i>&nbsp;' );
 		$('[id^=institution]').prepend( '<i class="fa fa-university fa-fw"></i>&nbsp;' );
 		$('[id^=email]').each(function() {
 			var mail = this.textContent;
 			this.innerHTML = '<i class="fa fa-envelope-o fa-fw fa-lg"></i>&nbsp;<a href="mailto:' + mail + '" target="_top">' + mail + '</a>';
 		});
-		$('[id^=phone]').prepend( '<i class="fa fa-phone fa-fw fa-lg"></i>&nbsp;' );
+		$('[id^=phone]').each(function() {
+			var phone = this.textContent;
+			this.innerHTML = '<i class="fa fa-phone fa-fw fa-lg"></i>&nbsp;<a href="tel:' + phone + '" target="_top">' + phone + '</a>';
+		});
 		$('[id^=website]').each(function() {
 			var website = this.textContent;
 			this.innerHTML = '<i class="fa fa-link fa-fw fa-lg"></i>&nbsp;<a href="' + website + '" target="_blank">' + website + '</a>';
