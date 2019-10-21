@@ -1,11 +1,11 @@
 {
 	"basics": {
 		"name": "Dorian Bayart",
-		"age": "30",
+		"age": "31",
 		"label": "Software Engineer",
 		"picture": "",
 		"email": "dorian.bayart@gmail.com",
-		"phone": "+33 (0)6 33 69 39 **",
+		"phone": "+33 6 33 69 39 81",
 		"website": "https://dorianbayart.github.io",
 		"summary": "I am permanently looking for challenges by acquiring new technical knowledge, playing with new technologies, and trying to improve myself, with a DevOps oriented mindset.",
 		"location": {
@@ -31,11 +31,25 @@
 	},
 	
 	"work": [{
+		"company": "Evidian (Atos)",
+		"position": "FrontEnd Developer",
+		"website": "https://www.evidian.com/fr/",
+		"startDate": "2018-09-03",
+		"endDate": "Today",
+		"summary": "Evidian Identity Governance and Administration (IGA) is an on-premise software used by hundreds of enterprises around the world to manage users' rights, lifecycles, accesses, etc. Now, the goal is to have an IGA as a service, in the cloud.",
+		"highlights": [
+			"Cybersecurity",
+			"Developer",
+			"Designer",
+			"UX / UI",
+			"Agile Methodologies"
+		]
+	},{
 		"company": "Alten SIR",
 		"position": "Developer at Société Générale",
 		"website": "https://www.alten.fr/",
 		"startDate": "2015-06-29",
-		"endDate": "Today",
+		"endDate": "2018-07-31",
 		"summary": "Working on new Online Banking customer services (Live account balance, International transfer, DSP2, etc.) for more than 12 millions direct customers.* WebServices design / development / optimization* Fullstack developments* Continuous integration* Git maintainer of the Team* Releaser* Agile member of the Transfer Feature Team",
 		"highlights": [
 			"Banking",
@@ -66,9 +80,9 @@
 	}],
 	"skills": [{
 		"name": "FrontEnd Development",
-		"level": "2+ years",
+		"level": "3+ years",
 		"keywords": [
-			"Backbone.js","JQuery","Javascript","Bootstrap"
+			"Angular","Backbone.js","JQuery","Javascript","Bootstrap"
 		]
 	},{
 		"name": "BackEnd Development",
@@ -78,7 +92,7 @@
 		]
 	},{
 		"name": "Continuous Integration",
-		"level": "5+ years",
+		"level": "6+ years",
 		"keywords": [
 			"Jenkins","Git","Selenium","JUnit","FitNesse","SoapUI","Sonar","Linux"
 		]
