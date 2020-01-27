@@ -71,7 +71,7 @@
 		},
 		{
 			"title":"Virgin Radio",
-			"url":"http://vr-live-mp3-128.scdn.arkena.com/virginradio.mp3",
+			"url":"http://vr-wr6-mp3-128.scdn.arkena.com/virginradio.mp3",
 			"slogan":"Pop Rock Electro",
 			"flag":"fr",
 			"country":"France",
@@ -209,12 +209,85 @@
 			]
 		},
 		{
+			"title":"Chante France Nouveautés - Webradio",
+			"url":"http://stream1.chantefrance.com/cf-nouveautes",
+			"slogan":"Les plus belles chansons françaises",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"variétés françaises"
+			]
+		},
+		{
 			"title":"Chante France Comptines - Webradio",
 			"url":"http://stream1.chantefrance.com/cf-comptines",
 			"flag":"fr",
 			"country":"France",
 			"tags": [
 				"variétés françaises"
+			]
+		},
+		{
+			"title":"Futuradio - Hits",
+			"url":"http://ice1.impek.com/futuradios-128",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"hits"
+			]
+		},
+		{
+			"title":"Futuradio - Dance",
+			"url":"http://ice1.impek.com/futuradiosdance-128",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"dance"
+			]
+		},
+		{
+			"title":"Futuradio - Pop & Sweet",
+			"url":"http://ice1.impek.com/futuradiospopsweet-128",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"pop"
+			]
+		},
+		{
+			"title":"Futuradio - Rock",
+			"url":"http://ice1.impek.com/futuradiosrock-128",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"rock"
+			]
+		},
+		{
+			"title":"Générations - Reggae",
+			"url":"http://generations-caraibes.ice.infomaniak.ch/generations-caraibes-high.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"reggae"
+			]
+		},
+		{
+			"title":"Générations - 2000",
+			"url":"http://generations-2000.ice.infomaniak.ch/generations-2000.mp3",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"hits", "2000's"
+			]
+		},
+		{
+			"title":"Hits 1 Radio",
+			"url":"http://listen.radioking.com/radio/90913/stream/223459",
+			"flag":"fr",
+			"country":"France",
+			"tags": [
+				"hits"
 			]
 		},
 		{
