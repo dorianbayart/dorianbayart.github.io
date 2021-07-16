@@ -1,11 +1,10 @@
 {
 	"basics": {
 		"name": "Dorian Bayart",
-		"age": "31",
+		"age": "33",
 		"label": "Software Engineer",
 		"picture": "",
 		"email": "dorian.bayart@gmail.com",
-		"phone": "+336336939**",
 		"website": "https://dorianbayart.github.io",
 		"summary": "I am permanently looking for challenges by acquiring new technical knowledge, playing with new technologies, and trying to improve myself, with a DevOps oriented mindset.",
 		"location": {
@@ -80,9 +79,9 @@
 	}],
 	"skills": [{
 		"name": "FrontEnd Development",
-		"level": "3+ years",
+		"level": "5+ years",
 		"keywords": [
-			"Angular","Backbone.js","JQuery","Javascript","Bootstrap"
+			"Angular","Backbone.js","JQuery","Bootstrap"
 		]
 	},{
 		"name": "BackEnd Development",
@@ -92,15 +91,15 @@
 		]
 	},{
 		"name": "Continuous Integration",
-		"level": "6+ years",
+		"level": "8+ years",
 		"keywords": [
-			"Jenkins","Git","Selenium","JUnit","FitNesse","SoapUI","Sonar","Linux"
+			"Jenkins","Git","Selenium","JUnit","FitNesse","SoapUI","Sonar"
 		]
 	},{
 		"name": "Other various private projects",
 		"level": "Newbie / Curious",
 		"keywords": [
-			"HTML5","CSS3","MeteorJS","MongoDB","Node","Jekyll","JSon","Ghost"
+			"Blockchain","HTML5","CSS3","MeteorJS","MongoDB","Node","Jekyll","Ghost"
 		]
 	}],
 	"education": [{
@@ -146,6 +145,7 @@
 			"Traveling",
 			"Music",
 			"High technologies",
+			"Blockchains",
 			"Athletism",
 			"Handball"
 		]
