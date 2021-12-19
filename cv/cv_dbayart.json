@@ -99,8 +99,25 @@
 		"name": "Other various private projects",
 		"level": "Newbie / Curious",
 		"keywords": [
-			"Blockchain","HTML5","CSS3","MeteorJS","MongoDB","Node","Jekyll","Ghost"
+			"Blockchain","Web3","HTML5","CSS3","MeteorJS","MongoDB","Node","Jekyll","Ghost"
 		]
+	}],
+	"projects": [{
+		"name": "DexPairs.xyz",
+    "startDate": "2021-05-01",
+    "endDate": "Today",
+    "url": "https://dexpairs.xyz/",
+		"description": "Track prices of your tokens on multiple blockchains through multiple protocols. Explore your Portfolio and display your NFTs as a gallery. Supports Ethereum, Polygon, BSC, Fantom and xDai chains.",
+    "highlights": [],
+    "roles": [
+      ""
+    ],
+    "keywords": [
+      "Blockchain","Web3","Ethereum","TheGraph","Crypto"
+    ],
+    "entity": "",
+		"domain": "blockchain",
+    "type": "website"
 	}],
 	"education": [{
 		"institution": "ENSICAEN",

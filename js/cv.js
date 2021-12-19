@@ -46,6 +46,10 @@ $(document).ready(function() {
 		$('.skills').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-star fa-fw fa-lg"></i>&nbsp;Skills</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
 		$('.skills > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
 
+		// Projcts
+		$('.projects').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-cube fa-fw fa-lg"></i>&nbsp;Projects</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
+		$('.projects > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
+
 		// Interests
 		$('.interests').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-heart fa-fw fa-lg"></i>&nbsp;Interests</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
 		$('.interests > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
@@ -94,6 +98,8 @@ $(document).ready(function() {
 		// Add icons to different Ids
 		$('.location').prepend( '<i class="fa fa-map-marker fa-fw fa-lg"></i>&nbsp;' );
 		$('.basics > #summary').prepend('<i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>');
+		$('.projects #description').prepend('<i class="fa fa-quote-left fa-pull-left fa-border" aria-hidden="true"></i>');
+		$('.projects #description').append('<i class="fa fa-quote-right fa-pull-right fa-border" aria-hidden="true"></i>');
 		$('[id^=company]').prepend( '<i class="fa fa-building-o fa-fw"></i>&nbsp;' );
 		$('[id^=institution]').prepend( '<i class="fa fa-university fa-fw"></i>&nbsp;' );
 		$('[id^=email]').each(function() {
@@ -106,7 +112,11 @@ $(document).ready(function() {
 		});
 		$('[id^=website]').each(function() {
 			var website = this.textContent;
-			this.innerHTML = '<i class="fa fa-link fa-fw fa-lg"></i>&nbsp;<a href="' + website + '" target="_blank">' + website + '</a>';
+			this.innerHTML = '<i class="fa fa-link fa-fw fa-sm"></i>&nbsp;<a href="' + website + '" target="_blank">' + website + '</a>';
+		});
+		$('[id^=url]').each(function() {
+			var website = this.textContent;
+			this.innerHTML = '<i class="fa fa-link fa-fw fa-sm"></i>&nbsp;<a href="' + website + '" target="_blank">' + website + '</a>';
 		});
 
 		// Add labels to some Ids

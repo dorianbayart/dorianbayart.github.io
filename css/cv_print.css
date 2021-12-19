@@ -32,7 +32,7 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Verdana', 'Arial', sans-serif;
+    font-family: 'Lato', 'Verdana', 'Arial', sans-serif;
   }
 
   @page {
@@ -70,6 +70,32 @@
 
   a[href]::after {
     content: "";
+  }
+
+  /*
+  .label {
+    color: white !important;
+  }
+
+  .label-info {
+    background-color: #5bc0de !important;
+  }
+
+  .label-success {
+    background-color: #5cb85c !important;
+  }
+
+  .label-warning {
+    background-color: #f0ad4e !important;
+  }
+
+  .label-default {
+    background-color: #777 !important;
+  }
+  */
+
+  .panel-info > .panel-heading {
+    background-color: #d9edf7 !important;
   }
 
   .basics #name,

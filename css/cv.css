@@ -101,7 +101,8 @@ h5 {
   padding-right: 1em;padding-right
 } */
 
-#summary {
+#summary,
+.projects #description {
   text-align: justify;
 }
 
@@ -128,11 +129,14 @@ h5 {
 }
 
 #position,
-#studyType {
+#studyType,
+.projects #name {
   font-style: italic;
   width: 66%;
   font-size: 1.2em;
   margin-right: 0;
+  font-weight: bolder;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 
 #level {
@@ -146,7 +150,8 @@ h5 {
 .skills > * > #name {
   font-size: 1.1em;
   font-style: italic;
-  font-weight: bold;
+  font-weight: bolder;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   margin-right: 0.5em;
   margin-left: 0.2em;
 }
@@ -163,6 +168,16 @@ h5 {
 #startDate,
 #endDate {
   margin: 0;
+}
+
+.projects #url {
+  display: block;
+  padding: 0.3em 0;
+}
+
+.projects #domain,
+.projects #type {
+  display: none;
 }
 
 .location {
@@ -201,7 +216,6 @@ h5 {
 }
 
 .label {
-  font-family: 'Helvetica', 'Sans-Serif', sans-serif;
   font-size: 0.9em;
   font-weight: initial;
   margin-left: 0.3em;
