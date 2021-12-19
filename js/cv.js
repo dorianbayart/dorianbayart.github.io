@@ -103,7 +103,7 @@ $(document).ready(function() {
 		$('.location').prepend( '<i class="fa fa-map-marker fa-fw fa-lg"></i>&nbsp;' );
 		$('.basics > #summary').prepend('<i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>');
 		$('.projects #description').prepend('<i class="fa fa-quote-left fa-pull-left fa-border" aria-hidden="true"></i>');
-		$('.projects #description').append('<i class="fa fa-quote-right fa-pull-right fa-border" aria-hidden="true"></i>');
+		$('.projects #description').append('<i class="fa fa-quote-right fa-border" aria-hidden="true"></i>');
 		$('[id^=company]').prepend( '<i class="fa fa-building-o fa-fw"></i>&nbsp;' );
 		$('[id^=institution]').prepend( '<i class="fa fa-university fa-fw"></i>&nbsp;' );
 		$('[id^=email]').each(function() {
