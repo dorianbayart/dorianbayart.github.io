@@ -1,0 +1,93 @@
+
+@media print {
+  .grid-sizer,
+  .grid-item,
+  .grid-item--width2 {
+    width: 100%;
+  }
+
+  .grid-item--width2 {
+    float: right;
+  }
+
+  .gutter-sizer {
+    width: 2%;
+  }
+
+  .grid-item {
+    margin-bottom: 2%;
+    position: relative !important;
+    display: block !important;
+    left: 0 !important;
+    top: auto !important;
+    float: left;
+  }
+
+  .container {
+    height: auto !important;
+    width: 100%;
+  }
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana', 'Arial', sans-serif;
+  }
+
+  @page {
+    margin: 0.75cm;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  #print_header {
+    display: block;
+    height: 80px;
+  }
+
+  #print_header #name-label {
+    font-size: 2em;
+  }
+
+  #print_header::after {
+    content: url(https://chart.googleapis.com/chart?cht=qr&chs=96x96&chl=https://dorianbayart.github.io/cv/&choe=UTF-8);
+    position: absolute;
+    right: -16px;
+    top: -16px;
+  }
+
+  #showButton,
+  footer {
+    display: none !important;
+  }
+
+  .panel {
+    page-break-inside: avoid;
+  }
+
+  a[href]::after {
+    content: "";
+  }
+
+  .basics #name,
+  .basics #label,
+  .basics #email {
+    display: none !important;
+  }
+
+  .basics #website {
+    display: block;
+    text-align: right;
+    padding: 0.3em 0 0;
+  }
+}
+
+@media print and (color) {
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact; /* stylelint-disable-line property-no-unknown */
+  }
+}

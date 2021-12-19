@@ -8,10 +8,12 @@ lang: en-US
 <div class="blurb">
 	<h1><i class="fa fa-file-text-o fa-fw"></i>&nbsp;{{ page.title }}</h1>
 	<button id="showButton" type="button" class="btn btn-default btn-xs">Show JSon RAW Data</button><div class="noJS">No Javascript !</div><pre id="json">{% include_relative cv_dbayart.json %}</pre>
+	<div id="print_header"></div>
 	<div class="grid" id="json_ul"></div>
 </div><!-- /.blurb -->
 
 <link rel="stylesheet" type="text/css" href="/css/cv.css">
+<link rel="stylesheet" type="text/css" media="print" href="/css/cv_print.css">
 <script async type="text/javascript" src="/js/cv.js"></script>
 <noscript><style type="text/css">#showButton { display:none; } #json,.noJS { display:block; }</style></noscript>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.0.0/masonry.pkgd.min.js"></script>

@@ -18,37 +18,39 @@ $("#showButton").click(function(){
 });
 
 $(document).ready(function() {
-	
-		var text = $(readJson( JSON.parse($('#json').text()) ));
+
+	const json = JSON.parse($('#json').text());
+
+		const text = $(readJson( json ));
 		$( '#json' ).hide();
 		$( '#json_ul' ).append( text );
-		
+
 		// the different classes
 		// Basics
 		$('.basics').before('<div class="grid-sizer"></div><div class="gutter-sizer"></div>').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-user fa-fw fa-lg"></i>&nbsp;Basics</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
 		$('.basics > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
-		
+
 		// Work Experience
 		$('.work').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-briefcase fa-fw fa-lg"></i>&nbsp;Work experience</h3></div>' ).addClass('grid-item grid-item--width2 panel panel-info panel-heading');
 		$('.work > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
-		
+
 		// Education
 		$('.education').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-graduation-cap fa-fw fa-lg"></i>&nbsp;Education</h3></div>' ).addClass('grid-item grid-item--width2 panel panel-info panel-heading');
 		$('.education > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
-		
+
 		// Languages
 		$('.languages').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-language fa-fw fa-lg"></i>&nbsp;Languages</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
 		$('.languages > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
-		
+
 		// Skills
 		$('.skills').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-star fa-fw fa-lg"></i>&nbsp;Skills</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
 		$('.skills > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
-		
+
 		// Interests
 		$('.interests').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-heart fa-fw fa-lg"></i>&nbsp;Interests</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
 		$('.interests > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
-		
-		
+
+
 		// Replace some text
 		$('[id^=summary]').each(function() {
 			var text = $(this).text();
@@ -64,14 +66,14 @@ $(document).ready(function() {
 			$(this).find('> #company').html('<a href="' + websiteText + '" target="_blank">' + companyText + '</a>');
 			$(this).find('> #website').remove();
 		});
-		
-		
+
+
 		// Dates
 		$('.panel-body').each(function() {
 			$(this).find('> #startDate, > #endDate').wrapAll('<div class="dates"></div>');
 		});
-		
-		
+
+
 		// Locations
 		$('.location').each(function() {
 			var address = $(this).find('> #address').text();
@@ -86,9 +88,9 @@ $(document).ready(function() {
 				$(this).find('> #address, > #postalCode, > #city, > #countryCode, > #region').wrapAll('<a href="' + 'https://www.google.fr/maps/place/'+(address.length?address+' ':'')+(postalCode.length?postalCode+' ':'')+(city.length?city:'') + '" target="_blank">');
 			}
 		});
-		
-		
-		
+
+
+
 		// Add icons to different Ids
 		$('.location').prepend( '<i class="fa fa-map-marker fa-fw fa-lg"></i>&nbsp;' );
 		$('.basics > #summary').prepend('<i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>');
@@ -106,13 +108,13 @@ $(document).ready(function() {
 			var website = this.textContent;
 			this.innerHTML = '<i class="fa fa-link fa-fw fa-lg"></i>&nbsp;<a href="' + website + '" target="_blank">' + website + '</a>';
 		});
-		
+
 		// Add labels to some Ids
 		$('.keywords > *').addClass( 'label label-warning' );
 		$('.interests > * > .keywords > *').removeClass('label-warning').addClass( 'label-default' );
 		$('.highlights > *').addClass( 'label label-info' );
 		$('.courses > *').addClass( 'label label-success' );
-		
+
 		// Working on profiles
 		$('.profiles > div').each(function() {
 			var network = $(this).children( 'span#network' );
@@ -123,7 +125,7 @@ $(document).ready(function() {
 			network.remove();
 			url.remove();
 		});
-		
+
 		// Working on age
 		$('.basics').each(function() {
 			var age = $(this).children( 'span#age' );
@@ -133,9 +135,9 @@ $(document).ready(function() {
 				age.remove();
 			}
 		});
-		
-		
-		
+
+
+
 		$('.grid').masonry({
 			// options
 			columnWidth: '.grid-sizer',
@@ -144,6 +146,11 @@ $(document).ready(function() {
 			transitionDuration: '0.8s',
 			percentPosition: true
 		});
-	
+
+
+		// Printed only
+		$( '#print_header' ).append( ` <div id="name-label"> ${json.basics.name} - ${json.basics.label} </div> ` );
+		$( '#print_header' ).append( ` <div id="email"> <i class="fa fa-envelope-o fa-fw fa-lg"></i>&nbsp; ${json.basics.email} </div> ` );
+
 
 });

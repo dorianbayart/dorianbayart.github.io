@@ -11,26 +11,26 @@
 			"address": "",
 			"postalCode": "",
 			"city": "Paris",
-			"countryCode": "FR",
-			"region": ""
+			"region": "Île-de-France",
+			"countryCode": "FR"
 		},
 		"profiles": [{
-			"network": "Twitter",
-			"username": "DorianBayart",
-			"url": "https://twitter.com/dorianbayart"
+			"network": "GitHub",
+			"username": "dorianbayart",
+			"url": "https://github.com/dorianbayart"
 		},{
 			"network": "LinkedIn",
 			"username": "DorianBayart",
 			"url": "https://fr.linkedin.com/in/dorianbayart"
 		},{
-			"network": "GitHub",
-			"username": "dorianbayart",
-			"url": "https://github.com/dorianbayart"
+			"network": "Twitter",
+			"username": "DorianBayart",
+			"url": "https://twitter.com/dorianbayart"
 		}]
 	},
-	
+
 	"work": [{
-		"company": "Evidian (Atos)",
+		"company": "Evidian (Atos Cyber Security)",
 		"position": "FrontEnd Developer",
 		"website": "https://www.evidian.com/fr/",
 		"startDate": "2018-09-03",
@@ -45,7 +45,7 @@
 		]
 	},{
 		"company": "Alten SIR",
-		"position": "Developer at Société Générale",
+		"position": "Fullstack Developer at Société Générale",
 		"website": "https://www.alten.fr/",
 		"startDate": "2015-06-29",
 		"endDate": "2018-07-31",
@@ -79,7 +79,7 @@
 	}],
 	"skills": [{
 		"name": "FrontEnd Development",
-		"level": "5+ years",
+		"level": "6+ years",
 		"keywords": [
 			"Angular","Backbone.js","JQuery","Bootstrap"
 		]
@@ -91,7 +91,7 @@
 		]
 	},{
 		"name": "Continuous Integration",
-		"level": "8+ years",
+		"level": "9+ years",
 		"keywords": [
 			"Jenkins","Git","Selenium","JUnit","FitNesse","SoapUI","Sonar"
 		]
@@ -126,7 +126,7 @@
 			"Instrumental technics"
 		]
 	}],
-	
+
 
 	"languages": [{
 		"language": "French",
@@ -145,7 +145,7 @@
 			"Traveling",
 			"Music",
 			"High technologies",
-			"Blockchains",
+			"Blockchain",
 			"Athletism",
 			"Handball"
 		]
