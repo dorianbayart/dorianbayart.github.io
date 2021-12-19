@@ -60,6 +60,10 @@ $(document).ready(function() {
 			var text = $(this).text();
 			$(this).html(text.replace(/\*/g, '<li>'));
 		});
+		$('[id^=description]').each(function() {
+			var text = $(this).text();
+			$(this).html(text.replace(/\*/g, '<li>').replace(/\>/g, '<br />'));
+		});
 		$('[id^=endDate]').each(function() {
 			var text = $(this).text();
 			$(this).prepend('&nbsp;<i class="fa fa-angle-double-right fa-fw"></i>&nbsp;');
