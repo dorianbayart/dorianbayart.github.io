@@ -134,7 +134,7 @@ $(document).ready(function() {
 			var network = $(this).children( 'span#network' );
 			var username = $(this).children( 'span#username' );
 			var url = $(this).children( 'span#url' );
-			username.wrapInner('<a href="' + url.text().toLowerCase() + '" target="_blank"></a>');
+			username.wrapInner('<a href="' + url.text().trim().toLowerCase() + '" target="_blank"></a>');
 			username.prepend('<i class="fa fa-'+network.text().toLowerCase()+' fa-fw fa-lg"></i>&nbsp;');
 			network.remove();
 			url.remove();
