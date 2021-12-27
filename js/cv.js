@@ -35,7 +35,7 @@ $(document).ready(function() {
 		$('.basics > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
 
 		// Work Experience
-		$('.work').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-briefcase fa-fw fa-lg"></i>&nbsp;Work experience</h3></div>' ).addClass('grid-item grid-item--width2 panel panel-info panel-heading');
+		$('.work').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-briefcase fa-fw fa-lg"></i>&nbsp;Work Experience</h3></div>' ).addClass('grid-item grid-item--width2 panel panel-info panel-heading');
 		$('.work > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
 
 		// Education
