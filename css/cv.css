@@ -17,8 +17,13 @@
   width: 2%;
 }
 
-#showButton {
+.space {
+  flex: auto;
+}
+
+.buttons-container {
   margin-bottom: 0.5em;
+  display: flex;
 }
 
 #print_header {

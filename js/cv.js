@@ -17,6 +17,10 @@ $("#showButton").click(function(){
     $("#json").toggle(1000);
 });
 
+$("#printButton").click(function(){
+    window.print();
+});
+
 $(document).ready(function() {
 
 	const json = JSON.parse($('#json').text());
