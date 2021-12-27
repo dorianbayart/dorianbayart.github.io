@@ -170,5 +170,6 @@ $(document).ready(function() {
 		$( '#print_header' ).append( ` <div id="name-label"> ${json.basics.name} - ${json.basics.label} </div> ` );
 		$( '#print_header' ).append( ` <div id="email"> <i class="fa fa-envelope-o fa-fw fa-lg"></i>&nbsp; ${json.basics.email} </div> ` );
 
+		this.title = `${json.basics.name} - ${json.basics.label}`;
 
 });
