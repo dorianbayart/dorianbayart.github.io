@@ -47,11 +47,11 @@ $(document).ready(function() {
 		$('.languages > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
 
 		// Skills
-		$('.skills').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-star fa-fw fa-lg"></i>&nbsp;Skills</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
+		$('.skills').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-star fa-fw fa-lg"></i>&nbsp;Technical Skills</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
 		$('.skills > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
 
 		// Projcts
-		$('.projects').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-cube fa-fw fa-lg"></i>&nbsp;Projects</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
+		$('.projects').prepend( '<div class="panel-heading"><h3 class="panel-title"><i class="fa fa-cube fa-fw fa-lg"></i>&nbsp;Personnal Projects</h3></div>' ).addClass('grid-item panel panel-info panel-heading');
 		$('.projects > *:not(.panel-heading):not(.panel-title)').addClass('panel-body');
 
 		// Interests
@@ -167,7 +167,7 @@ $(document).ready(function() {
 
 
 		// Printed only
-		$( '#print_header' ).append( ` <div id="name-label"> ${json.basics.name} - ${json.basics.label} </div> ` );
+		$( '#print_header' ).append( ` <div id="name-label"> ${json.basics.name} - ${json.basics.label} - ${json.basics.age}yo </div> ` );
 		$( '#print_header' ).append( ` <div id="email"> <i class="fa fa-envelope-o fa-fw fa-lg"></i>&nbsp; ${json.basics.email} </div> ` );
 
 		this.title = `${json.basics.name} - ${json.basics.label}`;

@@ -6,7 +6,7 @@
 		"picture": "",
 		"email": "dorian.bayart@gmail.com",
 		"website": "https://dorianbayart.github.io",
-		"summary": "I am permanently looking for challenges by acquiring new technical knowledge, playing with new technologies, and trying to improve myself, with a DevOps oriented mindset.",
+		"summary": "I am permanently looking for challenges by acquiring additional technical knowledge, being curious and playing with new technologies, trying to improve myself, with a DevOps oriented mindset.",
 		"location": {
 			"address": "",
 			"postalCode": "",
@@ -35,7 +35,7 @@
 		"website": "https://www.evidian.com/fr/",
 		"startDate": "2018-09-03",
 		"endDate": "Today",
-		"summary": "Evidian Identity Governance and Administration (IGA) is an on-premise software used by hundreds of enterprises around the world to manage users' rights, lifecycles, accesses, etc. Now, the goal is to have an IGA as a service, in the cloud.",
+		"summary": "Evidian Identity Governance and Administration (IGA) is an on-premise software used by hundreds of companies in the world to manage users' rights, lifecycles, accesses, etc. Now, the goal is to have an IGA as a service, in the cloud.",
 		"highlights": [
 			"Cybersecurity",
 			"Developer",
@@ -49,7 +49,7 @@
 		"website": "https://www.alten.fr/",
 		"startDate": "2015-06-29",
 		"endDate": "2018-07-31",
-		"summary": "Working on new Online Banking customer services (Live account balance, International transfer, DSP2, etc.) for more than 12 millions direct customers.* WebServices design / development / optimization* Fullstack developments* Continuous integration* Git maintainer of the Team* Releaser* Agile member of the Transfer Feature Team",
+		"summary": "Working on new Online Banking customer services (Live account balance, International transfer, DSP2, etc.) for more than 12 million users.* WebServices design / development / optimization* Fullstack developments* Continuous integration* Git maintainer of the Team* Releaser* Agile member of the Transfer Feature Team",
 		"highlights": [
 			"Banking",
 			"Developer",
@@ -66,7 +66,7 @@
 		"website": "https://www.fr.capgemini.com/",
 		"startDate": "2012-03-05",
 		"endDate": "2015-06-26",
-		"summary": "Rework on the ERDF (french electricity distribution company) information system, to integrate new customer services for the Linky communicating meter.* Non-regression tests development and automation* WebServices design / development / correction / optimization* Functional testing support* Technical environments maintainer* Production technical support* Team management / Scrum Master (12+ people)",
+		"summary": "Rework on the Enedis (french electricity grid operator) information system, to integrate new customer services for the Linky communicating meter.* Non-regression tests development and automation* WebServices design / development / correction / optimization* Functional testing support* Technical environments maintainer* Production technical support* Team management / Scrum Master (12+ people)",
 		"highlights": [
 			"Energy",
 			"Developer",
@@ -77,11 +77,11 @@
 			"Project Management"
 		]
 	}],
-	"skills": [{
+	"technical skills": [{
 		"name": "FrontEnd Development",
 		"level": "6+ years",
 		"keywords": [
-			"Angular","Backbone.js","JQuery","Bootstrap"
+			"Angular (Certified)","Backbone.js","JQuery","Bootstrap"
 		]
 	},{
 		"name": "BackEnd Development",
@@ -99,15 +99,15 @@
 		"name": "Other various private projects",
 		"level": "Newbie / Curious",
 		"keywords": [
-			"Blockchain","Web3","HTML5","CSS3","MeteorJS","MongoDB","Node","Jekyll","Ghost"
+			"Blockchain","Web3","HTML5","CSS3","Node","MeteorJS","MongoDB","Jekyll","Ghost"
 		]
 	}],
-	"projects": [{
+	"personnal projects": [{
 		"name": "DexPairs.xyz",
     "startDate": "2021-05-01",
     "endDate": "Today",
     "url": "https://dexpairs.xyz/",
-		"description": "Track prices of your tokens on multiple blockchains through multiple protocols. Explore your Portfolio and display your NFTs as a gallery.>Supports Ethereum, Polygon, BSC, Fantom and xDai chains.",
+		"description": "Track prices of hundreds of tokens on multiple blockchains through multiple protocols. Explore Portfolio, search for transactions, and display NFTs as a gallery.>Supports Ethereum, Polygon, BSC, Fantom and xDai chains.",
     "highlights": [],
     "roles": [
       ""
