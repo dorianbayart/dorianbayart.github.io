@@ -68,6 +68,10 @@ $(document).ready(function() {
 			var text = $(this).text();
 			$(this).html(text.replace(/\*/g, '<li>').replace(/\>/g, '<br />'));
 		});
+		$('[id^=startDate]').each(function() {
+			var text = $(this).text();
+			$(this).html(text.split('-')[0]); // keep only year
+		});
 		$('[id^=endDate]').each(function() {
 			var text = $(this).text();
 			$(this).html(text.split('-')[0]); // keep only year
