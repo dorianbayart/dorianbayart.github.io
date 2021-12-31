@@ -231,19 +231,24 @@ h5 {
 }
 
 .languages > div.panel-body {
-  width: 75%;
-  margin-left: 2em;
-  padding: 0;
-  padding-top: 0.3em;
+  display: inline-block;
+  margin-right: 3em;
+  padding-top: 1em;
 }
 
 .languages > div.panel-body > #language {
-  width: 33%;
   margin: 0;
 }
 
 .languages > div.panel-body > #fluency {
   margin: 0;
+  padding-left: 0.5em;
+}
+.languages > div.panel-body > #fluency::before {
+  content: "(";
+}
+.languages > div.panel-body > #fluency::after {
+  content: ")";
 }
 
 @media only screen and (min-width: 768px) {
