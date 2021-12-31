@@ -74,28 +74,6 @@
     content: "";
   }
 
-  /*
-  .label {
-    color: white !important;
-  }
-
-  .label-info {
-    background-color: #5bc0de !important;
-  }
-
-  .label-success {
-    background-color: #5cb85c !important;
-  }
-
-  .label-warning {
-    background-color: #f0ad4e !important;
-  }
-
-  .label-default {
-    background-color: #777 !important;
-  }
-  */
-
   .panel-info > .panel-heading {
     background-color: #d9edf7 !important;
   }
@@ -106,7 +84,7 @@
   .basics #label,
   .basics #email,
   .basics #website,
-  .basics #locations {
+  .basics .location {
     display: none !important;
   }
 
