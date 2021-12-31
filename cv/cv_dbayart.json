@@ -31,11 +31,11 @@
 
 	"work": [{
 		"company": "Evidian (Atos Cyber Security)",
-		"position": "FrontEnd Developer",
-		"website": "https://www.evidian.com/fr/",
+		"position": "Front-End Developer",
+		"website": "https://www.evidian.com/",
 		"startDate": "2018-09-03",
 		"endDate": "Today",
-		"summary": "Evidian Identity Governance and Administration (IGA) is an on-premise software used by hundreds of companies in the world to manage users' rights, lifecycles, accesses, etc. Now, the goal is to have an IGA as a service, in the cloud.",
+		"summary": "Working on Evidian Identity-as-a-Service (IDaaS), a new product of the Evidian IAM Suite used by hundreds of companies around the world, built to manage Identities (users' rights, lifecycles, accesses, etc.) directly from the Cloud.* UX / UI design* Front-End developments",
 		"highlights": [
 			"Cybersecurity",
 			"Developer",
@@ -104,20 +104,18 @@
 	}],
 	"personnal projects": [{
 		"name": "DexPairs.xyz",
-    "startDate": "2021-05-01",
-    "endDate": "Today",
-    "url": "https://dexpairs.xyz/",
+    		"startDate": "2021-05-01",
+    		"endDate": "Today",
+    		"url": "https://dexpairs.xyz/",
 		"description": "Track prices of hundreds of tokens on multiple blockchains through multiple protocols. Explore Portfolio, search for transactions, and display NFTs as a gallery.>Supports Ethereum, Polygon, BSC, Fantom and xDai chains.",
-    "highlights": [],
-    "roles": [
-      ""
-    ],
-    "keywords": [
-      "Blockchain","Web3","Ethereum","TheGraph","Crypto"
-    ],
-    "entity": "",
+    		"highlights": [],
+    		"roles": [],
+    		"keywords": [
+      			"Blockchain","Web3","Ethereum","TheGraph","Crypto"
+    		],
+    		"entity": "",
 		"domain": "blockchain",
-    "type": "website"
+    		"type": "website"
 	}],
 	"education": [{
 		"institution": "ENSICAEN",
