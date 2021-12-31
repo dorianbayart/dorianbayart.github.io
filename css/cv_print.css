@@ -50,17 +50,13 @@
   }
 
   #print_header #name-label {
-    font-size: 2em;
+    font-size: 1.8em;
   }
 
   #print_header #email {
-    font-size: 1.2em;
+    font-size: 1.1em;
     display: flex;
     align-items: center;
-  }
-
-  #print_header #email i.fa {
-    font-size: inherit;
   }
 
   #print_header::after {
@@ -68,11 +64,6 @@
     position: absolute;
     right: -16px;
     top: -16px;
-  }
-
-  .no-print,
-  footer {
-    display: none !important;
   }
 
   .panel {
@@ -108,10 +99,14 @@
   .panel-info > .panel-heading {
     background-color: #d9edf7 !important;
   }
-
+  
+  .no-print,
+  footer,
   .basics #name,
   .basics #label,
-  .basics #email {
+  .basics #email,
+  .basics #website,
+  .basics #locations {
     display: none !important;
   }
 
