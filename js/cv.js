@@ -70,6 +70,7 @@ $(document).ready(function() {
 		});
 		$('[id^=endDate]').each(function() {
 			var text = $(this).text();
+			$(this).html(text.split('-')[0]; // keep only year
 			$(this).prepend('&nbsp;<i class="fa fa-angle-double-right fa-fw"></i>&nbsp;');
 		});
 		$('.work > .panel-body').each(function() {
@@ -168,7 +169,8 @@ $(document).ready(function() {
 
 		// Printed only
 		$( '#print_header' ).append( ` <div id="name-label"> ${json.basics.name} - ${json.basics.label} - ${json.basics.age}yo </div> ` );
-		$( '#print_header' ).append( ` <div id="email"> <i class="fa fa-envelope-o fa-fw fa-lg"></i>&nbsp; ${json.basics.email} </div> ` );
+		$( '#print_header' ).append( ` <div id="email"> <i class="fa fa-envelope-o fa-fw"></i>&nbsp; ${json.basics.email} </div> ` );
+		$( '#print_header' ).append( ` <div id="website"> <i class="fa fa-link fa-fw"></i>&nbsp; ${json.basics.website} </div> ` );
 
 		this.title = `${json.basics.name} - ${json.basics.label}`;
 
