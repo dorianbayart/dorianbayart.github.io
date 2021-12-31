@@ -70,7 +70,7 @@ $(document).ready(function() {
 		});
 		$('[id^=endDate]').each(function() {
 			var text = $(this).text();
-			$(this).html(text.split('-')[0]; // keep only year
+			$(this).html(text.split('-')[0]); // keep only year
 			$(this).prepend('&nbsp;<i class="fa fa-angle-double-right fa-fw"></i>&nbsp;');
 		});
 		$('.work > .panel-body').each(function() {
