@@ -45,7 +45,7 @@ function generateList(data) {
 		var price_usd = $(this).children('span#current_price').text();
 		// var percent_change_1h = $(this).children('span#percent_change_1h').text();
 		var percent_change_24h = $(this).children('span#price_change_percentage_24h').text();
-		var percent_change_7d = $(this).children('span#percent_change_7d').text();
+		// var percent_change_7d = $(this).children('span#percent_change_7d').text();
 		$(this).addClass('row');
 		$(this).attr('id', id);
 		$(this).find('span').remove();
@@ -53,7 +53,7 @@ function generateList(data) {
 		text += "<div class='hidden-xs col-sm-1'><span id='rank'>" + rank + "</span></div>";
 		text += "<div class='col-xs-2 col-sm-1'><span id='symbol'>" + symbol + "</span></div>";
 		text += "<div class='hidden-xs col-sm-4'><span id='name'>" + name + "</span></div>";
-		text += "<div class='col-xs-4 col-sm-2'><span id='price_usd'> " + price_usd + "</span></div>";
+		text += "<div class='col-xs-4 col-sm-2'><span id='price_usd'> $" + price_usd + "</span></div>";
 		text += "<div class='col-xs-6 col-sm-4'><div class='row'>";
 		// text += "<div class='col-xs-4'><span id='percent_change_1h'>" + percent_change_1h + "</span></div>";
 		text += "<div class='col-xs-12'><span id='percent_change_24h'>" + percent_change_24h + "</span></div>";
@@ -79,7 +79,7 @@ function updateSymbols(doc) {
 		price = Math.round(price * 10000) / 10000;
 	}
 	$(doc).find('#price_usd').text(price);
-	$(doc).find('#rank').prepend('#');
+	// $(doc).find('#rank').prepend('#');
 	// $(doc).find('#price_eur').append('€');
 	$(doc).find('#price_usd').prepend('$');
 	$(doc).find('#price_btc').append(' BTC');
