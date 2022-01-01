@@ -56,7 +56,7 @@ function generateList(data) {
 		text += "<div class='col-xs-4 col-sm-2'><span id='price_usd'> " + price_usd + "</span></div>";
 		text += "<div class='col-xs-6 col-sm-4'><div class='row'>";
 		// text += "<div class='col-xs-4'><span id='percent_change_1h'>" + percent_change_1h + "</span></div>";
-		text += "<div class='col-xs-4'><span id='percent_change_24h'>" + percent_change_24h + "</span></div>";
+		text += "<div class='col-xs-12'><span id='percent_change_24h'>" + percent_change_24h + "</span></div>";
 		// text += "<div class='col-xs-4'><span id='percent_change_7d'>" + percent_change_7d + "</span></div>";
 		text += "</div></div>";
 		$(this).append(text);
