@@ -45,6 +45,7 @@ function generateList(data) {
 		var price_usd = $(this).children('span#current_price').text();
 		// var percent_change_1h = $(this).children('span#percent_change_1h').text();
 		var percent_change_24h = $(this).children('span#price_change_percentage_24h').text();
+		percent_change_24h = Math.round(parseFloat(percent_change_24h)*100)/100;
 		// var percent_change_7d = $(this).children('span#percent_change_7d').text();
 		$(this).addClass('row');
 		$(this).attr('id', id);
