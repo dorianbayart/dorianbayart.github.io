@@ -72,7 +72,7 @@ function generateList(data) {
 }
 
 function updateSymbols(doc) {
-	var price = $(doc).find('#price_usd').text();
+	var price = $(doc).find('#price_usd').text().split('$')[1];
 	if (price > 1) {
 		price = Math.round(price * 100) / 100;
 	} else {
