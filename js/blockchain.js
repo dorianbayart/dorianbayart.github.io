@@ -40,11 +40,11 @@ function generateList(data) {
 		var id = $(this).children('span#id').text();
 		var name = $(this).children('span#name').text();
 		var symbol = $(this).children('span#symbol').text();
-		var rank = $(this).children('span#rank').text();
-		var price_eur = $(this).children('span#price_eur').text();
-		var price_usd = $(this).children('span#price_usd').text();
-		var percent_change_1h = $(this).children('span#percent_change_1h').text();
-		var percent_change_24h = $(this).children('span#percent_change_24h').text();
+		var rank = $(this).children('span#market_cap_rank').text();
+		// var price_eur = $(this).children('span#price_eur').text();
+		var price_usd = $(this).children('span#current_price').text();
+		// var percent_change_1h = $(this).children('span#percent_change_1h').text();
+		var percent_change_24h = $(this).children('span#price_change_percentage_24h').text();
 		var percent_change_7d = $(this).children('span#percent_change_7d').text();
 		$(this).addClass('row');
 		$(this).attr('id', id);
@@ -53,11 +53,11 @@ function generateList(data) {
 		text += "<div class='hidden-xs col-sm-1'><span id='rank'>" + rank + "</span></div>";
 		text += "<div class='col-xs-2 col-sm-1'><span id='symbol'>" + symbol + "</span></div>";
 		text += "<div class='hidden-xs col-sm-4'><span id='name'>" + name + "</span></div>";
-		text += "<div class='col-xs-4 col-sm-2'><span id='price_eur'> " + price_eur + "</span></div>";
+		text += "<div class='col-xs-4 col-sm-2'><span id='price_usd'> " + price_usd + "</span></div>";
 		text += "<div class='col-xs-6 col-sm-4'><div class='row'>";
-		text += "<div class='col-xs-4'><span id='percent_change_1h'>" + percent_change_1h + "</span></div>";
+		// text += "<div class='col-xs-4'><span id='percent_change_1h'>" + percent_change_1h + "</span></div>";
 		text += "<div class='col-xs-4'><span id='percent_change_24h'>" + percent_change_24h + "</span></div>";
-		text += "<div class='col-xs-4'><span id='percent_change_7d'>" + percent_change_7d + "</span></div>";
+		// text += "<div class='col-xs-4'><span id='percent_change_7d'>" + percent_change_7d + "</span></div>";
 		text += "</div></div>";
 		$(this).append(text);
 		updateSymbols($(this));
@@ -72,26 +72,26 @@ function generateList(data) {
 }
 
 function updateSymbols(doc) {
-	var euros = $(doc).find('#price_eur').text();
-	if (euros > 1) {
-		euros = Math.round(euros * 100) / 100;
+	var price = $(doc).find('#price_usd').text();
+	if (price > 1) {
+		price = Math.round(price * 100) / 100;
 	} else {
-		euros = Math.round(euros * 10000) / 10000;
+		price = Math.round(price * 10000) / 10000;
 	}
-	$(doc).find('#price_eur').text(euros);
+	$(doc).find('#price_usd').text(price);
 	$(doc).find('#rank').prepend('#');
-	$(doc).find('#price_eur').append('€');
+	// $(doc).find('#price_eur').append('€');
 	$(doc).find('#price_usd').prepend('$');
 	$(doc).find('#price_btc').append(' BTC');
-	changeTextColor(doc, '#percent_change_1h');
+	// changeTextColor(doc, '#percent_change_1h');
 	changeTextColor(doc, '#percent_change_24h');
-	changeTextColor(doc, '#percent_change_7d');
+	// changeTextColor(doc, '#percent_change_7d');
 	/* Petite mise en page */
 	var mq = window.matchMedia('screen and (min-width: 768px)');
 	if (mq.matches) { // the width of browser is more then 768px
-		$(doc).find('#price_eur').parent().css('text-align', 'inherit');
+		$(doc).find('#price_usd').parent().css('text-align', 'inherit');
 	} else { // the width of browser is less then 768px
-		$(doc).find('#price_eur').parent().css('text-align', 'right');
+		$(doc).find('#price_usd').parent().css('text-align', 'right');
 	}
 }
 
@@ -107,7 +107,7 @@ function changeTextColor(doc, id) {
 
 function updateList() {
 	$.ajax({
-		url: "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=25",
+		url: "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd",
 		dataType: 'json',
 		success: function (data) {
 			$.each(data, function (number, line) {
@@ -125,7 +125,7 @@ function updateList() {
 }
 $(document).ready(function () {
 	$.ajax({
-		url: "https://api.coinmarketcap.com/v1/ticker/?convert=EUR&limit=25",
+		url: "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd",
 		dataType: 'json',
 		success: function (data) {
 			generateList(data);
