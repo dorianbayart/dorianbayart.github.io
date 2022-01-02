@@ -42,7 +42,7 @@ function generateList(data) {
 		var symbol = $(this).children('span#symbol').text();
 		var rank = $(this).children('span#market_cap_rank').text();
 		// var price_eur = $(this).children('span#price_eur').text();
-		var price_usd = $(this).children('span#current_price').text();
+		var current_price = $(this).children('span#current_price').text();
 		// var percent_change_1h = $(this).children('span#percent_change_1h').text();
 		var percent_change_24h = $(this).children('span#price_change_percentage_24h').text();
 		percent_change_24h = Math.round(parseFloat(percent_change_24h)*100)/100;
@@ -54,7 +54,7 @@ function generateList(data) {
 		text += "<div class='hidden-xs col-sm-1'><span id='rank'>" + rank + "</span></div>";
 		text += "<div class='col-xs-2 col-sm-1'><span id='symbol'>" + symbol + "</span></div>";
 		text += "<div class='hidden-xs col-sm-4'><span id='name'>" + name + "</span></div>";
-		text += "<div class='col-xs-4 col-sm-2'><span id='price_usd'> " + price_usd + "</span></div>";
+		text += "<div class='col-xs-4 col-sm-2'><span id='current_price'> " + current_price + "</span></div>";
 		text += "<div class='col-xs-6 col-sm-4'><div class='row'>";
 		// text += "<div class='col-xs-4'><span id='percent_change_1h'>" + percent_change_1h + "</span></div>";
 		text += "<div class='col-xs-12'><span id='percent_change_24h'>" + percent_change_24h + "</span></div>";
@@ -73,16 +73,16 @@ function generateList(data) {
 }
 
 function updateSymbols(doc) {
-	var price = $(doc).find('#price_usd').text();
+	var price = $(doc).find('#current_price').text();
 	if (price > 1) {
 		price = Math.round(price * 100) / 100;
 	} else {
 		price = Math.round(price * 10000) / 10000;
 	}
-	$(doc).find('#price_usd').text(price);
+	$(doc).find('#current_price').text(price);
 	// $(doc).find('#rank').prepend('#');
 	// $(doc).find('#price_eur').append('€');
-	// $(doc).find('#price_usd').prepend('$');
+	// $(doc).find('#current_price').prepend('$');
 	$(doc).find('#price_btc').append(' BTC');
 	// changeTextColor(doc, '#percent_change_1h');
 	changeTextColor(doc, '#percent_change_24h');
@@ -90,9 +90,9 @@ function updateSymbols(doc) {
 	/* Petite mise en page */
 	var mq = window.matchMedia('screen and (min-width: 768px)');
 	if (mq.matches) { // the width of browser is more then 768px
-		$(doc).find('#price_usd').parent().css('text-align', 'inherit');
+		$(doc).find('#current_price').parent().css('text-align', 'inherit');
 	} else { // the width of browser is less then 768px
-		$(doc).find('#price_usd').parent().css('text-align', 'right');
+		$(doc).find('#current_price').parent().css('text-align', 'right');
 	}
 }
 
