@@ -51,13 +51,13 @@ function generateList(data) {
 		$(this).attr('id', id);
 		$(this).find('span').remove();
 		var text = "";
-		text += "<div class='hidden-xs col-sm-1'><span id='rank'>" + rank + "</span></div>";
+		text += "<div class='hidden-xs col-sm-1'><span id='market_cap_rank'>" + rank + "</span></div>";
 		text += "<div class='col-xs-2 col-sm-1'><span id='symbol'>" + symbol + "</span></div>";
 		text += "<div class='hidden-xs col-sm-4'><span id='name'>" + name + "</span></div>";
 		text += "<div class='col-xs-4 col-sm-2'><span id='current_price'> " + current_price + "</span></div>";
 		text += "<div class='col-xs-6 col-sm-4'><div class='row'>";
 		// text += "<div class='col-xs-4'><span id='percent_change_1h'>" + percent_change_1h + "</span></div>";
-		text += "<div class='col-xs-12'><span id='percent_change_24h'>" + percent_change_24h + "</span></div>";
+		text += "<div class='col-xs-12'><span id='price_change_percentage_24h'>" + percent_change_24h + "</span></div>";
 		// text += "<div class='col-xs-4'><span id='percent_change_7d'>" + percent_change_7d + "</span></div>";
 		text += "</div></div>";
 		$(this).append(text);
@@ -66,9 +66,9 @@ function generateList(data) {
 	/* Petite mise en page */
 	var mq = window.matchMedia('screen and (min-width: 768px)');
 	if (mq.matches) { // the width of browser is more then 768px
-		$('.panel-heading #price_eur').parent().css('text-align', 'inherit');
+		$('.panel-heading #current_price').parent().css('text-align', 'inherit');
 	} else { // the width of browser is less then 768px
-		$('.panel-heading #price_eur').parent().css('text-align', 'right');
+		$('.panel-heading #current_price').parent().css('text-align', 'right');
 	}
 }
 
@@ -85,7 +85,7 @@ function updateSymbols(doc) {
 	// $(doc).find('#current_price').prepend('$');
 	$(doc).find('#price_btc').append(' BTC');
 	// changeTextColor(doc, '#percent_change_1h');
-	changeTextColor(doc, '#percent_change_24h');
+	changeTextColor(doc, '#price_change_percentage_24h');
 	// changeTextColor(doc, '#percent_change_7d');
 	/* Petite mise en page */
 	var mq = window.matchMedia('screen and (min-width: 768px)');
