@@ -1,34 +1,49 @@
 
 span#liveUpdateDescription {
-	font-style: italic;
-	text-align: right;
-	display: block;
+  font-style: italic;
+  text-align: right;
+  display: block;
 }
 
 a#dataFrom {
-	text-align: right;
-	display: block;
+  text-align: right;
+  display: block;
 }
 
 .container > .container-fluid {
-	text-align: center;
-	padding-left: 0;
-	padding-right: 0;
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .panel {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
-/* Lié à iframe, donc width:90% */
-.legend {
-	width: 90%;
-	margin-right: 4%;
-	text-align: right;
-	display: block;
+.panel-body .row {
+  display: flex;
+  align-items: center;
+  height: 22px;
+  transition: all 125ms ease-in-out;
+  cursor: pointer;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
-iframe {
-    width: 90%;
-    height: 480px;
+.panel-body .row > div {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.panel-body .row:hover {
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 20px;
+}
+
+#image {
+  height: calc(100% - 4px);
+  width: auto;
 }
