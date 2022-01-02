@@ -41,6 +41,7 @@ function generateList(data) {
 		var name = $(this).children('span#name').text();
 		var symbol = $(this).children('span#symbol').text();
 		var rank = $(this).children('span#market_cap_rank').text();
+		var image = $(this).children('span#image').text();
 		// var price_eur = $(this).children('span#price_eur').text();
 		var current_price = $(this).children('span#current_price').text();
 		// var percent_change_1h = $(this).children('span#percent_change_1h').text();
@@ -50,11 +51,12 @@ function generateList(data) {
 		$(this).attr('id', id);
 		$(this).find('span').remove();
 		var text = "";
-		text += "<div class='hidden-xs col-sm-1'><span id='market_cap_rank'>" + rank + "</span></div>";
-		text += "<div class='col-xs-2 col-sm-1'><span id='symbol'>" + symbol + "</span></div>";
-		text += "<div class='hidden-xs col-sm-4'><span id='name'>" + name + "</span></div>";
+		text += "<div class='hidden-xs col-sm-2'><span id='market_cap_rank'>" + rank + "</span></div>";
+		text += "<div class='col-xs-2 col-sm-2'><span id='symbol'>" + symbol + "</span></div>";
+		text += "<div class='col-xs-2 col-sm-2'><img id='image' src='"+ image +"'></div>";
+		text += "<div class='hidden-xs col-sm-2'><span id='name'>" + name + "</span></div>";
 		text += "<div class='col-xs-4 col-sm-2'><span id='current_price'> " + current_price + "</span></div>";
-		text += "<div class='col-xs-6 col-sm-4'><div class='row'>";
+		text += "<div class='col-xs-4 col-sm-2'><div class='row'>";
 		// text += "<div class='col-xs-4'><span id='percent_change_1h'>" + percent_change_1h + "</span></div>";
 		text += "<div class='col-xs-12'><span id='price_change_percentage_24h'>" + percent_change_24h + "</span></div>";
 		// text += "<div class='col-xs-4'><span id='percent_change_7d'>" + percent_change_7d + "</span></div>";
