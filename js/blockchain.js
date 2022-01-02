@@ -45,7 +45,6 @@ function generateList(data) {
 		var current_price = $(this).children('span#current_price').text();
 		// var percent_change_1h = $(this).children('span#percent_change_1h').text();
 		var percent_change_24h = $(this).children('span#price_change_percentage_24h').text();
-		percent_change_24h = Math.round(parseFloat(percent_change_24h)*100)/100;
 		// var percent_change_7d = $(this).children('span#percent_change_7d').text();
 		$(this).addClass('row');
 		$(this).attr('id', id);
@@ -73,6 +72,7 @@ function generateList(data) {
 }
 
 function updateSymbols(doc) {
+	// Price
 	var price = $(doc).find('#current_price').text();
 	if (price > 1) {
 		price = Math.round(price * 100) / 100;
@@ -80,13 +80,13 @@ function updateSymbols(doc) {
 		price = Math.round(price * 10000) / 10000;
 	}
 	$(doc).find('#current_price').text(price);
-	// $(doc).find('#rank').prepend('#');
-	// $(doc).find('#price_eur').append('€');
-	// $(doc).find('#current_price').prepend('$');
-	$(doc).find('#price_btc').append(' BTC');
-	// changeTextColor(doc, '#percent_change_1h');
+
+	// Percentage
+	var percentage = $(doc).find('#price_change_percentage_24h').text();
+	percentage = Math.round(parseFloat(percentage)*100)/100;
+	$(doc).find('#price_change_percentage_24h').text(percentage);
 	changeTextColor(doc, '#price_change_percentage_24h');
-	// changeTextColor(doc, '#percent_change_7d');
+
 	/* Petite mise en page */
 	var mq = window.matchMedia('screen and (min-width: 768px)');
 	if (mq.matches) { // the width of browser is more then 768px
