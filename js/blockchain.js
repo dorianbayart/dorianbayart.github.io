@@ -1,6 +1,6 @@
 let url_request = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&per_page=250"
 let url_categories = "https://api.coingecko.com/api/v3/coins/categories/list"
-let categorySelected = ""
+let categorySelected = "none"
 
 function readJson(data) {
 	var text = "";
@@ -38,9 +38,9 @@ function generateCategories(list) {
 	/* Traitement des données */
 	$('#categories').html("");
 	
-	$('#categories').append("<li id='all' value=''>None</li>");
+	$('#categories').append("<li id='none'>None</li>");
 	list.forEach(category => {
-		$('#categories').append(`<li id='${category.category_id}' data-value='&${category.category_id}'>${category.name}</li>`);
+		$('#categories').append(`<li id='${category.category_id}'>${category.name}</li>`);
 	});
 }
 
@@ -117,7 +117,7 @@ function changeTextColor(doc, id) {
 
 function updateList() {
 	$.ajax({
-		url: url_request + categorySelected,
+		url: getUrlRequest(),
 		dataType: 'json',
 		success: function (data) {
 			$.each(data, function (number, line) {
@@ -146,7 +146,7 @@ $(document).ready(function () {
 		}
 	});
 	$.ajax({
-		url: url_request + categorySelected,
+		url: getUrlRequest(),
 		dataType: 'json',
 		success: function (data) {
 			generateList(data);
@@ -171,11 +171,10 @@ $(document).ready(function () {
 
 function categoryClick(item) {
 	if(item.id && item.id !== "categories") {
-		categorySelected = item.getAttribute("data-value");
-		console.log(item);
+		categorySelected = item.id;
 		
 		$.ajax({
-			url: url_request + categorySelected,
+			url: getUrlRequest(),
 			dataType: 'json',
 			success: function (data) {
 				generateList(data);
@@ -185,4 +184,11 @@ function categoryClick(item) {
 			}
 		});
 	}
+}
+
+function getUrlRequest() {
+	if(categorySelected !== "none") {
+		return url_request + "&category=" + categorySelected;
+	}
+	return url_request;
 }
