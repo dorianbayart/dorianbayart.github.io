@@ -40,7 +40,7 @@ function generateCategories(list) {
 	
 	$('#categories').append("<li id='all' value=''>None</li>");
 	list.forEach(category => {
-		$('#categories').append(`<li id='${category.category_id}' value='&${category.category_id}'>${category.name}</li>`);
+		$('#categories').append(`<li id='${category.category_id}' data-value='&${category.category_id}'>${category.name}</li>`);
 	});
 }
 
@@ -171,7 +171,7 @@ $(document).ready(function () {
 
 function categoryClick(item) {
 	if(item.id && item.id !== "categories") {
-		categorySelected = item.value;
+		categorySelected = item.getAttributes("data-value");
 		console.log(item);
 		
 		$.ajax({
