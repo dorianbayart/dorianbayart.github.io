@@ -38,8 +38,6 @@ ul#categories li {
   align-items: center;
   height: 22px;
   cursor: pointer;
-  margin-top: 2px;
-  margin-bottom: 2px;
 }
 
 .panel-body .row > div {
