@@ -171,7 +171,7 @@ $(document).ready(function () {
 
 function categoryClick(item) {
 	if(item.id && item.id !== "categories") {
-		categorySelected = item.getAttributes("data-value");
+		categorySelected = item.getAttribute("data-value");
 		console.log(item);
 		
 		$.ajax({
