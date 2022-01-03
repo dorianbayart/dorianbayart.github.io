@@ -17,9 +17,9 @@ function readJson(data) {
 function sortStreams(json, prop, asc) {
 	json = json.sort(function (a, b) {
 		if (asc) {
-			return parseInt(a[prop]) > parseInt(b[prop]) ? 1 : -1;
+			return parseInt(a[prop]) < parseInt(b[prop]) ? -1 : 1;
 		} else {
-			return parseInt(b[prop]) > parseInt(a[prop]) ? 1 : -1;
+			return parseInt(b[prop]) < parseInt(a[prop]) ? -1 : 1;
 		}
 	});
 	return json;
