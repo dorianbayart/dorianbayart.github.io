@@ -42,6 +42,10 @@ ul#categories li {
   justify-content: center;
 }
 
+.panel-body .row > div > span {
+  line-height: 0.85;
+}
+
 .panel-body .row:hover {
   height: 40px;
   background-color: #ddd;
