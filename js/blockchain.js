@@ -33,7 +33,7 @@ function filtering(json, criteria) {
 function generateList(data) {
 	/* Traitement des données */
 	var jsonParsed = data;
-	var text = $(readJson(sortStreams(jsonParsed, "rank", true)));
+	var text = $(readJson(sortStreams(jsonParsed, "market_cap_rank", true)));
 	$('#json').append(data);
 	$('#json_ul').html("").append(text);
 	$('#json_ul > div').each(function () {
