@@ -1,3 +1,6 @@
+let url_request = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&per_page=250
+let url_categories = "https://api.coingecko.com/api/v3/coins/categories/list"
+
 function readJson(data) {
 	var text = "";
 	$.each(data, function (key, val) {
@@ -28,6 +31,16 @@ function filtering(json, criteria) {
 		});
 	});
 	return json;
+}
+
+function generateCategories(list) {
+	/* Traitement des données */
+	$('#categories').html("");
+	
+	$('#categories').append("<li id='all' value=''>None</li>");
+	list.forEach(category => {
+		$('#categories').append(`<li id='${category_id}' value='&${category_id}'>${name}</li>`);
+	});
 }
 
 function generateList(data) {
@@ -64,13 +77,6 @@ function generateList(data) {
 		$(this).append(text);
 		updateSymbols($(this));
 	});
-	/* Petite mise en page */
-	var mq = window.matchMedia('screen and (min-width: 768px)');
-	if (mq.matches) { // the width of browser is more then 768px
-		$('.panel-heading #current_price').parent().css('text-align', 'inherit');
-	} else { // the width of browser is less then 768px
-		$('.panel-heading #current_price').parent().css('text-align', 'right');
-	}
 }
 
 function updateSymbols(doc) {
@@ -110,7 +116,7 @@ function changeTextColor(doc, id) {
 
 function updateList() {
 	$.ajax({
-		url: "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd",
+		url: url_request,
 		dataType: 'json',
 		success: function (data) {
 			$.each(data, function (number, line) {
@@ -126,9 +132,20 @@ function updateList() {
 		}
 	});
 }
+
 $(document).ready(function () {
 	$.ajax({
-		url: "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd",
+		url: url_categories,
+		dataType: 'json',
+		success: function (data) {
+			generateCategories(data);
+		},
+		error: function (e) {
+			console.log(e);
+		}
+	});
+	$.ajax({
+		url: url_request,
 		dataType: 'json',
 		success: function (data) {
 			generateList(data);
