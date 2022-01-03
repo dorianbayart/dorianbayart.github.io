@@ -1,5 +1,6 @@
 let url_request = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&per_page=250"
 let url_categories = "https://api.coingecko.com/api/v3/coins/categories/list"
+let categorySelected = ""
 
 function readJson(data) {
 	var text = "";
@@ -116,7 +117,7 @@ function changeTextColor(doc, id) {
 
 function updateList() {
 	$.ajax({
-		url: url_request,
+		url: url_request + categorySelected,
 		dataType: 'json',
 		success: function (data) {
 			$.each(data, function (number, line) {
@@ -145,7 +146,7 @@ $(document).ready(function () {
 		}
 	});
 	$.ajax({
-		url: url_request,
+		url: url_request + categorySelected,
 		dataType: 'json',
 		success: function (data) {
 			generateList(data);
@@ -163,4 +164,25 @@ $(document).ready(function () {
 	$('#filterInputName').on("change keyup", function () {
 		generateList();
 	});
+	$('#categories').on("click", function () {
+		categoryClick();
+	});
 });
+
+function categoryClick(e) {
+	if(e.target.id && e.target.id !== "categories") {
+		categorySelected = e.target.value;
+		console.log(e.target);
+		
+		$.ajax({
+			url: url_request + categorySelected,
+			dataType: 'json',
+			success: function (data) {
+				generateList(data);
+			},
+			error: function (e) {
+				console.log(e);
+			}
+		});
+	}
+}
