@@ -38,8 +38,8 @@ function generateCategories(list) {
 	$('#categories').html("");
 	
 	$('#categories').append("<li id='all' value=''>None</li>");
-	list.forEach([category_id, name] => {
-		$('#categories').append(`<li id='${category_id}' value='&${category_id}'>${name}</li>`);
+	list.forEach(category => {
+		$('#categories').append(`<li id='${category.category_id}' value='&${category.category_id}'>${category.name}</li>`);
 	});
 }
 
