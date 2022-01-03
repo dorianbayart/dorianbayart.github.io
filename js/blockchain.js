@@ -38,7 +38,7 @@ function generateCategories(list) {
 	$('#categories').html("");
 	
 	$('#categories').append("<li id='all' value=''>None</li>");
-	list.forEach(category => {
+	list.forEach([category_id, name] => {
 		$('#categories').append(`<li id='${category_id}' value='&${category_id}'>${name}</li>`);
 	});
 }
