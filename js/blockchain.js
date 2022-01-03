@@ -164,15 +164,15 @@ $(document).ready(function () {
 	$('#filterInputName').on("change keyup", function () {
 		generateList();
 	});
-	$('#categories').on("click", function () {
-		categoryClick();
+	$('#categories').on("click", function (e) {
+		categoryClick(e.target);
 	});
 });
 
-function categoryClick(e) {
-	if(e.target.id && e.target.id !== "categories") {
-		categorySelected = e.target.value;
-		console.log(e.target);
+function categoryClick(item) {
+	if(item.id && item.id !== "categories") {
+		categorySelected = item.value;
+		console.log(item);
 		
 		$.ajax({
 			url: url_request + categorySelected,
