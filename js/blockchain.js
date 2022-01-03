@@ -67,7 +67,7 @@ function generateList(data) {
 		var text = "";
 		text += "<div class='hidden-xs col-sm-2'><span id='market_cap_rank'>" + rank + "</span></div>";
 		text += "<div class='col-xs-2 col-sm-2'><span id='symbol'>" + symbol + "</span></div>";
-		text += "<div class='col-xs-2 col-sm-1'><img id='image' height='18px' width='18px' src='"+ image +"'></div>";
+		text += "<div class='col-xs-2 col-sm-1'><img id='image' height='18px' width='18px' src='"+ image +"' loading='lazy'></div>";
 		text += "<div class='hidden-xs col-sm-3'><span id='name'>" + name + "</span></div>";
 		text += "<div class='col-xs-4 col-sm-2'><span id='current_price'> " + current_price + "</span></div>";
 		text += "<div class='col-xs-4 col-sm-2'><div class='row'>";
