@@ -16,6 +16,19 @@ a#dataFrom {
   padding-right: 0;
 }
 
+ul#categories {
+  list-style: none;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ul#categories li {
+  padding: 4px 8px;
+  margin: 2px 4px;
+  cursor: pointer;
+  outline: #adf 1px solid;
+}
+
 .panel {
   margin-bottom: 0;
 }
