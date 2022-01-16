@@ -130,6 +130,17 @@
 			"Automation",
 			"Telecommunications"
 		]
+	},{
+		"institution": "Universtity of Caen",
+		"area": "Electronic And Applied Physics",
+		"studyType": "Superior Technician / 2 years University Degree",
+		"startDate": "2007",
+		"endDate": "2009",
+		"gpa": "",
+		"courses": [
+			"Physical measurements",
+			"Instrumental technics"
+		]
 	}],
 
 
