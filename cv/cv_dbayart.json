@@ -1,7 +1,7 @@
 {
 	"basics": {
 		"name": "Dorian Bayart",
-		"age": "33",
+		"age": "34",
 		"label": "Software Engineer",
 		"picture": "",
 		"email": "dorian.bayart@gmail.com",
@@ -10,8 +10,8 @@
 		"location": {
 			"address": "",
 			"postalCode": "",
-			"city": "Paris",
-			"region": "Île-de-France",
+			"city": "Rennes",
+			"region": "Bretagne",
 			"countryCode": "FR"
 		},
 		"profiles": [{
