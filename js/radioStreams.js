@@ -88,7 +88,7 @@ function generateList() {
 	
 	$( '.streams #flag' ).each(function() {
 		var codeISO = $(this).text();
-		$(this).html('<figure><img src="https://lipis.github.io/flag-icon-css/flags/4x3/'+ codeISO +'.svg" /></figure>');
+		$(this).html('<figure><img src="https://raw.githubusercontent.com/lipis/flag-icons/main/flags/4x3/'+ codeISO +'.svg" /></figure>');
 	});
 	$('.tags > *').addClass( 'label label-info' );
 }
