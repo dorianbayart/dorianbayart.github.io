@@ -15,8 +15,8 @@ lang: en-US
 </div>
 
 <div class="container-fluid">
-  
-  {% assign sorted_pages = (site.pages | sort: 'title') %}
+
+  {% assign sorted_pages = site.pages | sort: 'title' %}
   {% for page in sorted_pages %}
     {% unless page.sitemap.exclude == "yes" or page.title == "DorianBayart.github.io" or page.title == "Atom Feed" or page.url == "/assets/css/style.css" %}
     <a href='{{ page.url | remove: "index.html" }}' class="panel panel-default">
@@ -25,5 +25,5 @@ lang: en-US
     </a>
     {% endunless %}
   {% endfor %}
-  
+
 </div>
