@@ -60,6 +60,9 @@ function generateList() {
 		var title = $(this).children( 'span#title' );
 		var country = $(this).children( 'span#country' );
 		var flag = $(this).children( 'span#flag' );
+		var codec = $(this).children( 'span#codec' );
+		var sampling = $(this).children( 'span#sampling' );
+		var bitrate = $(this).children( 'span#bitrate' );
 		var url = $(this).children( 'span#url' );
 		var slogan = $(this).children( 'span#slogan' );
 		
@@ -70,7 +73,7 @@ function generateList() {
 		title.wrap('<button class="panel-heading" data-toggle="collapse" data-target="#'+uniqID+'" aria-expanded="false" aria-controls="'+uniqID+'">');
 		$(this).find('> #country, > #url, > #flag, > #slogan, > .tags').wrapAll('<div class="panel-collapse collapse" id="'+uniqID+'">').wrapAll('<div class="panel-body">').wrapAll('<div class="row">');
 		
-		$(this).find('#country, #flag, .tags').wrapAll('<div class="col-sm-6">');
+		$(this).find('#country, #flag, .tags, #codec, #sampling, #bitrate').wrapAll('<div class="col-sm-6">');
 		$(this).find('#url, #slogan').wrapAll('<div class="col-sm-6">');
 		
 		slogan.wrap('<blockquote class="blockquote">');
@@ -83,7 +86,9 @@ function generateList() {
 			
 		});
 		
-		
+		$('#codec').addClass('label label-primary');
+		$('#sampling').addClass('label label-success').append(' Hz');
+		$('#bitrate').addClass('label label-warning').append(' kbit/s');
 	});
 	
 	$( '.streams #flag' ).each(function() {

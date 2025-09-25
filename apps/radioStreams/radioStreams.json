@@ -6,8 +6,9 @@
 			"slogan":"La France a tout pour réussir",
 			"flag":"fr",
 			"country":"France",
+			"codec":"mp3",
 			"sampling":48,
-			"quality":256,
+			"bitrate":256,
 			"tags":[
 				"news"
 			]
@@ -19,7 +20,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"variétés françaises"
 			]
@@ -31,7 +32,7 @@
 			"country":"France",
 			"codec":"aac-he2",
 			"sampling":44,
-			"quality":96,
+			"bitrate":96,
 			"tags":[
 				"variétés françaises", "90's", "2000's"
 			]
@@ -44,7 +45,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"variétés françaises"
 			]
@@ -57,7 +58,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"variétés françaises"
 			]
@@ -69,7 +70,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"dance"
 			]
@@ -82,7 +83,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"variétés"
 			]
@@ -95,7 +96,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"infos", "variétés"
 			]
@@ -108,7 +109,7 @@
 			"country":"France",
 			"codec":"aac",
 			"sampling":48,
-			"quality":192,
+			"bitrate":192,
 			"tags":[
 				"news"
 			]
@@ -121,7 +122,7 @@
 			"country":"France",
 			"codec":"aac",
 			"sampling":48,
-			"quality":192,
+			"bitrate":192,
 			"tags":[
 				"news"
 			]
@@ -134,7 +135,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"dance"
 			]
@@ -146,7 +147,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"dance"
 			]
@@ -158,7 +159,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"hits"
 			]
@@ -170,7 +171,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"pop"
 			]
@@ -182,7 +183,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"rock"
 			]
@@ -194,7 +195,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"urban"
 			]
@@ -206,7 +207,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"hits", "2000's"
 			]
@@ -218,7 +219,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"reggae"
 			]
@@ -230,7 +231,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":256,
+			"bitrate":256,
 			"tags":[
 				"hits"
 			]
@@ -243,7 +244,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"hits", "2000's"
 			]
@@ -256,7 +257,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"hits", "80's", "pop"
 			]
@@ -269,7 +270,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"hits", "90's", "pop"
 			]
@@ -282,7 +283,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				
 			]
@@ -295,7 +296,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"dance", "house"
 			]
@@ -308,7 +309,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"chill"
 			]
@@ -321,7 +322,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"variétés françaises"
 			]
@@ -334,7 +335,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"disco", "funk"
 			]
@@ -347,7 +348,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"hits", "gaming"
 			]
@@ -360,7 +361,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"60's", "70's"
 			]
@@ -373,7 +374,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"hip-hop", "rap", "rnb"
 			]
@@ -386,7 +387,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"hits"
 			]
@@ -399,7 +400,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"indie"
 			]
@@ -412,7 +413,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"k-pop"
 			]
@@ -425,7 +426,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"lounge", "ambient"
 			]
@@ -438,7 +439,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"soft rock", "chillout", "chill"
 			]
@@ -451,7 +452,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"heavy metal", "hard rock", "metal"
 			]
@@ -464,7 +465,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"eclectique", "films", "movies"
 			]
@@ -477,7 +478,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"eclectique", "hits"
 			]
@@ -490,7 +491,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"rock", "pop"
 			]
@@ -503,7 +504,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"rock"
 			]
@@ -516,7 +517,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"dance", "hits", "pop", "sport"
 			]
@@ -529,7 +530,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"sport", "workout"
 			]
@@ -542,7 +543,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"dance", "hits"
 			]
@@ -555,7 +556,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":320,
+			"bitrate":320,
 			"tags":[
 				"chill", "chillout", "meditation", "spiritualité", "zen"
 			]
@@ -568,7 +569,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":192,
+			"bitrate":192,
 			"tags":[
 				"jazz", "soul"
 			]
@@ -581,7 +582,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"jazz", "funk"
 			]
@@ -594,7 +595,7 @@
 			"country":"France/Suisse",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"charts"
 			]
@@ -607,7 +608,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"duo", "variétés françaises"
 			]
@@ -620,7 +621,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"pop", "variétés françaises"
 			]
@@ -633,7 +634,7 @@
 			"country":"France",
 			"codec":"aac",
 			"sampling":48,
-			"quality":192,
+			"bitrate":192,
 			"tags":[
 				"urban", "hip-hop", "electro"
 			]
@@ -646,7 +647,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"charts", "dance", "hits"
 			]
@@ -659,7 +660,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				
 			]
@@ -672,7 +673,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"child", "disney", "films", "movies"
 			]
@@ -685,7 +686,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"dance", "deep house", "electro house", "electronic"
 			]
@@ -698,7 +699,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"news"
 			]
@@ -711,7 +712,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"news", "variétés"
 			]
@@ -724,7 +725,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"pop", "rock"
 			]
@@ -737,7 +738,7 @@
 			"country":"France",
 			"codec":"aac-lc",
 			"sampling":48,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"rap", "rnb"
 			]
@@ -750,7 +751,7 @@
 			"country":"France",
 			"codec":"mp3",
 			"sampling":44,
-			"quality":128,
+			"bitrate":128,
 			"tags":[
 				"pop", "rock", "electro"
 			]
