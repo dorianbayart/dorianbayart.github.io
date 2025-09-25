@@ -42,6 +42,10 @@ figure {
 	margin: 0;
 }
 
+.tags > *.label {
+	display: inline-flex;
+}
+
 #country, #flag, #codec, #sampling, #bitrate, .tags > * {
 	display: inline-block;
 	vertical-align: middle;
@@ -63,14 +67,16 @@ figure {
 	margin: 0;
 }
 
-.panel-body > * > * > * {
+.panel-body * {
 	display: block;
-	margin: 0.2em 0.8em;
 }
-
 
 .panel-title {
 	font-style: italic;
 	font-size: 1.3em;
 	color: #000;
+}
+
+blockquote {
+	margin: 0;
 }
