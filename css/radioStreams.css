@@ -38,9 +38,14 @@ figure {
 	margin: -0.18em 0 0 0;
 }
 
-#country, #flag {
+.tags {
+	margin: 0;
+}
+
+#country, #flag, #codec, #sampling, #bitrate, .tags > * {
 	display: inline-block;
 	vertical-align: middle;
+	margin: 0.2em;
 }
 #flag img {
 	width: 1.2em;

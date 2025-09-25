@@ -1,12 +1,7 @@
-.slow-spin {
-	-webkit-transform-origin: 50% calc(50% - 1px);
-	transform-origin: 50% calc(50% - 1px);
-	-webkit-animation: fa-spin 5s infinite linear;
-	animation: fa-spin 5s infinite linear;
-}
+@import 'theme.css';
 
 body {
-	font-family:'Lato', 'Helvetica', 'Sans-Serif';
+	font-family: system-ui, 'Sans-Serif';
 	width: 85%;
 	margin: 0 auto;
 	padding: 0px;
@@ -16,7 +11,6 @@ body {
 	padding: 0px;
 	padding-bottom: 0.8em;
 }
-
 
 .navbar {
 	margin-top: 1em;
@@ -39,7 +33,6 @@ body {
     border-right-color: lightgrey;
 }
 #footer > ul {
-    font-family:'Lato', 'Helvetica', 'Sans-Serif';
     font-size: 1.0em;
     padding: 0px;
     list-style: none;
@@ -60,7 +53,6 @@ footer a:hover {
 
 h1 {
     font-size: 2em;
-    font-family:'Lato', 'Helvetica', 'Sans-Serif';
     margin-bottom: 0.8em;
     margin-top: 0.8em;
 }
@@ -69,8 +61,6 @@ h1 {
 footer {
     border-top: 1px solid #d5d5d5;
 }
-
-
 
 .noJS {
 	display: none;
