@@ -1,101 +1,89 @@
 {
-	"streams": [
+	"streams":[
 		{
-			"title":"RTL 2",
-			"url":"http://streaming.radio.rtl2.fr/rtl2-1-48-192",
-			"slogan":"Le son Pop-Rock",
+			"title":"BFM Business",
+			"url":"https://audio.bfmtv.com/bfmbusiness_128.mp3",
+			"slogan":"La France a tout pour réussir",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
-				"pop", "rock"
-			]
-		},
-		{
-			"title":"Fun Radio France",
-			"url":"http://streaming.radio.funradio.fr/fun-1-48-192",
-			"slogan":"Le Son Dancefloor",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"dance"
-			]
-		},
-		{
-			"title":"France Inter",
-			"url":"http://direct.franceinter.fr/live/franceinter-midfi.mp3",
-			"slogan":"InterVenez",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
+			"sampling":48,
+			"quality":256,
+			"tags":[
 				"news"
 			]
 		},
 		{
-			"title":"Skyrock",
-			"url":"http://icecast.skyrock.net/s/natio_mp3_128k",
-			"slogan":"La première radio urbaine mondiale",
+			"title":"Chante France - Webradio",
+			"url":"https://stream1.chantefrance.com",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
-				"rap", "rnb"
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"variétés françaises"
 			]
 		},
 		{
-			"title":"Radio FG",
-			"url":"http://radiofg.impek.com/fg",
-			"slogan":"Radio FG, Feel Good",
+			"title":"Chante France 90-2000 - Webradio",
+			"url":"https://chantefrance90-2000.ice.infomaniak.ch/chantefrance90-2000-96.aac",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
-				"electro house", "deep house", "dance"
+			"codec":"aac-he2",
+			"sampling":44,
+			"quality":96,
+			"tags":[
+				"variétés françaises", "90's", "2000's"
+			]
+		},
+		{
+			"title":"Chante France Émotion - Webradio",
+			"url":"https://stream1.chantefrance.com/cf-emotion",
+			"slogan":"Les plus belles chansons françaises",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"variétés françaises"
+			]
+		},
+		{
+			"title":"Chante France Nouveautés - Webradio",
+			"url":"https://stream1.chantefrance.com/cf-nouveautes",
+			"slogan":"Les plus belles chansons françaises",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"variétés françaises"
 			]
 		},
 		{
 			"title":"Club FG",
-			"url":"http://radiofg.impek.com/fg6",
-			"flag":"gb",
+			"url":"https://radiofg.impek.com/fg",
+			"flag":"fr",
 			"country":"France",
-			"tags": [
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
 				"dance"
 			]
 		},
 		{
-			"title":"RMC",
-			"url":"http://rmc.bfmtv.com/rmcinfo-mp3",
-			"slogan":"Info, talk, sport",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"news"
-			]
-		},
-		{
-			"title":"Virgin Radio",
-			"url":"http://vr-wr6-mp3-128.scdn.arkena.com/virginradio.mp3",
-			"slogan":"Pop Rock Electro",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"pop", "rock", "electro"
-			]
-		},
-		{
-			"title":"RTL",
-			"url":"http://streaming.radio.rtl.fr/rtl-1-48-192",
-			"slogan":"RTL bouge",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"news", "variétés"
-			]
-		},
-		{
 			"title":"Europe 1",
-			"url":"http://mp3lg4.tdf-cdn.com/9240/lag_180945.mp3",
+			"url":"https://stream.europe1.fr/europe1.mp3",
 			"slogan":"Europe 1 - Mieux capter son époque",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
 				"variétés"
 			]
 		},
@@ -105,87 +93,497 @@
 			"slogan":"Écoutez, on est bien ensemble",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
-				
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"infos", "variétés"
 			]
 		},
 		{
-			"title":"Mouv'",
-			"url":"http://direct.mouv.fr/live/mouv-midfi.mp3",
-			"slogan":"Hip Hop never stop",
+			"title":"France Info",
+			"url":"https://icecast.radiofrance.fr/franceinfo-hifi.aac",
+			"slogan":"Actualités en temps réels et info en direct",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
-				"urban", "hip-hop", "electro"
-			]
-		},
-		{
-			"title":"Jazz Radio",
-			"url":"http://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
-			"slogan":"Jazz Radio, Jazz & Soul",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"jazz", "soul"
-			]
-		},
-		{
-			"title":"MFM (M France Radio)",
-			"url":"http://mfm.ice.infomaniak.ch/mfm-128.mp3",
-			"slogan":"Numéro 1 sur la chanson française",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"variétés françaises"
-			]
-		},
-		{
-			"title":"BFM Business",
-			"url":"http://chai5she.cdn.dvmr.fr/bfmbusiness",
-			"slogan":"La France a tout pour réussir",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
+			"codec":"aac",
+			"sampling":48,
+			"quality":192,
+			"tags":[
 				"news"
 			]
 		},
 		{
-			"title":"Top100Station",
-			"url":"http://www.top100station.de/stream/winamp.pls",
-			"flag":"de",
-			"country":"Germany",
-			"tags": [
-				"pop", "dance", "charts"
+			"title":"France Inter",
+			"url":"https://icecast.radiofrance.fr/franceinter-hifi.aac",
+			"slogan":"InterVenez",
+			"flag":"fr",
+			"country":"France",
+			"codec":"aac",
+			"sampling":48,
+			"quality":192,
+			"tags":[
+				"news"
 			]
 		},
 		{
-			"title":"NRJ Hits",
-			"url":"http://cdn.nrjaudio.fm/adwz1/be/34009/mp3_128.mp3",
-			"slogan":"Hits Music Only",
+			"title":"Fun Radio France",
+			"url":"https://streaming.radio.funradio.fr/fun-1-44-128",
+			"slogan":"Le Son Dancefloor",
 			"flag":"fr",
-			"country":"Belgique",
-			"tags": [
-				"charts"
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"dance"
 			]
 		},
 		{
-			"title":"NRJ Summer Hits",
-			"url":"http://cdn.nrjaudio.fm/adwz1/be/56174/mp3_128.mp3",
-			"slogan":"Hit Music Only",
+			"title":"Futuradio - Dance",
+			"url":"https://futuradiodance.ice.infomaniak.ch/frdance-128.mp3",
 			"flag":"fr",
-			"country":"Belgique",
-			"tags": [
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"dance"
+			]
+		},
+		{
+			"title":"Futuradio - Hits",
+			"url":"https://futuradiohits.ice.infomaniak.ch/frhits-128.mp3",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"hits"
+			]
+		},
+		{
+			"title":"Futuradio - Pop & Sweet",
+			"url":"https://futuradiopopsweet.ice.infomaniak.ch/frsweet-128.mp3",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"pop"
+			]
+		},
+		{
+			"title":"Futuradio - Rock",
+			"url":"https://futuradiorock.ice.infomaniak.ch/frrock-128.mp3",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"rock"
+			]
+		},
+		{
+			"title":"Futuradio - Urban",
+			"url":"https://futuradiourban.ice.infomaniak.ch/frurban-128.mp3",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"urban"
+			]
+		},
+		{
+			"title":"Générations - 2000",
+			"url":"https://generations-2000.ice.infomaniak.ch/generations-2000.mp3",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"hits", "2000's"
+			]
+		},
+		{
+			"title":"Générations - Reggae",
+			"url":"https://generations-caraibes.ice.infomaniak.ch/generations-caraibes-high.mp3",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"reggae"
+			]
+		},
+		{
+			"title":"Hits 1 Radio",
+			"url":"https://player.hits1radio.com",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":256,
+			"tags":[
+				"hits"
+			]
+		},
+		{
+			"title":"Hotmix Radio - 2000's",
+			"url":"https://streaming.hotmixradio.com/hotmix-2000-fr-pre",
+			"slogan":"La radio années 2000",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"hits", "2000's"
+			]
+		},
+		{
+			"title":"Hotmix Radio - 80's",
+			"url":"https://streaming.hotmixradio.com/hotmix-80-fr-pre",
+			"slogan":"Le meilleur des années 80",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"hits", "80's", "pop"
+			]
+		},
+		{
+			"title":"Hotmix Radio - 90's",
+			"url":"https://streaming.hotmixradio.com/hotmix-90-fr-pre",
+			"slogan":"La playlist Années 90",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"hits", "90's", "pop"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Babymix",
+			"url":"https://streaming.hotmixradio.com/hotmix-baby-fr-pre",
+			"slogan":"C'est Rigolo",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
 				
 			]
 		},
 		{
-			"title":"NRJ Relax",
-			"url":"http://cdn.nrjaudio.fm/adwz1/be/56177/mp3_128.mp3",
-			"slogan":"Hit Music Only",
+			"title":"Hotmix Radio - Dance",
+			"url":"https://streaming.hotmixradio.com/hotmix-dance-fr-pre",
+			"slogan":"Alors on danse",
 			"flag":"fr",
-			"country":"Belgique",
-			"tags": [
-				
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"dance", "house"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Focus",
+			"url":"https://streaming.hotmixradio.com/hotmix-focus-en-pre",
+			"slogan":"La parfaite atmosphère pour travailler, se concentrer ou simplement se détendre",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"chill"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Frenchy",
+			"url":"https://streaming.hotmixradio.com/hotmix-frenchy-fr-pre",
+			"slogan":"La radio chanson française",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"variétés françaises"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Funky",
+			"url":"https://streaming.hotmixradio.com/hotmix-disco-funk-en-pre",
+			"slogan":"Le meilleur du Funk",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"disco", "funk"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Gaming",
+			"url":"https://streaming.hotmixradio.com/hotmix-gaming-en-pre",
+			"slogan":"Les meilleurs titres musicaux des jeux vidéos",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"hits", "gaming"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Gold",
+			"url":"https://streaming.hotmixradio.com/hotmix-gold-fr-pre",
+			"slogan":"La radio années 70 et 60",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"60's", "70's"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Rap & Hip-Hop",
+			"url":"https://streaming.hotmixradio.com/hotmix-rap-fr-pre",
+			"slogan":"La radio Rap et Hip-Hop",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"hip-hop", "rap", "rnb"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Hits International",
+			"url":"https://streaming.hotmixradio.com/hotmix-hits-en-pre",
+			"slogan":"La radio Hits et Nouveautés",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"hits"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Hindie",
+			"url":"https://streaming.hotmixradio.com/hotmix-indie-en-pre",
+			"slogan":"Le meilleur de la musique Indie et des artistes indépendants",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"indie"
+			]
+		},
+		{
+			"title":"Hotmix Radio - K-Pop",
+			"url":"https://streaming.hotmixradio.com/hotmix-k-pop-en-pre",
+			"slogan":"Le meilleur de la tendance K-pop",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"k-pop"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Lounge",
+			"url":"https://streaming.hotmixradio.com/hotmix-lounge-en-pre",
+			"slogan":"Le meilleur son Lounge",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"lounge", "ambient"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Love",
+			"url":"https://streaming.hotmixradio.com/hotmix-love-en-pre",
+			"slogan":"L'instant romantique",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"soft rock", "chillout", "chill"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Metal",
+			"url":"https://streaming.hotmixradio.com/hotmix-metal-en-pre",
+			"slogan":"La radio Metal Hard Rock",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"heavy metal", "hard rock", "metal"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Movies",
+			"url":"https://streaming.hotmixradio.com/hotmix-movies-en-pre",
+			"slogan":"Le meilleur des musiques de films",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"eclectique", "films", "movies"
+			]
+		},
+		{
+			"title":"Hotmix Radio - New",
+			"url":"https://streaming.hotmixradio.com/hotmix-new-fr-pre",
+			"slogan":"Toutes les nouveautés",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"eclectique", "hits"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Pop Rock",
+			"url":"https://streaming.hotmixradio.com/hotmix-pop-rock-fr-pre",
+			"slogan":"Le meilleur du Pop Rock",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"rock", "pop"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Rock",
+			"url":"https://streaming.hotmixradio.com/hotmix-rock-en-pre",
+			"slogan":"La radio Rock",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"rock"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Sport Hits",
+			"url":"https://streaming.hotmixradio.com/hotmix-sport-hits-en-pre",
+			"slogan":"Gardez la forme",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"dance", "hits", "pop", "sport"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Sport+ Workout",
+			"url":"https://streaming.hotmixradio.com/hotmix-sport-plus-en-pre",
+			"slogan":"Passez la vitesse supérieure",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"sport", "workout"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Sunny",
+			"url":"https://streaming.hotmixradio.com/hotmix-sunny-en-pre",
+			"slogan":"Les meilleurs sons de l'été",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"dance", "hits"
+			]
+		},
+		{
+			"title":"Hotmix Radio - Zen",
+			"url":"https://streaming.hotmixradio.com/hotmix-zen-en-pre",
+			"slogan":"Relaxez-vous",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":320,
+			"tags":[
+				"chill", "chillout", "meditation", "spiritualité", "zen"
+			]
+		},
+		{
+			"title":"Jazz Radio",
+			"url":"https://jazzradio.ice.infomaniak.ch/jazzradio-high.mp3",
+			"slogan":"Jazz Radio, Jazz & Soul",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":192,
+			"tags":[
+				"jazz", "soul"
+			]
+		},
+		{
+			"title":"Jazz Radio - Funk",
+			"url":"https://jazz-wr06.ice.infomaniak.ch/jazz-wr06-128.mp3",
+			"slogan":"La radio de référence Funk",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"jazz", "funk"
 			]
 		},
 		{
@@ -194,262 +592,167 @@
 			"slogan":"Hit music station",
 			"flag":"fr",
 			"country":"France/Suisse",
-			"tags": [
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
 				"charts"
 			]
 		},
 		{
-			"title":"Chante France Émotion - Webradio",
-			"url":"http://stream1.chantefrance.com/cf-emotion",
-			"slogan":"Les plus belles chansons françaises",
+			"title":"M Radio - Comptines",
+			"url":"https://mfmwr-019.ice.infomaniak.ch/mfmwr-019.mp3",
+			"slogan":"100 % Duos, en français",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
-				"variétés françaises"
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"duo", "variétés françaises"
 			]
 		},
 		{
-			"title":"Chante France Nouveautés - Webradio",
-			"url":"http://stream1.chantefrance.com/cf-nouveautes",
-			"slogan":"Les plus belles chansons françaises",
+			"title":"M Radio - MFM",
+			"url":"https://mfm.ice.infomaniak.ch/mfm-128.mp3",
+			"slogan":"Numéro 1 sur la chanson française",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
-				"variétés françaises"
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"pop", "variétés françaises"
 			]
 		},
 		{
-			"title":"Chante France Comptines - Webradio",
-			"url":"http://stream1.chantefrance.com/cf-comptines",
+			"title":"Mouv'",
+			"url":"https://direct.mouv.fr/live/mouv-hifi.aac",
+			"slogan":"Hip Hop never stop",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
-				"variétés françaises"
+			"codec":"aac",
+			"sampling":48,
+			"quality":192,
+			"tags":[
+				"urban", "hip-hop", "electro"
 			]
 		},
 		{
-			"title":"Futuradio - Hits",
-			"url":"http://ice1.impek.com/futuradios-128",
+			"title":"NRJ Hits",
+			"url":"https://streaming.nrjaudio.fm/oua84ow2dqao",
+			"slogan":"Hits Music Only",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
-				"hits"
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"charts", "dance", "hits"
 			]
 		},
 		{
-			"title":"Futuradio - Dance",
-			"url":"http://ice1.impek.com/futuradiosdance-128",
+			"title":"NRJ Relax",
+			"url":"https://streaming.nrjaudio.fm/ougo8irb92oc",
+			"slogan":"Hit Music Only",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
-				"dance"
-			]
-		},
-		{
-			"title":"Futuradio - Pop & Sweet",
-			"url":"http://ice1.impek.com/futuradiospopsweet-128",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"pop"
-			]
-		},
-		{
-			"title":"Futuradio - Rock",
-			"url":"http://ice1.impek.com/futuradiosrock-128",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"rock"
-			]
-		},
-		{
-			"title":"Générations - Reggae",
-			"url":"http://generations-caraibes.ice.infomaniak.ch/generations-caraibes-high.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"reggae"
-			]
-		},
-		{
-			"title":"Générations - 2000",
-			"url":"http://generations-2000.ice.infomaniak.ch/generations-2000.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"hits", "2000's"
-			]
-		},
-		{
-			"title":"Hits 1 Radio",
-			"url":"http://listen.radioking.com/radio/90913/stream/223459",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"hits"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Golds",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-golds-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"60's", "70's"
-			]
-		},
-		{
-			"title":"Hotmix Radio - 80's",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-80-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"hits", "80's", "pop"
-			]
-		},
-		{
-			"title":"Hotmix Radio - 90's",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-90-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"hits", "90's", "pop"
-			]
-		},
-		{
-			"title":"Hotmix Radio - 2000's",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-2k-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"hits", "2000's"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Frenchy",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-frenchy-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"variétés françaises"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Rock",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-rock-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"rock", "pop"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Dance",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-dance-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"dance", "house"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Hits",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-hits-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"hits"
-			]
-		},
-		{
-			"title":"Hotmix Radio - VIP",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-vip-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"pop", "electro"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Funky",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-funky-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"disco", "funk"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Lounge",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-lounge-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"lounge", "ambient"
-			]
-		},
-		{
-			"title":"Hotmix Radio - New",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-new-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"eclectique"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Hot",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-hot-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"soft rock", "chillout"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Sunny",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-sunny-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"dancehall", "ragga", "zouk"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Hip-Hop",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-hiphop-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"hip-hop", "rnb"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Metal",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-metal-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
-				"heavy metal", "hard rock"
-			]
-		},
-		{
-			"title":"Hotmix Radio - Baby",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-baby-64.mp3",
-			"flag":"fr",
-			"country":"France",
-			"tags": [
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
 				
 			]
 		},
 		{
-			"title":"Hotmix Radio - Game",
-			"url":"http://streaming.hotmixradio.fm/hotmixradio-game-64.mp3",
+			"title":"NRJ Disney Hits",
+			"url":"https://streaming.nrjaudio.fm/oudbxj2h9r57",
+			"slogan":"Le Roi lion, Coco, Encanto",
 			"flag":"fr",
 			"country":"France",
-			"tags": [
-				"hits"
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"child", "disney", "films", "movies"
+			]
+		},
+		{
+			"title":"Radio FG",
+			"url":"https://radiofg.impek.com/fg",
+			"slogan":"Radio FG, Feel Good",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"dance", "deep house", "electro house", "electronic"
+			]
+		},
+		{
+			"title":"RMC Info",
+			"url":"https://audio.bfmtv.com/rmcradio_128.mp3",
+			"slogan":"Info, talk, sport",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"news"
+			]
+		},
+		{
+			"title":"RTL",
+			"url":"https://streamer-03.rtl.fr/rtl-1-44-128",
+			"slogan":"RTL bouge",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"news", "variétés"
+			]
+		},
+		{
+			"title":"RTL 2",
+			"url":"https://streaming.radio.funradio.fr/rtl2-1-44-128",
+			"slogan":"Le son Pop-Rock",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"pop", "rock"
+			]
+		},
+		{
+			"title":"Skyrock",
+			"url":"https://skyrock.fm/stream.php/tunein16_64aac.aac",
+			"slogan":"La première radio urbaine mondiale",
+			"flag":"fr",
+			"country":"France",
+			"codec":"aac-lc",
+			"sampling":48,
+			"quality":128,
+			"tags":[
+				"rap", "rnb"
+			]
+		},
+		{
+			"title":"Virgin Radio",
+			"url":"https://virginradio.ice.infomaniak.ch/virgin-radio.mp3",
+			"slogan":"Pop Rock Electro",
+			"flag":"fr",
+			"country":"France",
+			"codec":"mp3",
+			"sampling":44,
+			"quality":128,
+			"tags":[
+				"pop", "rock", "electro"
 			]
 		}
 	]
