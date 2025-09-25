@@ -86,9 +86,9 @@ function generateList() {
 			
 		});
 		
-		$('#codec').addClass('label label-primary');
-		$('#sampling').addClass('label label-success').append(' Hz');
-		$('#bitrate').addClass('label label-warning').append(' kbit/s');
+		$(this).find('#codec').addClass('label label-primary');
+		$(this).find('#sampling').addClass('label label-success').append(' Hz');
+		$(this).find('#bitrate').addClass('label label-warning').append(' kbit/s');
 	});
 	
 	$( '.streams #flag' ).each(function() {
